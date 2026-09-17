@@ -1230,3 +1230,7 @@ SEASONAL      ████
 Allow users to tap a scenario and hear an explanation.
 
 ---
+
+# 41. Trust UX
+
+Every important recommendation should answer:
