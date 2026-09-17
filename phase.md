@@ -946,3 +946,16 @@ English
 A user can speak and hear a response.
 
 ---
+
+# PHASE 15 — CONVERSATION ENGINE
+
+## Objective
+
+Manage multi-turn conversation.
+
+## 15.1 Conversation State
+
+Track:
+
+```text
+conversation_id
