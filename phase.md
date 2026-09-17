@@ -2033,3 +2033,24 @@ The project is accessible through a stable deployment and can be redeployed usin
 Create a deterministic SIH demonstration environment.
 
 ## 39.1 Demo Business
+
+```text
+Business: Dairy
+Capital: ₹1,00,000
+Monthly Sales: ₹96,000
+Monthly Costs: ₹58,000
+Receivables: ₹18,500
+Goal: Expansion
+```
+
+## 39.2 Demo Scenario
+
+```text
+Loan: ₹9,00,000
+Sales Shock: -20%
+Cost Shock: +15%
+Payment Delay
+Seasonal Shock
+```
+
+## 39.3 Backup
