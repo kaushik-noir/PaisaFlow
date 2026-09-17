@@ -1482,3 +1482,17 @@ ARCHITECTURE.md
 +
 README.md
 ```
+
+should be reviewed.
+
+When UX changes:
+
+```text
+DESIGN.md
++
+PRD.md
+```
+
+should be reviewed.
+
+---
