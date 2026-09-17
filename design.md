@@ -10,3 +10,4 @@ The target entrepreneur should not need to understand:
  Financial dashboards
  Business analytics
  AI/ML
+  Spreadsheets
