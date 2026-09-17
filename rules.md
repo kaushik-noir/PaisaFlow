@@ -461,3 +461,24 @@ Use:
 where appropriate.
 
 ---
+
+# 8. Business Digital Twin Rules
+
+The Digital Twin is the central representation of the business.
+
+It should reflect:
+
+```text
+Business Profile
+Financial State
+Transactions
+Inventory
+Customers
+Suppliers
+Goals
+Risks
+Market Evidence
+Memory
+```
+
+---
