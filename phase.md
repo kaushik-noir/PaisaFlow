@@ -912,3 +912,13 @@ Audio Capture
  ↓
 Speech-to-Text
  ↓
+Transcript
+ ↓
+Response
+ ↓
+Text-to-Speech
+ ↓
+Audio
+```
+
+## 14.1 Voice States
