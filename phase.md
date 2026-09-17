@@ -1415,3 +1415,28 @@ Users can change scenario variables and receive validated comparison results.
 ## Objective
 
 Understand how the business behaves under adverse conditions.
+
+## Stress Factors
+
+```text
+Sales decline
+Cost increase
+Delayed payments
+Seasonality
+Higher repayment burden
+Inventory pressure
+```
+
+## Risk Output
+
+```text
+Risk Factor
+Impact
+Severity
+Explanation
+Possible Action
+```
+
+Do not use an unexplained single risk score as the only output.
+
+### Definition of Done
