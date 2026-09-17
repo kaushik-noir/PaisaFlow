@@ -455,3 +455,28 @@ RESPONDING
 ```
 
 ---
+
+# 13. Screen 05 — Information Confirmation
+
+Critical captured information should be confirmed.
+
+```text
+┌──────────────────────────────┐
+│        Maine samjha:         │
+│                              │
+│ 💰 Capital                   │
+│ ₹1,00,000                    │
+│                              │
+│ 🏪 Business                  │
+│ Dairy                        │
+│                              │
+│ 🎯 Goal                      │
+│ Business Expansion           │
+│                              │
+│ Sahi hai?                    │
+│                              │
+│ [ ✓ Haan ] [ ✎ Badalna ]    │
+└──────────────────────────────┘
+```
+
+---
