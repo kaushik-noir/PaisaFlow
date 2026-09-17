@@ -93,3 +93,7 @@ Advanced users can open:
 Every major analysis should end with:
 
 # **AAJ KE TOP 3 ACTIONS**
+
+Example:
+
+```text
