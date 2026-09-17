@@ -397,3 +397,15 @@ The What-If Simulator is a core PaisaFlow feature.
 Every simulation must identify the scenario.
 
 Examples:
+
+```text
+Base Case
+Sales -20%
+Costs +15%
+Payment Delay
+Seasonal Shock
+Loan Scenario
+Expansion Scenario
+```
+
+---
