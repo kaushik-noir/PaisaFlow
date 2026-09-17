@@ -1460,3 +1460,25 @@ Loan Scenario: ₹9,00,000
 Do not present fictional numbers as real-world statistics.
 
 ---
+
+# 45. Documentation Rules
+
+The project should maintain:
+
+```text
+README.md
+PRD.md
+DESIGN.md
+ARCHITECTURE.md
+RULES.md
+```
+
+These documents should remain aligned.
+
+When architecture changes:
+
+```text
+ARCHITECTURE.md
++
+README.md
+```
