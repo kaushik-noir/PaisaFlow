@@ -1026,3 +1026,21 @@ Dobara try karein.
 Technical details should be available to developers through logs, not shown to ordinary users.
 
 ---
+
+# 27. Offline / Poor Network Rules
+
+PaisaFlow should degrade gracefully.
+
+Potentially available:
+
+```text
+Cached Profile
+Recent Memory
+Cached UI
+Safe Local Events
+Queued Sync
+```
+
+Do not pretend that cloud AI is available offline if it is not.
+
+---
