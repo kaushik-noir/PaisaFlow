@@ -1054,3 +1054,27 @@ ASK_MARKET
 GET_ACTIONS
 CREATE_MESSAGE
 ```
+
+## Entity Examples
+
+```text
+Amount
+Date
+Customer
+Supplier
+Product
+Business Type
+Loan Amount
+Percentage
+Goal
+```
+
+### Example
+
+Input:
+
+> “Ramesh ko ₹850 ka maal diya.”
+
+Output:
+
+```json
