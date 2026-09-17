@@ -1440,3 +1440,18 @@ Possible Action
 Do not use an unexplained single risk score as the only output.
 
 ### Definition of Done
+
+The system can identify and explain important downside scenarios.
+
+---
+
+# PHASE 26 — FORECASTING & ML
+
+## Objective
+
+Introduce prediction only after reliable historical data and deterministic foundations exist.
+
+## Potential Models
+
+```text
+Sales Forecast
