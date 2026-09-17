@@ -1496,3 +1496,20 @@ PRD.md
 should be reviewed.
 
 ---
+
+# 46. Change Management Rule
+
+Before introducing a major feature ask:
+
+```text
+Does it solve the target user's problem?
+Does it simplify the experience?
+Does it improve the Digital Twin?
+Does it improve decision support?
+Does it have reliable evidence?
+Can it be demonstrated clearly?
+```
+
+Do not add features merely because they look impressive.
+
+---
