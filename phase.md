@@ -177,3 +177,7 @@ ACT
  ↓
 LEARN
 ```
+
+## 00.4 Define the Hero Scenario
+
+```text
