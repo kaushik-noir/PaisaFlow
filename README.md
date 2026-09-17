@@ -73,3 +73,5 @@ Visual language: icons, cards, status indicators and short sentences.
 Conceptual translation: explain financial ideas in everyday language rather than merely translating jargon.
 No-shame UX: include “Samajh nahi aa raha” with an example-based explanation.
  Action over analytics: finish analysis with clear next actions.
+ User control: require approval before external communication or consequential actions.
+  Evidence visibility: important claims show evidence/source context and confidence where available.
