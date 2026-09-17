@@ -83,3 +83,11 @@ No-shame UX: include “Samajh nahi aa raha” with an example-based explanation
 - Build Twin → approved facts become the initial Business Digital Twin.
 - Analyse → money, market, operations and risk modules analyse the state.
 - Simulate → user changes loan/sales/cost/seasonality assumptions.
+Explain → result is presented in simple language with assumptions/evidence.
+- Act → system provides up to three priority actions.
+- Approve → user confirms before external or consequential actions.
+- Learn → outcomes become business events and update the Twin.
+
+# 7. Product Architecture
+Input Layer: Voice, text, photos/scans and simple tap choices.
+PaisaFlow Brain: Intent detection, context management, module/agent routing and response orchestration.
