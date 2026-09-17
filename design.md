@@ -1030,3 +1030,21 @@ Result ko simple bana raha hoon...
 ```
 
 ---
+
+# 33. Empty States
+
+Example:
+
+```text
+📦 Abhi inventory data nahi hai.
+
+Aap bolkar add kar sakte hain:
+
+"10 kilo feed kharida."
+```
+
+CTA:
+
+> 🎙️ **Boliye**
+
+---
