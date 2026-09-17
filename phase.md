@@ -525,3 +525,11 @@ Communication
 Profile
 Help
 ```
+
+## 05.3 Error Flows
+
+Define:
+
+```text
+No microphone
+Speech failure
