@@ -225,3 +225,62 @@ Inter / System Sans
 Hindi:
 Noto Sans Devanagari
 ```
+
+### Hierarchy
+
+```text
+H1      30–36 px
+H2      22–28 px
+H3      17–20 px
+Body    15–17 px
+Small   12–14 px
+```
+
+For low-literacy users:
+
+- Large text
+- High contrast
+- Short sentences
+- Generous spacing
+- Minimal dense paragraphs
+
+---
+
+# 6. Iconography
+
+Use simple, familiar icons.
+
+```text
+🎙️ Voice
+💰 Money
+🏪 Business
+📦 Inventory
+👥 Customers
+💳 Loan
+📈 Growth
+⚠️ Risk
+📍 Local
+🧠 Memory
+🔮 Simulation
+✓ Action
+```
+
+Production implementation should use a consistent SVG icon library rather than emoji wherever possible.
+
+---
+
+# 7. Layout System
+
+## Mobile-first
+
+Primary design target:
+
+```text
+360–430 px
+```
+
+Secondary:
+
+```text
+768–1024 px
+```

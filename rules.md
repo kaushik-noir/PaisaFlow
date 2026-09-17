@@ -16,3 +16,69 @@ This document defines the non-negotiable rules that should govern the design, de
 PaisaFlow is a:
 
 > **Voice-first AI Business Companion for small and rural/semi-urban entrepreneurs.**
+
+It should help an entrepreneur:
+
+```text
+TALK
+ ↓
+UNDERSTAND
+ ↓
+MODEL
+ ↓
+PREDICT
+ ↓
+SIMULATE
+ ↓
+EXPLAIN
+ ↓
+ACT
+ ↓
+LEARN
+```
+
+PaisaFlow is **not** primarily:
+
+- An accounting dashboard
+- A generic chatbot
+- A loan-approval system
+- A stock-trading application
+- A traditional ERP
+- A replacement for a bank
+- A guaranteed financial advisor
+
+---
+
+# 2. Golden Rule
+
+## The user should never need to understand the complexity behind PaisaFlow.
+
+The user should be able to say:
+
+> “Mere paas ₹1 lakh hai, main dairy expand karna chahta hoon.”
+
+PaisaFlow should handle the underlying:
+
+```text
+Intent
++
+Business Context
++
+Memory
++
+Digital Twin
++
+Finance
++
+Simulation
++
+Evidence
++
+Risk
++
+Explanation
+```
+
+---
+
+# 3. UX Rules
