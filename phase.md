@@ -1086,3 +1086,17 @@ Output:
   "payment_status": "PENDING"
 }
 ```
+
+### Definition of Done
+
+Representative Hindi/Hinglish/English inputs produce validated structured data.
+
+---
+
+# PHASE 18 — CONTEXT MANAGEMENT
+
+## Objective
+
+Make every AI response aware of the relevant business context.
+
+## Context Stack
