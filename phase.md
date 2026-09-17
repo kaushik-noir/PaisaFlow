@@ -1264,3 +1264,19 @@ Normal
 Zero
 Boundary
 Large
+Invalid
+```
+
+### Definition of Done
+
+Financial calculations are deterministic, validated and tested.
+
+---
+
+# PHASE 22 — CASH-FLOW INTELLIGENCE
+
+## Objective
+
+Turn financial records into understandable cash-flow information.
+
+## Model
