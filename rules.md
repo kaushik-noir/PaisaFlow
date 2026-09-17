@@ -1044,3 +1044,54 @@ Queued Sync
 Do not pretend that cloud AI is available offline if it is not.
 
 ---
+
+# 28. Notification Rules
+
+Notifications should be meaningful.
+
+Good:
+
+```text
+3 payments delayed.
+```
+
+Good:
+
+```text
+Cash buffer may become tight.
+```
+
+Bad:
+
+```text
+Your business dashboard has been updated!
+```
+
+Avoid notification spam.
+
+---
+
+# 29. Recommendation Rules
+
+Recommendations should be connected to:
+
+```text
+Business State
++
+Evidence
++
+Assumptions
++
+Scenario
+```
+
+A recommendation should answer:
+
+```text
+What?
+Why?
+Based on what?
+What can I do?
+```
+
+---
