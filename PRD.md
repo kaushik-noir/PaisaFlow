@@ -288,3 +288,13 @@ Ten features distinguish PaisaFlow; K1 to K5 are Must for the SIH demo, K6 to K1
 **Feature detail — K4 Voice Khata grammar.** The extractor must handle: gave goods on credit (`<name> ko ₹<amt> ka maal diya`), received payment (`<name> ne ₹<amt> diye`), bought stock (`₹<amt> ka <item> liya`), paid expense (`₹<amt> <expense> mein gaya`). Each becomes a typed transaction with counterparty, amount, direction, date and expected settlement date where applicable.
 
 ## 10. Agent / Module Design
+
+Eight modules make up the intelligence layer; the AI Brain routes, the domain modules compute, and only the Explanation path touches the language model.
+
+```mermaid
+flowchart TD
+  U[User utterance] --> B[AI Brain<br/>intent · context · routing]
+  B --> M[Money module]
+  B --> K[Market module]
+  B --> O[Operations module]
+  B --> R[Risk module]
