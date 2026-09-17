@@ -136,4 +136,20 @@ Risk Module: Stress tests, threshold alerts and uncertainty presentation.
 Communication Module: Drafts messages and summaries; no automatic sending without approval.
 Memory Module: Stores and retrieves business facts, events, decisions and outcomes.
 Evidence Module: Tracks source type, timestamp, confidence and provenance.
+# 11. Business Digital Twin — Data Model
+Identity: Business ID, owner-provided profile, category, location and creation date.
+Money: Cash, revenue streams, expenses, receivables, payables and financing obligations.
+Market: Available local signals, competitor observations, pricing observations and demand assumptions.
+Operations: Inventory items, stock movement, suppliers and recurring operating events.
+Customers: Only necessary records, with appropriate consent; payment status and expected dates.
+Financing: Existing/proposed financing scenarios, assumptions and repayment estimates.
+Risk: Risk indicators, stress results, uncertainty and trigger conditions.
+Memory: Approved facts, corrections, decisions, actions and outcomes.
+Provenance: Source type, reference where available, timestamp and classification as user-provided, observed, estimated or model-inferred.
+# 12. Evidence & Trust Framework
+FACT: Information directly supplied or permitted to be retrieved as evidence.
+OBSERVATION: Information collected through an observation/survey or business event and timestamped.
+ESTIMATE: Calculated/inferred quantity based on explicit assumptions.
+AI INFERENCE: Generated interpretation/explanation that must not be presented as a verified fact.
+Confidence: Use confidence labels when estimation uncertainty is material.
 

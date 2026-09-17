@@ -306,3 +306,21 @@ Two-column dashboard where appropriate.
 Three-column information layout can be used for advanced views.
 
 ---
+
+# 8. Navigation
+
+## Mobile
+
+Maximum 4–5 primary destinations.
+
+```text
+
+┌─────────────────────────────┐
+│                             │
+│          CONTENT            │
+│                             │
+├─────────────────────────────┤
+│ 🏠       🎙️       📊      🧠 │
+│ Home     Talk    Business Memory
+└─────────────────────────────┘
+```
