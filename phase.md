@@ -476,3 +476,24 @@ Loading
 Error
 Success
 ```
+
+### Definition of Done
+
+A reusable design system exists before full screen development.
+
+---
+
+# PHASE 05 — UX FLOW & INFORMATION ARCHITECTURE
+
+## Objective
+
+Define how users move through PaisaFlow.
+
+## 05.1 Primary Flow
+
+```text
+Splash
+ ↓
+Language
+ ↓
+Onboarding
