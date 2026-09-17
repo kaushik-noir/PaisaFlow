@@ -1615,3 +1615,7 @@ The main screen shown to judges should communicate the entire product in seconds
 ```
 
 ---
+
+# 53. Judge-Facing Visual Story
+
+The presentation UI should visually communicate:
