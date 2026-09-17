@@ -26,3 +26,5 @@ Each phase contains:
 - Definition of Done
 - Exit checkpoint
 - What must not be started yet
+
+### Golden development rule
