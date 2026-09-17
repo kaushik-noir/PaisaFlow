@@ -622,3 +622,12 @@ Test:
 ## 07.3 Accessibility
 
 Implement:
+
+```text
+Keyboard navigation
+Focus states
+ARIA labels
+Touch targets
+Contrast
+Text alternatives
+```
