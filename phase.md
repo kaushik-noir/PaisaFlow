@@ -796,3 +796,19 @@ Approximate monthly sales?
 Approximate monthly expenses?
 Available capital?
 ```
+
+## 11.2 Confirmation
+
+Show extracted values:
+
+```text
+Business: Dairy
+Capital: ₹1,00,000
+Goal: Expansion
+```
+
+Buttons:
+
+```text
+Haan
+Badalna
