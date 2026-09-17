@@ -21,3 +21,4 @@ Each phase contains:
 - Exact work
 - Inputs
 - Outputs
+- Dependencies
