@@ -689,3 +689,5 @@ The demo runs the complete dairy scenario in roughly 90 seconds, from first voic
 | 85–90 s | Closing slide | "PaisaFlow does not just answer a business question. It maintains a living model of the business and helps the entrepreneur test what could happen before acting." |
 
 **Demo safeguards.** Pre-warmed backend, cached STT for the two scripted utterances with live fallback, seeded dairy dataset labelled as simulated, offline copy of the deck.
+
+## 26. Final Product Definition
