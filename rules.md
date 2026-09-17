@@ -612,3 +612,9 @@ AI INFERENCE
 If the system does not have evidence for a local claim, do not present it as fact.
 
 ---
+
+## Rule 10.3 — Freshness Matters
+
+Market information should display an appropriate update/retrieval time.
+
+---
