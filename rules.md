@@ -217,3 +217,24 @@ Allow:
 ## Rule 4.6
 
 Support text when voice is unavailable.
+
+## Rule 4.7
+
+Never punish users for making mistakes.
+
+Correction should be easy:
+
+> **“Badalna hai”**
+
+---
+
+# 5. AI Rules
+
+## Rule 5.1 — LLM Is an Orchestrator, Not the Calculator
+
+The LLM can:
+
+- Understand
+- Extract
+- Classify
+- Ask questions

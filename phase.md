@@ -667,3 +667,46 @@ backend/app/
 ├── evidence/
 └── main.py
 ```
+├── memory/
+├── evidence/
+└── main.py
+```
+
+```text
+GET /api/v1/health
+```
+
+## 08.3 Error Handling
+
+Standardize:
+
+```text
+Validation Error
+Authentication Error
+Authorization Error
+Not Found
+Server Error
+External Service Error
+```
+
+### Definition of Done
+
+FastAPI is stable and ready for business services.
+
+---
+
+# PHASE 09 — DATABASE FOUNDATION
+
+## Objective
+
+Create persistent business data storage.
+
+## 09.1 Database
+
+Use:
+
+```text
+PostgreSQL
+```
+
+Use PostGIS where location-aware functionality requires it.
