@@ -91,3 +91,10 @@ Explain → result is presented in simple language with assumptions/evidence.
 # 7. Product Architecture
 Input Layer: Voice, text, photos/scans and simple tap choices.
 PaisaFlow Brain: Intent detection, context management, module/agent routing and response orchestration.
+Evidence Layer: Approved business records, business events, permitted external data and official/public documents where available.
+Business Memory: Structured facts, transactions, decisions, assumptions, events and outcomes with timestamps.
+Business Digital Twin: Current state of money, market, operations, customers, inventory, financing and risk.
+Decision Core: Deterministic financial calculations, forecasting models, rules, scenario simulation and risk logic.
+Explanation Layer: LLM converts validated results into simple, local-language explanations.
+Action Layer: Top actions, alerts, drafts, reports and user-approved workflows.
+Learning Loop: Observed outcomes update memory and future Twin state.
