@@ -113,3 +113,10 @@ FR-11: Provide evidence/provenance for important claims where available.
 FR-12: Detect configured events such as payment delay, cash pressure or inventory attention.
 FR-13: Draft customer/supplier/partner messages; require approval before sending.
 FR-14: Generate simple visual/text reports for sharing or printing.
+FR-15: Allow users to correct captured information.
+FR-16: Update the Business Twin after approved changes and recorded outcomes.
+
+# 9. Killer Features
+K1 — Business Digital Twin: Persistent, evolving business model connecting money, market, operations and risk.
+K2 — What-if Simulator: Scenario testing before a large financial or expansion commitment.
+K3 — Borrowability / Safe-Repayment View: Separates potential eligibility from the business's ability to sustain repayments under stated scenarios.
