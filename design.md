@@ -30,3 +30,14 @@ VOICE
   ↓
   EXPLAIN
   ↓
+  TOP 3 ACTIONS
+  ↓
+  USER APPROVES
+  ↓
+  ACTION
+  ↓
+  MEMORY
+```
+---
+# 2. Design Principles
+## 2.1 Voice First
