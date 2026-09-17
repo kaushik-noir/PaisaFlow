@@ -59,3 +59,9 @@ Signature question: “Can I get this loan?” → “Can my business survive th
 - Many small/rural entrepreneurs operate with informal records, limited financial literacy, fragmented information and limited access to understandable business analysis.
  An entrepreneur may know that capital or expansion is needed but may not know how to estimate cash-flow impact, competition, inventory needs, repayment pressure or downside risk.
   Traditional dashboards and financial applications assume typing ability and familiarity with business terminology.
+  - Generative AI can produce plausible-sounding numbers without sufficient local evidence. PaisaFlow must distinguish facts, observations, estimates, assumptions and AI explanations.
+   A generic chatbot answers questions; a calculator produces numbers; a loan finder focuses on eligibility. PaisaFlow maintains a business state and supports scenario-based decisions.
+   # 4. Target Users & Personas
+Primary: Rural/semi-urban micro-entrepreneur or small business owner who may use voice messaging comfortably but may not use spreadsheets or financial software.
+Secondary: Semi-urban small business owner wanting a single system for cash-flow, inventory, payments, market context and expansion decisions.
+Assisted: Authorised facilitator who can help a user create or review a business profile.

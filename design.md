@@ -48,3 +48,31 @@ Typing is available as a fallback.
 ---
 ## 2.2 One Question at a Time
 Never begin with a long financial form.
+### Avoid
+
+```text
+Business name
+Revenue
+Expenses
+Inventory
+Customers
+Loan
+Interest
+Tenure
+Location
+...
+```
+### Prefer
+```text
+PaisaFlow:
+"Mahine ki approx sales kitni hoti hai?"
+User:
+"₹80,000"
+PaisaFlow:
+"Monthly kharcha approx kitna hai?"
+```
+---
+## 2.3 Simple Language
+Do not simply translate technical terminology.
+
+Instead of:
