@@ -1140,3 +1140,18 @@ Do not manufacture:
 - Customer behavior
 
 ---
+
+# 32. Data Freshness Rules
+
+Every time-sensitive dataset should have a freshness indicator.
+
+Example:
+
+```text
+Source: Example Source
+Updated: 17 Sep 2026
+```
+
+If freshness is unknown, say so.
+
+---
