@@ -488,3 +488,13 @@ Weights are configurable per deployment. Each action carries a one-line reason, 
 
 ```mermaid
 flowchart LR
+  S[Twin state + trigger] --> D[Draft generated]
+  D --> R[User reviews<br/>edit · approve · discard]
+  R -->|approve| A[Approval logged<br/>timestamp + actor]
+  A --> X[Send via chosen channel]
+  X --> O[Outcome captured]
+  O --> T[Twin updated]
+  R -->|discard| N[Nothing sent]
+```
+
+**Channels.** WhatsApp share-sheet, SMS and email drafts in MVP; native WhatsApp Business API integration is a later phase.
