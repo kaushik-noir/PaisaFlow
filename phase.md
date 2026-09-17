@@ -278,3 +278,16 @@ P0 = Must have
 P1 = Important
 P2 = Future
 ```
+
+### P0
+
+```text
+Voice
+Business Profile
+Digital Twin
+Finance Engine
+What-If
+Evidence
+Actions
+Memory
+```
