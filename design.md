@@ -1514,3 +1514,27 @@ Do not claim complete offline functionality unless it is actually implemented an
 Do not build all screens before testing the core experience.
 
 Build first:
+
+```text
+01 Splash
+ ↓
+02 Language
+ ↓
+03 Voice Onboarding
+ ↓
+04 Voice Conversation
+ ↓
+05 Confirmation
+ ↓
+06 Home
+ ↓
+07 Digital Twin
+ ↓
+08 What-If Simulator
+ ↓
+09 Scenario Results
+ ↓
+10 Top 3 Actions
+ ↓
+11 Business Memory
+```
