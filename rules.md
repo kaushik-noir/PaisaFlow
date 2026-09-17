@@ -250,3 +250,21 @@ The LLM should not independently perform critical financial calculations when a 
 
 ```text
 Natural Language
+      ↓
+LLM
+      ↓
+Structured Data
+      ↓
+Validation
+      ↓
+Business Engine
+```
+
+Example:
+
+```text
+"Mujhe ₹9 lakh loan chahiye."
+
+↓
+
+{
