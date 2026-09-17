@@ -213,3 +213,15 @@ Info:    #5BAEEB
 Status colors must communicate state, not decoration.
 
 ---
+
+# 5. Typography
+
+Recommended:
+
+```text
+Primary:
+Inter / System Sans
+
+Hindi:
+Noto Sans Devanagari
+```
