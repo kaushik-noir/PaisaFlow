@@ -41,3 +41,6 @@ VOICE
 ---
 # 2. Design Principles
 ## 2.1 Voice First
+The microphone is the primary interaction.
+Primary CTA:
+> 🎙️ **BOLIYE**

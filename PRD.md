@@ -695,3 +695,5 @@ The demo runs the complete dairy scenario in roughly 90 seconds, from first voic
 PaisaFlow is a voice-first, evidence-aware business decision-support platform whose central object is a Business Digital Twin representing the evolving state of a small business.
 
 Specialised modules cover money, market, operations, communication and risk; deterministic calculation and simulation engines produce scenario outputs; an AI layer explains those results in the user's language; and an approval-controlled action layer turns analysis into practical next steps.
+
+The product succeeds when a user who does not understand financial software can speak naturally, understand what is happening in the business, test a decision such as taking a loan or expanding, see the assumptions and risks in simple language, choose an action, and return later to a system that remembers what happened.
