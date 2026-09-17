@@ -108,3 +108,9 @@ Example:
 Important outputs should distinguish:
 
 ```text
+FACT
+OBSERVATION
+ESTIMATE
+ASSUMPTION
+AI EXPLANATION
+```
