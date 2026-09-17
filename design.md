@@ -159,3 +159,7 @@ Avoid making it look like:
 # 4. Color System
 
 ## Primary Green
+
+```text
+#33B878
+```
