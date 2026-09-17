@@ -291,3 +291,9 @@ Evidence
 Actions
 Memory
 ```
+
+### Definition of Done
+
+No major MVP feature remains undefined.
+
+---
