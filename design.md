@@ -344,3 +344,16 @@ The **Talk** action should be visually dominant.
 Establish brand identity and trust.
 
 ```text
+
+┌──────────────────────────────┐
+│                              │
+│                              │
+│          PAISAFLOW           │
+│                              │
+│     Aapke Business Ka        │
+│          Saathi              │
+│                              │
+│     TALK • PLAN • GROW       │
+│                              │
+└──────────────────────────────┘
+```
