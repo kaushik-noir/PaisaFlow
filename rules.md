@@ -508,3 +508,7 @@ Important facts should have provenance and, where appropriate, user confirmation
 The UI should make data freshness understandable.
 
 Example:
+
+> **Updated today**
+
+---
