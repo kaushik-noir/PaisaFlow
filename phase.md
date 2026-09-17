@@ -566,3 +566,27 @@ Create routes for:
  /memory
  /profile
 ```
+
+## 06.2 Layout
+
+Create:
+
+```text
+AppLayout
+TopBar
+BottomNavigation
+PageContainer
+```
+
+## 06.3 Theme
+
+Implement:
+
+```text
+Colors
+Typography
+Spacing
+Responsive breakpoints
+```
+
+### Definition of Done
