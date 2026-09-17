@@ -551,3 +551,10 @@ Every primary journey has a defined happy path and error path.
 ## Objective
 
 Build the basic React application.
+
+## 06.1 Routing
+
+Create routes for:
+
+```text
+/
