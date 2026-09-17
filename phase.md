@@ -21,3 +21,6 @@ Each phase contains:
 - Exact work
 - Inputs
 - Outputs
+- Dependencies
+- Testing
+- Definition of Done
