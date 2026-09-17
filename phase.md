@@ -959,3 +959,20 @@ Track:
 
 ```text
 conversation_id
+language
+intent
+known_facts
+missing_facts
+last_question
+```
+
+## 15.2 Follow-Up
+
+Rule:
+
+```text
+One question
+ ↓
+User answer
+ ↓
+Update context
