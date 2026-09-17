@@ -723,3 +723,24 @@ Important information should never appear more certain than its evidence support
 ```
 
 ---
+
+# 22. Screen 14 — Voice Khata
+
+```text
+┌──────────────────────────────┐
+│ 🧾 VOICE KHATA               │
+│                              │
+│ 🎙️                           │
+│ "Ramesh ko ₹850 ka maal diya"│
+│                              │
+│ I understood:                │
+│                              │
+│ Customer: Ramesh             │
+│ Amount: ₹850                 │
+│ Status: Payment Pending      │
+│                              │
+│ [ ✓ Save ] [ ✎ Correct ]    │
+└──────────────────────────────┘
+```
+
+---
