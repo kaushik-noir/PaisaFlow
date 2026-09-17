@@ -426,3 +426,22 @@ Create a consistent visual language.
 ```
 
 Deep:
+
+```text
+#1F7350
+```
+
+Background:
+
+```text
+#F7FAF8
+```
+
+## 04.2 Typography
+
+```text
+Inter / System Sans
+Noto Sans Devanagari
+```
+
+## 04.3 Components
