@@ -1249,3 +1249,21 @@ Hallucination attempts
 ```
 
 ---
+
+# 37. Simulation Testing Rules
+
+Each scenario must be tested for:
+
+```text
+Normal Input
+Boundary Input
+Zero Values
+Large Values
+Missing Values
+Invalid Values
+Negative Values where invalid
+```
+
+Results must be reproducible for identical inputs and assumptions.
+
+---
