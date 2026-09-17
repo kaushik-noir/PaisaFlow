@@ -1323,3 +1323,8 @@ backend/
 # 44. API Design
 
 Suggested endpoints:
+
+```text
+POST /api/v1/auth/...
+POST /api/v1/voice/transcribe
+POST /api/v1/conversation/message
