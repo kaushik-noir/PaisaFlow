@@ -352,3 +352,9 @@ Evidence
 Digital Twin
 Simulation
 ```
+
+### Definition of Done
+
+Architecture diagram, module boundaries, API boundaries and data flow are documented.
+
+---
