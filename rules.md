@@ -197,3 +197,23 @@ PaisaFlow must be usable by people who may have limited digital or financial lit
 Every important text interaction should have a voice alternative.
 
 ## Rule 4.2
+
+Use familiar words.
+
+## Rule 4.3
+
+Use the user's own business examples.
+
+## Rule 4.4
+
+Confirm important numbers.
+
+## Rule 4.5
+
+Allow:
+
+> **“Mujhe samjhao.”**
+
+## Rule 4.6
+
+Support text when voice is unavailable.
