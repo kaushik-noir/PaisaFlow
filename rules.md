@@ -558,3 +558,19 @@ Confirmation
 ```
 
 ---
+
+## Rule 9.3
+
+Corrections Must Be Possible
+
+If PaisaFlow records:
+
+> “Ramesh ko ₹850 diya.”
+
+but the user says:
+
+> “Nahi, ₹580 tha.”
+
+the system should allow correction and preserve the relevant audit trail.
+
+---
