@@ -1155,3 +1155,19 @@ Updated: 17 Sep 2026
 If freshness is unknown, say so.
 
 ---
+
+# 33. Logging Rules
+
+Logs should help developers debug the system without leaking private information.
+
+Never log unnecessarily:
+
+- Passwords
+- API keys
+- Authentication tokens
+- Sensitive financial details
+- Private customer information
+
+Use correlation/request IDs.
+
+---
