@@ -1172,3 +1172,17 @@ Business history survives across sessions and can affect future context.
 Create a living mode
 ```text
 Current Message
++
+Conversation State
++
+Business Profile
++
+Relevant Memory
++
+Digital Twin
++
+Evidence
+```
+
+## Context Selection
+l of the business.
