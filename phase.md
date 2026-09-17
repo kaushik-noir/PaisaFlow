@@ -199,3 +199,9 @@ Digital Twin
 ↓
 
 "Agar main ₹9 lakh ka loan loon?"
+
+↓
+
+What-If Simulation
+
+↓
