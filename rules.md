@@ -413,3 +413,21 @@ Expansion Scenario
 ## Rule 7.2
 
 Every result should show:
+
+```text
+Scenario
+ ↓
+Inputs
+ ↓
+Assumptions
+ ↓
+Calculated Effects
+ ↓
+Risk
+ ↓
+Explanation
+ ↓
+Actions
+```
+
+---
