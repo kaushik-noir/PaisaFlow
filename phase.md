@@ -1280,3 +1280,23 @@ Financial calculations are deterministic, validated and tested.
 Turn financial records into understandable cash-flow information.
 
 ## Model
+
+```text
+Opening Cash
++
+Inflows
+-
+Outflows
+=
+Closing Cash
+```
+
+## Views
+
+```text
+Current Cash
+Expected Inflows
+Expected Outflows
+Receivables
+Payables
+Cash Buffer
