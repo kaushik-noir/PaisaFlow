@@ -34,3 +34,5 @@ date: "17 September 2026"
 ## Product Requirements Document
 SIH26091
 AI-Driven Hyper-Local Business Advisory and Financial 
+Structuring Assistant
+for Rural Micro-Entrepreneurs
