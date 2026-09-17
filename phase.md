@@ -25,3 +25,4 @@ Each phase contains:
 - Testing
 - Definition of Done
 - Exit checkpoint
+- What must not be started yet

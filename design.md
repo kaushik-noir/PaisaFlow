@@ -133,3 +133,5 @@ USER APPROVES
 ACTION
 ```
 ---
+
+# 3. Visual Identity
