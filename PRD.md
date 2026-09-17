@@ -357,3 +357,14 @@ flowchart LR
 **Minimum viable Twin for the demo (dairy).** Identity + Money (cash, milk revenue with winter multiplier, feed and labour costs, no existing loan) + one proposed financing scenario (₹9 lakh) + computed Risk. Market and Operations can be seeded.
 
 ## 12. Evidence and Trust Framework
+
+Every important value in PaisaFlow carries one of four labels, and the label decides how the value may be presented and used.
+
+| Label | Definition | Example | May be shown as | May feed |
+| --- | --- | --- | --- | --- |
+| FACT | Information directly supplied by the user and confirmed, or retrieved from a permitted evidence source | "4 gaay hain" confirmed by read-back; an official scheme document | A plain statement | Twin, simulation, actions |
+| OBSERVATION | Information collected through a survey, field observation or a recorded business event, timestamped | "3 dairies within 5 km — observed 12 Sep 2026" | Statement with date | Market state, alerts |
+| ESTIMATE | A quantity calculated or inferred from explicit, visible assumptions | 12-month cash-flow projection; EMI at 11% | Number with assumptions and range | Simulation, actions (with confidence) |
+| AI INFERENCE | A generated interpretation or explanation | "Winter is your risky season because…" | Explanation only, never a verified fact | Explanation layer only |
+
+**Rules**
