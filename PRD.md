@@ -669,3 +669,5 @@ PaisaFlow does not compete on chat, RAG, EMI maths or translation; it competes o
 | Feature count | Closed-loop learning from real outcomes |
 
 **Moat.** Value compounds: each structured event and outcome makes the Twin more accurate and the recommendations more specific, while provenance makes every important claim defensible. Switching away means losing the business's own history.
+
+**Demo advantage.** Show one business under multiple scenarios, then update the Twin after a real business event and show the changed recommendation — something a stateless chatbot cannot do.
