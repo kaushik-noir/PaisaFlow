@@ -357,3 +357,15 @@ Establish brand identity and trust.
 │                              │
 └──────────────────────────────┘
 ```
+
+Duration:
+
+**1–2 seconds**
+
+Avoid unnecessary animation.
+
+---
+
+# 10. Screen 02 — Language Selection
+
+```text
