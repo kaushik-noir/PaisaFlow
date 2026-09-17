@@ -135,3 +135,45 @@ PaisaFlow serves four user types; the primary persona drives every UX decision, 
 | Family / decision group | Spouse, parent, partner or sibling who co-decides on money | Understand the business situation and the decision being made | May have even lower literacy; needs a summary, not a dashboard | Family report: a one-screen visual and audio summary of health, the decision and the risk |
 
 **Persona vignette — Sunita, dairy owner (primary).** Sunita runs 4 cows in a village near Sheikhpura, sells milk to a local collection centre and two tea shops, and keeps accounts in a notebook. She has ₹1 lakh saved and wants to add 6 cows. A dairy cooperative officer mentioned a ₹9 lakh loan. She wants to know one thing: will the loan sink her in the winter months when milk yield drops? She should be able to get that answer by speaking to PaisaFlow for under five minutes.
+**Explicit non-users for v1.** Businesses with formal ERP/accounting, lenders seeking credit scores, and users wanting automated money movement. The product must not be shaped by these groups.
+
+## 5. UX Principles
+
+Eight principles govern every screen; any feature that violates one of them is out of scope for the MVP.
+
+| # | Principle | Rule | Example |
+| --- | --- | --- | --- |
+| 1 | Voice first | Speaking is the default interaction; typing and tapping are fallbacks, never prerequisites | Home screen has one large "Boliye" button |
+| 2 | One question at a time | Ask only the next piece of information required to proceed | After "dairy expand karna hai", ask only "Abhi kitni gaay hain?" |
+| 3 | Visual language | Icons, cards, status colours and short sentences replace tables and charts wherever possible | Cash health shown as a green/amber/red card with a one-line reason |
+| 4 | Conceptual translation | Explain the financial idea in everyday language using the user's own numbers, not by translating jargon | "Cash buffer" becomes "Agar 2 mahine bikri na ho, aapke paas ₹18,000 bachega" |
+| 5 | No-shame UX | Every screen has a "Samajh nahi aa raha" option that gives an example-based explanation, never a definition | Tapping it on the EMI card shows the instalment against a month of milk sales |
+| 6 | Action over analytics | Every analysis ends with clear next actions; no screen ends on a number alone | Health report ends with Top 3 Actions |
+| 7 | User control | Explicit approval before any external communication or consequential action | Draft to supplier shows a "Bhejein?" button; nothing is sent automatically |
+| 8 | Evidence visibility | Important claims show where they came from and how confident the system is | Competition signal shows "Observed 3 dairies within 5 km — updated 12 Sep" |
+
+**Supporting conventions**
+
+- Read back every critical captured value ("Aapne kaha ₹1 lakh — sahi hai?") before it enters the Twin.
+- Provide a "Badalna hai" correction path on every confirmation.
+- Use ranges rather than false precision when the input is uncertain.
+- Keep every spoken response under roughly 20 seconds and every screen under roughly 40 words.
+
+## 6. Core User Journey
+
+The end-to-end journey is eleven steps from opening the app to the Twin learning from a real outcome; the MVP must complete all eleven for the dairy scenario.
+
+```mermaid
+flowchart LR
+  A[Enter<br/>tap or say Boliye] --> B[State goal<br/>voice]
+  B --> C[Understand<br/>intent + entities]
+  C --> D[Clarify<br/>essential questions only]
+  D --> E[Build Twin<br/>approved facts]
+  E --> F[Analyse<br/>money · market · ops · risk]
+  F --> G[Simulate<br/>what-if scenarios]
+  G --> H[Explain<br/>plain language + evidence]
+  H --> I[Act<br/>Top 3 Actions]
+  I --> J[Approve<br/>user confirms]
+  J --> K[Learn<br/>outcome updates Twin]
+  K -.-> F
+```
