@@ -1115,3 +1115,18 @@ compare karein.
 ```
 
 ---
+
+# 36. Conversation Design
+
+PaisaFlow should avoid long AI messages.
+
+### Preferred
+
+```text
+PaisaFlow:
+
+"Aap dairy expand karna chahte hain,
+sahi?"
+
+[ Haan ] [ Badalna hai ]
+```
