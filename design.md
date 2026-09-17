@@ -290,3 +290,11 @@ Desktop:
 ```text
 1200 px+
 ```
+
+Use a responsive grid.
+
+### Mobile
+
+Single-column cards.
+
+### Tablet
