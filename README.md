@@ -16,3 +16,4 @@ PaisaFlow is a voice-first AI Business Companion that builds a living Digital Tw
 ```text
 TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
 ```
+### Core Differentiator
