@@ -719,3 +719,16 @@ Do not expose private information through:
 ---
 
 # 15. Security Rules
+
+Mandatory principles:
+
+```text
+HTTPS
+Secure Authentication
+Authorization
+Input Validation
+Rate Limiting
+Secret Management
+Least Privilege
+Audit Logging
+```
