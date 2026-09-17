@@ -2015,3 +2015,21 @@ Production
 ```
 
 ## Secrets
+
+Use environment/configuration management.
+
+Never commit secrets.
+
+### Definition of Done
+
+The project is accessible through a stable deployment and can be redeployed using documented steps.
+
+---
+
+# PHASE 39 — DEMO ENVIRONMENT
+
+## Objective
+
+Create a deterministic SIH demonstration environment.
+
+## 39.1 Demo Business
