@@ -1058,3 +1058,18 @@ Never expose technical errors.
 ```text
 500 Internal Server Error
 ```
+### Use
+
+```text
+😕 Kuch problem aa gayi.
+
+Aap dobara try kar sakte hain.
+
+[ Retry ]
+
+Ya:
+
+[ Type karke batayein ]
+```
+
+---
