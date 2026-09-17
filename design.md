@@ -702,3 +702,24 @@ Generated from above inputs
 Important information should never appear more certain than its evidence supports.
 
 ---
+
+# 21. Screen 13 — Top 3 Actions
+
+```text
+┌──────────────────────────────┐
+│ 🎯 AAJ KE TOP 3 ACTIONS      │
+│                              │
+│ 01                           │
+│ 💰 Cash buffer improve       │
+│                              │
+│ 02                           │
+│ 📞 Pending payments followup │
+│                              │
+│ 03                           │
+│ 🔮 Compare ₹7L loan scenario │
+│                              │
+│ [ Ek-ek karke samjhao ]      │
+└──────────────────────────────┘
+```
+
+---
