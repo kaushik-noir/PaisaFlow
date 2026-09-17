@@ -13,3 +13,5 @@ The target entrepreneur should not need to understand:
   Spreadsheets
   Long forms
   Complex financial software
+  The user should be able to open PaisaFlow and simply say:
+> **“Mujhe business expand karna hai.”**
