@@ -16,3 +16,4 @@ The target entrepreneur should not need to understand:
   The user should be able to open PaisaFlow and simply say:
 > **“Mujhe business expand karna hai.”**
 PaisaFlow handles the complexity behind the scenes.
+### Core experience
