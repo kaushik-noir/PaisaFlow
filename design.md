@@ -137,3 +137,12 @@ ACTION
 # 3. Visual Identity
 
 PaisaFlow should feel:
+
+- Trustworthy
+- Calm
+- Friendly
+- Modern
+- Indian
+- Accessible
+- Responsible
+- Non-intimidating
