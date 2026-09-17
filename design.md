@@ -106,3 +106,5 @@ Example:
 ## 2.5 Trust Before Intelligence
 
 Important outputs should distinguish:
+
+```text
