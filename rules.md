@@ -341,3 +341,17 @@ Scenario impact
 ```
 
 ---
+
+## Rule 6.2 — Separate Fact From Estimate
+
+Every important result should distinguish:
+
+```text
+FACT
+OBSERVATION
+ESTIMATE
+ASSUMPTION
+AI INFERENCE
+```
+
+---
