@@ -138,3 +138,23 @@ GST
 ## Rule 3.3 — Use Simple Language
 
 Prefer:
+
+> “Har mahine loan ke liye kitna paisa dena padega?”
+
+Instead of:
+
+> “What is your monthly debt-servicing obligation?”
+
+---
+
+## Rule 3.4 — Explain Before Asking the User to Act
+
+Important outputs should follow:
+
+```text
+ANSWER
+ ↓
+WHY
+ ↓
+ASSUMPTIONS
+ ↓
