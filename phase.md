@@ -260,3 +260,6 @@ Communication
 Define:
 
 ```text
+Performance
+Security
+Availability
