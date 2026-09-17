@@ -249,3 +249,18 @@ For low-literacy users:
 # 6. Iconography
 
 Use simple, familiar icons.
+
+```text
+🎙️ Voice
+💰 Money
+🏪 Business
+📦 Inventory
+👥 Customers
+💳 Loan
+📈 Growth
+⚠️ Risk
+📍 Local
+🧠 Memory
+🔮 Simulation
+✓ Action
+```
