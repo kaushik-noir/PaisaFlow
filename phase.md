@@ -181,3 +181,9 @@ LEARN
 ## 00.4 Define the Hero Scenario
 
 ```text
+"Mere paas ₹1 lakh hai,
+main dairy expand karna chahta hoon."
+
+↓
+
+Business uSmall Entrepreneur
