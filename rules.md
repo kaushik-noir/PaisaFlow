@@ -63,3 +63,8 @@ PaisaFlow should handle the underlying:
 Intent
 +
 Business Context
++
+Memory
++
+Digital Twin
++
