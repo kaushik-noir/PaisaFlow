@@ -551,3 +551,23 @@ This is the product's visual centerpiece.
                     ↓
                    RISK
 ```
+
+### UI
+
+```text
+┌──────────────────────────────┐
+│ 🧬 Aapka Business            │
+│                              │
+│        DIGITAL TWIN          │
+│                              │
+│   💰 Money     🏪 Market     │
+│                              │
+│   📦 Ops       ⚠️ Risk       │
+│                              │
+│ Last updated: Today          │
+│                              │
+│ [ Business Details ]         │
+└──────────────────────────────┘
+```
+
+---
