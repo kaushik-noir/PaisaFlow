@@ -223,3 +223,11 @@ Top 3 Actions
 
 Memory Update
 ```
+
+### Definition of Done
+
+The whole team can explain the product and hero journey consistently.
+
+---
+
+# PHASE 01 — REQUIREMENTS FREEZE
