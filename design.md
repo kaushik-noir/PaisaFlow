@@ -176,3 +176,14 @@ Use for:
 ```text
 #1F7350
 ```
+Use for:
+
+- Headings
+- Important labels
+- Trust indicators
+
+## Background
+
+```text
+#F7FAF8
+```
