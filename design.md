@@ -12,3 +12,4 @@ The target entrepreneur should not need to understand:
  AI/ML
   Spreadsheets
   Long forms
+  Complex financial software
