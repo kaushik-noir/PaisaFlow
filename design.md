@@ -1213,3 +1213,20 @@ Operations      🟢
 Then identify the most important issue.
 
 ---
+
+# 40. Simulation Visualization
+
+Use scenario comparison.
+
+```text
+              CASH BUFFER
+
+BASE          ████████████
+SALES -20%    ████████
+COST +15%     ██████
+SEASONAL      ████
+```
+
+Allow users to tap a scenario and hear an explanation.
+
+---
