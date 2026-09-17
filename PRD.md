@@ -478,3 +478,13 @@ Weights are configurable per deployment. Each action carries a one-line reason, 
 | Type | Example | Approval needed |
 | --- | --- | --- |
 | Customer follow-up | "Ramesh ko ₹850 ka reminder bhejein — 12 din late" | Yes, before sending |
+| Supplier communication | Draft reorder or price query from inventory state | Yes, before sending |
+| Financial adjustment | "Loan ₹9 lakh ki jagah ₹6 lakh consider karein" | No (advice only) |
+| Business experiment | "Pehle 1 gaay 1 mahine ke liye add karke dekhein" | No (advice only) |
+| Record keeping | "Aaj ki bikri bataiye" | No |
+| Report sharing | Family or facilitator summary | Yes, before sharing |
+
+**Draft-first flow**
+
+```mermaid
+flowchart LR
