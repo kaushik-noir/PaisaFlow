@@ -1114,3 +1114,29 @@ Operations
 Then identify the most relevant issue.
 
 ---
+
+# 31. Hyper-Local Feature Rules
+
+Local intelligence must be evidence-based.
+
+Use:
+
+```text
+Location
++
+Verified Data
++
+Timestamp
++
+Relevant Business Context
+```
+
+Do not manufacture:
+
+- Competitor counts
+- Demand levels
+- Prices
+- Local trends
+- Customer behavior
+
+---
