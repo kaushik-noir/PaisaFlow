@@ -2559,3 +2559,19 @@ It should be developed as:
 
 ```text
 BUILD FOUNDATION
+      ↓
+BUILD EXPERIENCE
+      ↓
+BUILD DATA
+      ↓
+BUILD VOICE
+      ↓
+BUILD INTELLIGENCE
+      ↓
+BUILD DIGITAL TWIN
+      ↓
+BUILD FINANCIAL ENGINES
+      ↓
+BUILD SIMULATION
+      ↓
+BUILD TRUST
