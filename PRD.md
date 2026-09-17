@@ -468,3 +468,13 @@ Analysis ends in at most three actions, every outgoing message is a draft until 
 | --- | --- | --- |
 | Urgency | 0.35 | Risk module thresholds and due dates |
 | Expected business value | 0.35 | Money module delta (surplus, buffer) |
+| Confidence | 0.20 | Evidence module labels on the inputs |
+| User preference | 0.10 | Past accept/dismiss behaviour |
+
+Weights are configurable per deployment. Each action carries a one-line reason, the evidence behind it and an approve / snooze / dismiss control.
+
+**Action types**
+
+| Type | Example | Approval needed |
+| --- | --- | --- |
+| Customer follow-up | "Ramesh ko ₹850 ka reminder bhejein — 12 din late" | Yes, before sending |
