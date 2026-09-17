@@ -1089,3 +1089,11 @@ EVIDENCE
   ↓
 ACTION
 ```
+
+Example:
+
+```text
+ANSWER
+
+Repayment pressure downside
+scenario mein badh sakta hai.
