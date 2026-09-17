@@ -1698,3 +1698,28 @@ What can I do?
 Avoid notification spam.
 
 ### Definition of Done
+
+At least the core alert types are generated from real business state.
+
+---
+
+# PHASE 32 — FULL SYSTEM INTEGRATION
+
+## Objective
+
+Connect every core module into one continuous product.
+
+## Full Flow
+
+```mermaid
+flowchart LR
+    USER[User]
+    VOICE[Voice]
+    BRAIN[AI Brain]
+    MEMORY[Memory]
+    TWIN[Digital Twin]
+    FIN[Finance]
+    SIM[Simulation]
+    RISK[Risk]
+    EVIDENCE[Evidence]
+    ACTION[Actions]
