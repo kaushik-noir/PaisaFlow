@@ -45,3 +45,5 @@ PaisaFlow is a voice-first AI Business Companion that maintains a living Busines
 - Sections 20–27 define scope, delivery plan, metrics, testing, risks, differentiation and the SIH demo.
 
 ## 1. Executive Summary
+
+PaisaFlow replaces the question "Can I get this loan?" with "Can my business survive this loan?" — and answers it in the entrepreneur's own language, using the entrepreneur's own numbers.
