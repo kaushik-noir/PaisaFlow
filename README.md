@@ -98,3 +98,9 @@ Decision Core: Deterministic financial calculations, forecasting models, rules, 
 Explanation Layer: LLM converts validated results into simple, local-language explanations.
 Action Layer: Top actions, alerts, drafts, reports and user-approved workflows.
 Learning Loop: Observed outcomes update memory and future Twin state.
+# 8. Functional Requirements — MVP
+FR-01: Create a business profile using voice and/or guided inputs.
+FR-02: Support selected user language for input/output; initial prototype may support a limited set.
+FR-03: Extract intent and entities such as business type, goal, capital and financing intent.
+FR-04: Store approved facts and business events with timestamps.
+FR-05: Generate a structured Business Digital Twin from stored information.
