@@ -497,3 +497,19 @@ Splash
 Language
  ↓
 Onboarding
+ ↓
+Voice
+ ↓
+Confirmation
+ ↓
+Home
+ ↓
+Digital Twin
+ ↓
+Simulation
+ ↓
+Result
+ ↓
+Actions
+ ↓
+Memory
