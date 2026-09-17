@@ -518,3 +518,13 @@ Phase 1 runs entirely on user-provided, seeded and permitted public data; extern
 - Privacy: collect only what the product and the business model need; customer records hold the minimum needed for receivable tracking.
 - Data quality: every dataset carries source, update date and coverage; stale data is flagged, not silently used.
 - Seed data: the demo dataset is clearly labelled as simulated in the UI and in the evidence cards.
+
+**Category assumption templates.** For each supported business category the system ships default assumptions (yield, price ranges, cost structure, seasonality) labelled ESTIMATE with a source; the user's own numbers always override the template.
+
+## 17. Non-Functional Requirements
+
+The system must feel conversational, compute deterministically and remain auditable; these targets are benchmarked during Phase 10.
+
+| Area | Requirement | Target / rule |
+| --- | --- | --- |
+| Performance | Voice interactions feel conversational | Speech-to-response under \~3 s on 4G for simple intents; simulation re-run under 2 s; exact latency benchmarked in implementation |
