@@ -209,3 +209,7 @@ Warning: #F5C85B
 Risk:    #E96A6A
 Info:    #5BAEEB
 ```
+
+Status colors must communicate state, not decoration.
+
+---
