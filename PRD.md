@@ -655,3 +655,5 @@ Eight risks could undermine the product or the demo; each has an owner-level mit
 | Financial harm from misread outputs | Low | Very high | Scenario framing, assumptions, safety notices, approval gates, human escalation | §12, §18 |
 | Privacy breach or misuse | Low | High | Minimisation, consent, role scoping, audit log, redacted logs | §17, §18 |
 | Overpromising in pitch or UI | Medium | High | No guaranteed profit, approval or predictive certainty anywhere; copy review | §12, §25 |
+
+## 24. Competitive Differentiation Strategy
