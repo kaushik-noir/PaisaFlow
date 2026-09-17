@@ -288,3 +288,13 @@ Business Validation
  ↓
 Calculation
 ```
+
+---
+
+## Rule 5.4 — No Hallucinated Facts
+
+If data is unavailable:
+
+> **Say that the data is unavailable.**
+
+Never invent:
