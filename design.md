@@ -1380,3 +1380,31 @@ audit_logs
 ```
 
 ---
+
+# 46. Digital Twin Data Flow
+
+```text
+USER INPUT
+   ↓
+VALIDATION
+   ↓
+BUSINESS MEMORY
+   ↓
+DIGITAL TWIN STATE
+   ↓
+CALCULATION / ML
+   ↓
+SIMULATION
+   ↓
+RESULT
+   ↓
+EXPLANATION
+   ↓
+USER ACTION
+   ↓
+OUTCOME
+   ↓
+MEMORY UPDATE
+```
+
+---
