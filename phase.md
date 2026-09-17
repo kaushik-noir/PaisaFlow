@@ -23,3 +23,4 @@ Each phase contains:
 - Outputs
 - Dependencies
 - Testing
+- Definition of Done
