@@ -1542,3 +1542,29 @@ The system should demonstrate:
 The product should feel like it understands the business over time.
 
 ---
+
+# 49. Core Product Loop Rule
+
+Every major feature should strengthen:
+
+```text
+TALK
+ ↓
+UNDERSTAND
+ ↓
+MODEL
+ ↓
+PREDICT
+ ↓
+SIMULATE
+ ↓
+EXPLAIN
+ ↓
+ACT
+ ↓
+LEARN
+```
+
+If a feature does not support this loop, it should be questioned before inclusion.
+
+---
