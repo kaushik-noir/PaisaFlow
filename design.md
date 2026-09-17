@@ -1004,3 +1004,29 @@ Samajh raha hoon...
 Animation should be subtle and performant.
 
 ---
+
+# 32. Loading States
+
+Never show only:
+
+> Loading...
+
+Use meaningful status:
+
+```text
+Aapki baat samajh raha hoon...
+```
+
+```text
+Business data check kar raha hoon...
+```
+
+```text
+Scenario calculate kar raha hoon...
+```
+
+```text
+Result ko simple bana raha hoon...
+```
+
+---
