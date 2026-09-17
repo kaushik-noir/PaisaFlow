@@ -141,4 +141,10 @@ Identity: Business ID, owner-provided profile, category, location and creation d
 Money: Cash, revenue streams, expenses, receivables, payables and financing obligations.
 Market: Available local signals, competitor observations, pricing observations and demand assumptions.
 Operations: Inventory items, stock movement, suppliers and recurring operating events.
+Customers: Only necessary records, with appropriate consent; payment status and expected dates.
+Financing: Existing/proposed financing scenarios, assumptions and repayment estimates.
+Risk: Risk indicators, stress results, uncertainty and trigger conditions.
+Memory: Approved facts, corrections, decisions, actions and outcomes.
+Provenance: Source type, reference where available, timestamp and classification as user-provided, observed, estimated or model-inferred.
+
 
