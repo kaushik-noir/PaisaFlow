@@ -1184,3 +1184,13 @@ Loan repayment pressure
 ```text
 Sales trend
 ```
+
+### Avoid
+
+- 15 KPI cards
+- Decorative charts
+- Unnecessary pie charts
+- Meaningless scores
+- Data without explanation
+
+---
