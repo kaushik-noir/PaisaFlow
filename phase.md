@@ -12,3 +12,16 @@
 This is the **implementation blueprint**, not just a feature list.
 
 PaisaFlow must be developed in controlled phases.
+
+Each phase contains:
+
+- Objective
+- Why it exists
+- Sub-phases
+- Exact work
+- Inputs
+- Outputs
+- Dependencies
+- Testing
+- Definition of Done
+- Exit checkpoint
