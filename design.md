@@ -825,3 +825,25 @@ Actions:
 ```
 
 ---
+
+# 26. Screen 18 — Communication Draft
+
+PaisaFlow drafts first.
+
+```text
+💬 CUSTOMER FOLLOW-UP
+
+To: Ramesh
+
+"Namaste Ramesh ji,
+₹850 ka payment pending hai.
+Kripya convenient time par payment
+kar dein."
+
+[ Edit ]
+[ ✓ Approve ]
+```
+
+No consequential communication should be sent automatically without user approval.
+
+---
