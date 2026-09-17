@@ -393,3 +393,14 @@ fix/*
 ```
 
 ## 03.3 Environment
+
+Configure:
+
+```text
+Node
+Python
+PostgreSQL
+Git
+Package managers
+Environment variables
+```
