@@ -976,3 +976,20 @@ One question
 User answer
  ↓
 Update context
+ ↓
+Next question
+```
+
+## 15.3 Correction
+
+Allow:
+
+> “Nahi, ₹80,000 nahi ₹85,000.”
+
+### Definition of Done
+
+PaisaFlow can maintain a coherent multi-turn conversation.
+
+---
+
+# PHASE 16 — PAISAFLOW AI BRAIN
