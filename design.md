@@ -480,3 +480,28 @@ Critical captured information should be confirmed.
 ```
 
 ---
+
+# 14. Screen 06 — Home Dashboard
+
+The dashboard must not look like traditional accounting software.
+
+### Header
+
+```text
+Namaste 👋
+
+Aaj business mein kya karna hai?
+```
+
+### Primary CTA
+
+```text
+┌─────────────────────────────┐
+│                             │
+│          🎙️                 │
+│                             │
+│       PAISAFLOW SE          │
+│          BOLIYE             │
+│                             │
+└─────────────────────────────┘
+```
