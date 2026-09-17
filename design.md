@@ -1354,3 +1354,29 @@ Exact APIs can be refined during implementation.
 # 45. Database Design
 
 Core entities:
+
+
+```text
+users
+businesses
+business_profiles
+business_facts
+business_events
+transactions
+customers
+suppliers
+inventory
+financing
+scenarios
+simulation_results
+risk_events
+market_evidence
+memory
+actions
+alerts
+communication_drafts
+approvals
+audit_logs
+```
+
+---
