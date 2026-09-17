@@ -14,3 +14,5 @@ This document defines the non-negotiable rules that should govern the design, de
 # 1. Product Identity
 
 PaisaFlow is a:
+
+> **Voice-first AI Business Companion for small and rural/semi-urban entrepreneurs.**
