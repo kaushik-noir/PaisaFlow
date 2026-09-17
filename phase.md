@@ -297,3 +297,11 @@ Memory
 No major MVP feature remains undefined.
 
 ---
+
+# PHASE 02 — PRODUCT ARCHITECTURE
+
+## Objective
+
+Freeze how all systems communicate.
+
+## 02.1 High-Level Architecture
