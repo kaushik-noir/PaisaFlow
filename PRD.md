@@ -653,3 +653,4 @@ Eight risks could undermine the product or the demo; each has an owner-level mit
 | Poor speech recognition in dialects/noise | Medium | High | Confirmation and correction flows, text fallback, constrained questions, dialect test set | §8 FR-V1–V3 |
 | Over-complex product | Medium | Medium | One-question screens; Top 3 Actions; MoSCoW discipline | §5, §19 |
 | Financial harm from misread outputs | Low | Very high | Scenario framing, assumptions, safety notices, approval gates, human escalation | §12, §18 |
+| Privacy breach or misuse | Low | High | Minimisation, consent, role scoping, audit log, redacted logs | §17, §18 |
