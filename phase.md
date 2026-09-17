@@ -1455,3 +1455,26 @@ Introduce prediction only after reliable historical data and deterministic found
 
 ```text
 Sales Forecast
+Demand Forecast
+Anomaly Detection
+Risk Pattern Detection
+Trend Detection
+```
+
+## ML Pipeline
+
+```text
+Historical Data
+ ↓
+Cleaning
+ ↓
+Feature Engineering
+ ↓
+Model
+ ↓
+Prediction
+ ↓
+Uncertainty / Confidence
+ ↓
+Explanation
+```
