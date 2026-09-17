@@ -41,3 +41,5 @@ PaisaFlow is a voice-first AI Business Companion that maintains a living Busines
 
 - Sections 1–6 define why the product exists, who it serves and how it should feel.
 - Sections 7–14 define what the system is made of: architecture, requirements, features, modules, data model, evidence rules and simulation engine.
+- Sections 15–19 define the accessibility, action, data, quality and safety constraints.
+- Sections 20–27 define scope, delivery plan, metrics, testing, risks, differentiation and the SIH demo.
