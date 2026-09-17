@@ -1195,3 +1195,26 @@ docs: update architecture
 ```
 
 ---
+
+# 35. Code Quality Rules
+
+Prefer:
+
+- Small functions
+- Clear names
+- Typed schemas
+- Reusable services
+- Explicit validation
+- Tests for business logic
+- Documentation for complex modules
+
+Avoid:
+
+- Giant files
+- Duplicate logic
+- Hardcoded secrets
+- Magic numbers
+- Hidden financial formulas
+- Business logic inside UI components
+
+---
