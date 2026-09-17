@@ -214,4 +214,15 @@ Must have: Voice onboarding; business profile; Business Memory; Digital Twin; ba
 Should have: Voice Khata; bill/khata OCR; family report; business experiment mode; facilitator mode; multilingual output.
 Could have: Hyper-local opportunity map; supplier intelligence; advanced demand model; WhatsApp integration; richer notifications.
 Not required for first demo: Full banking integration, automated loan application, autonomous money movement, guaranteed credit scoring, complete offline operation or nationwide market coverage.
+# 20. Implementation Phases
+Phase 1 — Foundation: PWA UI, FastAPI backend, PostgreSQL schema, authentication and business profile.
+Phase 2 — Voice Experience: Speech input/output, intent extraction, guided questioning and confirmation.
+Phase 3 — Business Memory: Facts, events, transactions, corrections and timeline.
+Phase 4 — Digital Twin: Money, market, operations, financing and risk state.
+Phase 5 — Finance Engine: Cash-flow, EMI/repayment calculations and scenario structures.
+Phase 6 — Simulation: Base/downside/growth scenarios and visualisation.
+Phase 7 — Evidence Layer: Source/provenance, confidence, timestamps and assumption display.
+Phase 8 — Actions & Alerts: Top 3 actions, reminders, drafts and approval flow.
+Phase 9 — Field UX: Low-literacy refinement, facilitator mode, Voice Khata and OCR.
+Phase 10 — SIH Hardening: Seed demo data, test failure cases, correctness, latency, explainability and presentation flow.
 
