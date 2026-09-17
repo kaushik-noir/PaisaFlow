@@ -466,3 +466,13 @@ ConfirmationDialog
 ## 04.4 States
 
 Every component should define:
+
+```text
+Default
+Hover
+Active
+Disabled
+Loading
+Error
+Success
+```
