@@ -209,3 +209,29 @@ Warning: #F5C85B
 Risk:    #E96A6A
 Info:    #5BAEEB
 ```
+
+Status colors must communicate state, not decoration.
+
+---
+
+# 5. Typography
+
+Recommended:
+
+```text
+Primary:
+Inter / System Sans
+
+Hindi:
+Noto Sans Devanagari
+```
+
+### Hierarchy
+
+```text
+H1      30–36 px
+H2      22–28 px
+H3      17–20 px
+Body    15–17 px
+Small   12–14 px
+```
