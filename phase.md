@@ -641,3 +641,29 @@ All primary pages are navigable.
 ---
 
 # PHASE 07 — RESPONSIVE PWA FOUNDATION
+
+---
+
+# PHASE 08 — BACKEND FOUNDATION
+
+## Objective
+
+Build FastAPI application infrastructure.
+
+## 08.1 Structure
+
+```text
+backend/app/
+├── api/
+├── core/
+├── services/
+├── models/
+├── schemas/
+├── agents/
+├── business/
+├── finance/
+├── simulation/
+├── memory/
+├── evidence/
+└── main.py
+```
