@@ -163,3 +163,10 @@ Avoid making it look like:
 ```text
 #33B878
 ```
+Use for:
+
+- Primary CTA
+- Positive actions
+- Growth indicators
+- Voice interaction
+- Selected states
