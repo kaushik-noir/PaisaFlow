@@ -845,3 +845,29 @@ The frontend should:
 - Never become the source of truth for financial calculations
 
 ---
+
+# 20. Component Rules
+
+Reusable components should be preferred.
+
+Examples:
+
+```text
+VoiceButton
+Card
+MetricCard
+StatusCard
+ActionCard
+ScenarioCard
+EvidenceCard
+MemoryEvent
+AlertCard
+ConfirmationDialog
+VoiceWaveform
+LoadingState
+ErrorState
+```
+
+Avoid creating duplicate components with slightly different implementations.
+
+---
