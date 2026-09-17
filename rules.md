@@ -172,3 +172,19 @@ Important analysis should end with practical actions.
 Default format:
 
 > **🎯 AAJ KE TOP 3 ACTIONS**
+
+
+---
+
+## Rule 3.6 — Do Not Create Information Overload
+
+Avoid:
+
+- Dense dashboards
+- Too many metrics
+- Unnecessary charts
+- Long AI messages
+- Financial jargon
+- Excessive navigation
+
+---
