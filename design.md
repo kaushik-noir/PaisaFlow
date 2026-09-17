@@ -1332,3 +1332,21 @@ POST /api/v1/conversation/message
 GET  /api/v1/business
 POST /api/v1/business
 PATCH /api/v1/business
+
+GET  /api/v1/business/twin
+GET  /api/v1/business/memory
+
+POST /api/v1/finance/cashflow
+POST /api/v1/simulation/loan
+POST /api/v1/simulation/scenario
+
+GET  /api/v1/actions
+GET  /api/v1/alerts
+
+POST /api/v1/communication/draft
+POST /api/v1/communication/approve
+```
+
+Exact APIs can be refined during implementation.
+
+---
