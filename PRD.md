@@ -348,3 +348,12 @@ flowchart LR
   TW --> OPS[Operations state]
   TW --> RSK[Risk state]
   MON --> FIN[Financing scenarios]
+    MON --> REC[Receivables / customers]
+  EV -.provenance.-> PRV[Provenance record]
+```
+
+**Twin versioning.** Each approved change produces a new Twin version linked to the event that caused it. The system can answer "what did the business look like before the loan?" by replaying events up to that point.
+
+**Minimum viable Twin for the demo (dairy).** Identity + Money (cash, milk revenue with winter multiplier, feed and labour costs, no existing loan) + one proposed financing scenario (₹9 lakh) + computed Risk. Market and Operations can be seeded.
+
+## 12. Evidence and Trust Framework
