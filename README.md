@@ -104,3 +104,12 @@ FR-02: Support selected user language for input/output; initial prototype may su
 FR-03: Extract intent and entities such as business type, goal, capital and financing intent.
 FR-04: Store approved facts and business events with timestamps.
 FR-05: Generate a structured Business Digital Twin from stored information.
+FR-06: Calculate basic revenue, expense, cash balance and projected cash-flow from supplied assumptions/data.
+FR-07: Simulate a proposed financing amount using configurable assumptions.
+FR-08: Support downside scenarios such as sales reduction, cost increase, delayed payments and seasonal shock.
+FR-09: Generate a small set of prioritised actions.
+FR-10: Explain important results in simple language with assumptions/evidence.
+FR-11: Provide evidence/provenance for important claims where available.
+FR-12: Detect configured events such as payment delay, cash pressure or inventory attention.
+FR-13: Draft customer/supplier/partner messages; require approval before sending.
+FR-14: Generate simple visual/text reports for sharing or printing.
