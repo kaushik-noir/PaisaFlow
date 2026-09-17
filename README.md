@@ -65,3 +65,4 @@ Signature question: “Can I get this loan?” → “Can my business survive th
 Primary: Rural/semi-urban micro-entrepreneur or small business owner who may use voice messaging comfortably but may not use spreadsheets or financial software.
 Secondary: Semi-urban small business owner wanting a single system for cash-flow, inventory, payments, market context and expansion decisions.
 Assisted: Authorised facilitator who can help a user create or review a business profile.
+Family / decision group: Spouse, parent, partner or family member who may need a simple visual/audio summary.
