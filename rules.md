@@ -769,3 +769,23 @@ API responsibilities:
 The frontend should not directly access protected databases.
 
 ---
+
+# 17. Backend Rules
+
+Use Python/FastAPI for the core backend.
+
+Recommended separation:
+
+```text
+API
+ ↓
+SERVICE
+ ↓
+DOMAIN / ENGINE
+ ↓
+DATABASE
+```
+
+Do not put complex business logic directly inside API route handlers.
+
+---
