@@ -298,3 +298,14 @@ If data is unavailable:
 > **Say that the data is unavailable.**
 
 Never invent:
+
+- Market statistics
+- Government schemes
+- Loan approval
+- Interest rates
+- Customer information
+- Local demand
+- Business performance
+- External evidence
+
+---
