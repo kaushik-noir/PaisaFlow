@@ -398,3 +398,13 @@ The engine takes the Twin, a proposed decision and a set of explicit assumptions
 | --- | --- | --- | --- |
 | Base | Current and expected assumptions unchanged | — | Reference case |
 | Sales reduction | Revenue quantity or price down by X% | −20% | Demand risk |
+| Cost increase | Variable and/or fixed costs up by X% | +15% | Input-price risk |
+| Payment delay | Receivables settle N days late | +30 days | Working-capital risk |
+| Seasonal decline | Category seasonality applied to specific months | Dairy: Dec–Feb yield −25 to −30% | Timing risk |
+| Combined stress | Two or more shocks together | Sales −20% and cost +15% | Worst plausible case |
+| Growth | Capacity or customer expansion under explicit assumptions | +6 cows at 8 L/day each | Upside with its own cost side |
+
+**Outputs per scenario, per month**
+
+- Revenue, expenses, operating surplus
+- Repayment (EMI) and repayment burden = EMI ÷ operating surplus
