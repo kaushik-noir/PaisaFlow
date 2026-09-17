@@ -46,3 +46,4 @@ Primary CTA:
 > 🎙️ **BOLIYE**
 Typing is available as a fallback.
 ---
+## 2.2 One Question at a Time
