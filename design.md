@@ -66,3 +66,5 @@ Location
 ```text
 PaisaFlow:
 "Mahine ki approx sales kitni hoti hai?"
+User:
+"₹80,000"
