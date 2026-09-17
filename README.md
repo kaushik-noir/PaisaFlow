@@ -70,3 +70,4 @@ Family / decision group: Spouse, parent, partner or family member who may need a
 - Voice first: speaking should be the default interaction.
 - One question at a time: ask only the next information required.
 Visual language: icons, cards, status indicators and short sentences.
+Conceptual translation: explain financial ideas in everyday language rather than merely translating jargon.
