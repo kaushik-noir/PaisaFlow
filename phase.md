@@ -1962,3 +1962,16 @@ AI failures
 Simulation failures
 Database health
 ```
+
+## Product Metrics
+
+Potentially measure:
+
+```text
+Onboarding completion
+Voice interaction completion
+Simulation usage
+Action acceptance
+Correction rate
+Return usage
+```
