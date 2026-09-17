@@ -1218,3 +1218,34 @@ Avoid:
 - Business logic inside UI components
 
 ---
+
+# 36. Testing Rules
+
+Every critical financial calculation must have automated tests.
+
+Test:
+
+```text
+EMI
+Cash-flow
+Revenue
+Expenses
+Loan schedule
+Scenario calculations
+Risk rules
+Input validation
+```
+
+AI testing should include:
+
+```text
+Hindi
+Hinglish
+English
+Ambiguous statements
+Missing information
+Incorrect numbers
+Hallucination attempts
+```
+
+---
