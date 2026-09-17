@@ -898,3 +898,11 @@ Unnecessary 3D effects
 ```
 
 ---
+
+# 22. Color Rules
+
+Primary:
+
+```text
+PaisaFlow Green #33B878
+```
