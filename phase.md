@@ -754,3 +754,18 @@ Logout
 ```
 
 ## 10.2 Authorization
+
+Enforce:
+
+```text
+User → Own Business
+```
+
+## 10.3 Roles
+
+Potential roles:
+
+```text
+Owner
+Assisted User
+Admin
