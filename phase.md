@@ -1030,3 +1030,27 @@ The Brain must not bypass deterministic financial engines.
 ### Definition of Done
 
 A natural-language request reaches the correct service.
+
+---
+
+# PHASE 17 — INTENT & ENTITY EXTRACTION
+
+## Objective
+
+Turn natural language into structured commands.
+
+## Intent Examples
+
+```text
+CREATE_BUSINESS
+UPDATE_BUSINESS
+ADD_TRANSACTION
+ASK_FINANCE
+SIMULATE_LOAN
+SIMULATE_SCENARIO
+VIEW_TWIN
+VIEW_MEMORY
+ASK_MARKET
+GET_ACTIONS
+CREATE_MESSAGE
+```
