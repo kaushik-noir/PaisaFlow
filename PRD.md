@@ -659,3 +659,5 @@ Eight risks could undermine the product or the demo; each has an owner-level mit
 ## 24. Competitive Differentiation Strategy
 
 PaisaFlow does not compete on chat, RAG, EMI maths or translation; it competes on a persistent, evidence-aware model of one business and the ability to test decisions against it.
+
+| Do not compete on | Compete on |
