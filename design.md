@@ -118,3 +118,17 @@ AI EXPLANATION
 Never hide uncertainty.
 
 ---
+
+## 2.6 User Control
+
+PaisaFlow can prepare an action, but consequential external actions require approval.
+
+```text
+AI DRAFT
+   ↓
+USER REVIEW
+   ↓
+USER APPROVES
+   ↓
+ACTION
+```
