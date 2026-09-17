@@ -1152,3 +1152,17 @@ Monthly kharcha approx?"
 Advanced information remains available but hidden behind:
 
 > **Details dekhein**
+
+dvanced users can access:
+
+- Financial calculations
+- Assumptions
+- Scenario variables
+- Evidence
+- Charts
+- Historical trends
+- Technical model information where appropriate
+
+This allows the same product to support both low-literacy and financially sophisticated users.
+
+---
