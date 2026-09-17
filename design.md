@@ -278,3 +278,9 @@ Primary design target:
 ```text
 360–430 px
 ```
+
+Secondary:
+
+```text
+768–1024 px
+```

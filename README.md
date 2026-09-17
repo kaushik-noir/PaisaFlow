@@ -123,3 +123,8 @@ K3 — Borrowability / Safe-Repayment View: Separates potential eligibility from
 K4 — Voice Khata: Conversational transaction entry such as “Ramesh ko ₹850 ka maal diya.”
 K5 — Evidence Mode: Shows what is known, estimated and assumed, with freshness/confidence where available.
 K6 — Business Experiment Mode: Encourages small real-world validation before large investment; results feed back into the Twin.
+K7 — Low-Literacy UX: Icons, voice, one-question screens, examples and “Samajh nahi aa raha” help.
+K8 — Business Health Story: Explains the biggest issue and why rather than only showing a score.
+K9 — Proactive Alerts: Surfaces important business changes without waiting for a query.
+K10 — Family / Assisted Mode: Simple visual/audio summaries and authorised assistance.
+
