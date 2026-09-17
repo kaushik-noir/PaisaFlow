@@ -686,3 +686,6 @@ The demo runs the complete dairy scenario in roughly 90 seconds, from first voic
 | 40–55 s | Voice: "Agar main ₹9 lakh ka loan loon?" → four scenario cards: base, sales −20%, cost +15%, winter | "Now we test the decision. Base looks fine. Winter and a sales drop do not." |
 | 55–70 s | Evidence card opened on a number; plain-language explanation plays aloud | "Every number shows where it came from — fact, observation or estimate — and the explanation uses the owner's own figures." |
 | 70–85 s | Top 3 Actions; approve a supplier draft; record outcome "6 gaay le li"; Twin updates and health story changes | "It ends in three actions, nothing is sent without approval, and when something real happens the model learns." |
+| 85–90 s | Closing slide | "PaisaFlow does not just answer a business question. It maintains a living model of the business and helps the entrepreneur test what could happen before acting." |
+
+**Demo safeguards.** Pre-warmed backend, cached STT for the two scripted utterances with live fallback, seeded dairy dataset labelled as simulated, offline copy of the deck.
