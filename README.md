@@ -47,3 +47,4 @@ TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
   SIH MVP: voice onboarding + memory + twin + cash-flow + loan/expansion simulation + evidence + top actions + alerts.
 # 1. Executive Summary
 PaisaFlow is a voice-first AI Business Companion for rural and small entrepreneurs who may not be comfortable with conventional business software, long forms, dashboards or financial terminology. The user can speak naturally about a business, a goal or a financial decision and receive a simple, explainable response.
+The central product innovation is the Business Digital Twin: a continuously updated representation of a business combining approved business information, business events, financial state, operational state and available local/evidence signals. The Twin is used by a simulation engine to explore decisions such as expansion, borrowing, demand decline, cost increases and seasonal stress.
