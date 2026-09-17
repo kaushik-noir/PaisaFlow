@@ -338,3 +338,13 @@ The Twin is nine linked entity groups; every value in it carries provenance, and
 | Provenance | On every value: `source_type` (user / observation / estimate / model), reference (event id, document, dataset), timestamp, `classification`, `confidence` | Enforced by the Evidence module at write time |
 
 **Core entity relationships**
+
+```mermaid
+flowchart LR
+  BIZ[Business] --> EV[Event log]
+  EV --> TW[Twin snapshot]
+  TW --> MON[Money state]
+  TW --> MKT[Market state]
+  TW --> OPS[Operations state]
+  TW --> RSK[Risk state]
+  MON --> FIN[Financing scenarios]
