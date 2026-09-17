@@ -236,7 +236,7 @@ object DemoActions {
         reorder = com.paisaflow.app.model.ReorderAction(
             title = "सुधा पशु आहार स्टॉक री-ऑर्डर",
             supplier = "शेखपुरा एग्रो फीड्स प्राइवेट लिमिटेड",
-            supplierPhone = "+919835000000",
+            supplierPhone = "+91988778930",
             amount = 8_400, quantityLabel = "10 बोरी चूरी-खली",
             stockPercent = 22, daysLeft = 3.5, availableBags = 2, minSafeBags = 8,
             product = "सुधा स्पेशल गोल्ड (50kg x 10)",
