@@ -600,3 +600,29 @@ Then explain:
 > **“Sabse important issue: pending payments ki wajah se cash buffer kam ho raha hai.”**
 
 ---
+
+# 17. Screen 09 — What-If Simulator
+
+This is a hero feature.
+
+```text
+┌──────────────────────────────┐
+│ 🔮 WHAT-IF SIMULATOR         │
+│                              │
+│ Agar main ₹9 lakh loan loon? │
+│                              │
+│ Loan Amount                  │
+│ ─────────●────────           │
+│ ₹7L             ₹10L         │
+│                              │
+│ Sales                        │
+│ ───────●──────────           │
+│                              │
+│ Costs                        │
+│ ─────────●────────           │
+│                              │
+│       [ SIMULATE ]           │
+└──────────────────────────────┘
+```
+
+---
