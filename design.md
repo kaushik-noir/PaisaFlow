@@ -1489,3 +1489,24 @@ Use audio explanations for important decisions.
 Design the product so lightweight operations can degrade gracefully.
 
 Possible approach:
+
+```text
+NETWORK AVAILABLE
+      ↓
+FULL EXPERIENCE
+
+NETWORK WEAK
+      ↓
+CACHE BUSINESS PROFILE
+CACHE RECENT MEMORY
+CACHE UI
+QUEUE SAFE LOCAL EVENTS
+      ↓
+SYNC WHEN AVAILABLE
+```
+
+Do not claim complete offline functionality unless it is actually implemented and tested.
+
+---
+
+# 50. First Prototype Screen Priority
