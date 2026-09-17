@@ -378,3 +378,13 @@ Every important value in PaisaFlow carries one of four labels, and the label dec
 7. Escalation: if the user asks a question the system cannot support with FACT or ESTIMATE, it says so plainly and suggests what evidence would help (for example, "3 din tak daily bikri bataiye").
 
 **Evidence card layout (UI).** Label chip · value · source line · date · confidence · "Assumptions dekhein" expander. The same card component is reused for Twin values, scenario outputs and market signals so that the trust language is consistent everywhere.
+
+## 13. What-if Simulation Engine
+
+The engine takes the Twin, a proposed decision and a set of explicit assumptions, and returns month-by-month projections for a base case, configurable downside cases and a growth case — deterministically.
+
+**Inputs**
+
+| Input | Source | Examples |
+| --- | --- | --- |
+| Business state | Twin snapshot | Current cash, revenue streams, costs, receivables, existing loans |
