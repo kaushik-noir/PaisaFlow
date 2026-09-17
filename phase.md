@@ -1010,3 +1010,23 @@ Explain
 ```
 
 ## 16.2 Tool Architecture
+
+## 16.1 Brain Responsibilities
+
+```text
+Understand
+Extract
+Route
+Retrieve context
+Call tools
+Explain
+```
+
+## 16.2 Tool Architecture
+
+
+The Brain must not bypass deterministic financial engines.
+
+### Definition of Done
+
+A natural-language request reaches the correct service.
