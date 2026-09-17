@@ -884,3 +884,15 @@ ADJUSTMENT
 Validate:
 
 ```text
+Amount
+Date
+Entity
+Quantity
+Transaction type
+```
+
+### Definition of Done
+
+Business events can update the business state correctly.
+
+---
