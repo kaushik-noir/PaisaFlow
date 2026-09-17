@@ -1287,3 +1287,11 @@ frontend/
 ```
 
 ---
+
+# 43. Backend Design
+
+```text
+Python
+   +
+FastAPI
+```
