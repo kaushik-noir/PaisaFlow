@@ -48,3 +48,11 @@ PaisaFlow is **not** primarily:
 - A guaranteed financial advisor
 
 ---
+
+# 2. Golden Rule
+
+## The user should never need to understand the complexity behind PaisaFlow.
+
+# 2. Golden Rule
+
+## The user should never need to understand the complexity behind PaisaFlow.
