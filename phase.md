@@ -539,3 +539,15 @@ Missing information
 API failure
 External source failure
 ```
+
+### Definition of Done
+
+Every primary journey has a defined happy path and error path.
+
+---
+
+# PHASE 06 — FRONTEND SHELL
+
+## Objective
+
+Build the basic React application.
