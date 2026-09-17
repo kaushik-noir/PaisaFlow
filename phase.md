@@ -148,3 +148,12 @@ Understand common difficulties:
 - Financial uncertainty
 - Limited business data
 - Limited financial literacy
+- Language barriers
+- Poor connectivity
+- Difficulty evaluating business decisions
+
+## 00.2 Understand PaisaFlow
+
+Freeze the core definition:
+
+> **PaisaFlow is a voice-first AI business companion that understands a small entrepreneur's business, maintains a Business Digital Twin, simulates future scenarios, explains the implications simply, and recommends actionable next steps.**
