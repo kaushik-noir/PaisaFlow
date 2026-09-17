@@ -1070,3 +1070,28 @@ Your business dashboard has been updated!
 Avoid notification spam.
 
 ---
+
+# 29. Recommendation Rules
+
+Recommendations should be connected to:
+
+```text
+Business State
++
+Evidence
++
+Assumptions
++
+Scenario
+```
+
+A recommendation should answer:
+
+```text
+What?
+Why?
+Based on what?
+What can I do?
+```
+
+---
