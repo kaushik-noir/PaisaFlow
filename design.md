@@ -369,3 +369,25 @@ Avoid unnecessary animation.
 # 10. Screen 02 — Language Selection
 
 ```text
+
+┌──────────────────────────────┐
+│ ←                            │
+│                              │
+│ Aap kis language mein        │
+│ baat karna chahenge?         │
+│                              │
+│ ┌──────────────────────────┐ │
+│ │ 🇮🇳 हिंदी                 │ │
+│ └──────────────────────────┘ │
+│                              │
+│ ┌──────────────────────────┐ │
+│ │ English                  │ │
+│ └──────────────────────────┘ │
+│                              │
+│ ┌──────────────────────────┐ │
+│ │ Hinglish                 │ │
+│ └──────────────────────────┘ │
+└──────────────────────────────┘
+```
+
+Future language expansion can include additional supported regional languages.
