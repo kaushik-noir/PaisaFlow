@@ -1587,3 +1587,9 @@ MEMORY UPDATE
 ```
 
 ---
+
+# 52. Hero Screen
+
+The main screen shown to judges should communicate the entire product in seconds.
+
+```text
