@@ -626,3 +626,27 @@ This is a hero feature.
 ```
 
 ---
+
+# 18. Screen 10 — Scenario Results
+
+```text
+┌──────────────────────────────┐
+│ 🔮 Scenario Result           │
+│                              │
+│ NORMAL                       │
+│ 🟢 Cash-flow manageable      │
+│                              │
+│ SALES ↓ 20%                  │
+│ 🟡 Repayment pressure ↑      │
+│                              │
+│ COST ↑ 15%                   │
+│ 🔴 Cash buffer tight         │
+│                              │
+│ Seasonal Shock               │
+│ 🔴 Higher stress             │
+│                              │
+│ [ Why? ] [ Compare ]         │
+└──────────────────────────────┘
+```
+
+---
