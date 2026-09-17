@@ -1149,3 +1149,40 @@ Twin Update
 ```
 
 ## Timeline UI
+
+```text
+TODAY
+✓ ₹850 sale
+✓ ₹2,500 payment
+
+YESTERDAY
+✓ Inventory update
+```
+
+### Definition of Done
+
+Business history survives across sessions and can affect future context.
+
+---
+
+# PHASE 20 — BUSINESS DIGITAL TWIN
+
+## Objective
+
+Create a living mode
+```text
+Current Message
++
+Conversation State
++
+Business Profile
++
+Relevant Memory
++
+Digital Twin
++
+Evidence
+```
+
+## Context Selection
+l of the business.
