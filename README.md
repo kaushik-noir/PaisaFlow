@@ -42,3 +42,10 @@ TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
  What: voice-first AI Business Companion.
  Core object: Business Digital Twin.
  Core intelligence: evidence + deterministic finance + prediction/risk + what-if simulation.
+ Core UX: simple language, one question at a time, icons, voice and actionable outputs.
+  Core loop: Talk → Understand → Model → Predict → Simulate → Act → Learn.
+  SIH MVP: voice onboarding + memory + twin + cash-flow + loan/expansion simulation + evidence + top actions + alerts.
+# 1. Executive Summary
+PaisaFlow is a voice-first AI Business Companion for rural and small entrepreneurs who may not be comfortable with conventional business software, long forms, dashboards or financial terminology. The user can speak naturally about a business, a goal or a financial decision and receive a simple, explainable response.
+The central product innovation is the Business Digital Twin: a continuously updated representation of a business combining approved business information, business events, financial state, operational state and available local/evidence signals. The Twin is used by a simulation engine to explore decisions such as expansion, borrowing, demand decline, cost increases and seasonal stress.
+PaisaFlow is a decision-support system, not a lender, accountant, legal authority or guarantee engine. Important outputs must be shown as calculations or scenario estimates with assumptions and evidence. The system must not present simulated results as guaranteed approval, profit or future performance.
