@@ -2152,3 +2152,21 @@ Mobile layout
 Unused buttons
 Dead screens
 Placeholder content
+Debug text
+Broken links
+Inconsistent terminology
+```
+
+### Definition of Done
+
+The product looks and behaves like one coherent application.
+
+---
+
+# PHASE 42 — FINAL TESTING
+
+## Objective
+
+Perform the final full-system verification.
+
+## Test Matrix
