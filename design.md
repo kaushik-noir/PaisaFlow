@@ -1295,3 +1295,5 @@ Python
    +
 FastAPI
 ```
+
+Suggested structure:
