@@ -165,5 +165,31 @@ Outputs: Revenue, expenses, cash-flow, repayment burden, cash buffer and risk fl
 Explainability: Show assumptions changed and their effect on outputs.
 Interactive UX: Sliders/toggles for sales, costs, loan amount or capacity where practical.
 Guardrail: Never convert scenario results into an unconditional guarantee or approval.
+# 14. Low-Literacy & Accessibility Requirements
+- Primary interaction should be possible without typing.
+- Use short sentences and familiar vocabulary.
+- Use large touch targets and meaningful icons.
+- Speak important explanations aloud where possible.
+- Explain concepts using the user's own business numbers.
+- Read back critical captured information for confirmation.
+- Provide “Badalna hai” correction flows.
+- Provide authorised assisted mode.
+- Design API boundaries for graceful operation under poor connectivity; full offline capability is a later milestone unless implemented.
+
+# 15. Communication & Action System
+Top 3 Actions: Prioritise actions using urgency, expected business value, confidence and user preferences.
+Draft-first: Generate WhatsApp/email/SMS-style drafts but never send automatically without approval.
+Customer follow-up: Create reminders for expected payments and approved dates.
+Supplier communication: Draft reorder/price/availability queries from business state.
+Report sharing: Create a simple visual summary for family, partner or facilitator.
+Outcome capture: Record whether an action was completed and the observed result.
+
+# 16. Data & Integration Strategy
+Phase 1: Use user-provided data, simulated demo data and permitted public/official datasets.
+Phase 2: Add approved integrations where access, permission and technical interfaces are available.
+Official information: Use official documents or authorised data sources for scheme/rule retrieval with source metadata.
+Local data: Use observed/verified signals where available; never imply complete local coverage.
+Privacy: Collect only information required for the product and business model.
+Data quality: Maintain source, update date and coverage metadata where practical.
 
 
