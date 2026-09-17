@@ -10,6 +10,6 @@ class Prefs(context: Context) {
         get() = AppLanguage.fromCode(sp.getString("lang", AppLanguage.HI.code) ?: AppLanguage.HI.code)
         set(v) = sp.edit().putString("lang", v.code).apply()
     var onboarded: Boolean
-        get() = sp.getBoolean("onboarded", false)
+
         set(v) = sp.edit().putBoolean("onboarded", v).apply()
 }
