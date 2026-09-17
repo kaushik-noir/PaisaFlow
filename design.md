@@ -744,3 +744,34 @@ Important information should never appear more certain than its evidence support
 ```
 
 ---
+
+# 23. Screen 15 — Business Memory
+
+Business memory should look like a timeline.
+
+```text
+🧠 BUSINESS MEMORY
+
+TODAY
+✓ ₹850 sale recorded
+✓ ₹2,500 payment received
+
+YESTERDAY
+✓ Inventory updated
+
+12 SEP
+✓ Expansion goal created
+
+05 SEP
+✓ Loan scenario tested
+```
+
+Each event can expose:
+
+- Source
+- Date
+- Who entered it
+- Correction history
+- Effect on the Business Twin
+
+---
