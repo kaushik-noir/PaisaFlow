@@ -598,3 +598,12 @@ Ten phases take the product from foundation to SIH hardening; phases 1–8 are o
 | 1 | Foundation | PWA shell, FastAPI backend, PostgreSQL/PostGIS schema, OTP auth, business profile CRUD | — | Profile created and read via API and UI |
 | 2 | Voice experience | STT/TTS integration, intent and entity extraction, guided one-question flow, read-back confirmation | 1 | Dairy onboarding by voice completes |
 | 3 | Business Memory | Facts, events, transactions, corrections, timeline view | 1 | Event log replays to the same state |
+| 4 | Digital Twin | Money, market, operations, financing and risk state derived from Memory; Twin versioning | 3 | Twin regenerates from events |
+| 5 | Finance engine | Cash-flow projection, EMI and repayment schedules, scenario data structures, unit tests | 4 | Known-answer tests pass |
+| 6 | Simulation | Base, downside, growth and combined scenarios; scenario cards and sliders | 5 | Four scenario cards render for ₹9 lakh case |
+| 7 | Evidence layer | Provenance on every value, labels, confidence, freshness, assumption display, banned-phrase check | 4, 6 | Every important number has a tappable evidence card |
+| 8 | Actions and alerts | Top 3 ranking, reminders, drafts, approval gate, outcome capture | 6, 7 | Draft blocked until approved; outcome updates Twin |
+| 9 | Field UX | Low-literacy refinement, facilitator mode, Voice Khata, OCR | 2, 8 | 5 field users complete core flow with minimal help |
+| 10 | SIH hardening | Seed demo data, adversarial and failure tests, latency benchmarks, explainability review, presentation flow | All | Demo script runs clean 3 times in a row |
+
+**Team split (suggested).** Backend/finance engine · AI orchestration and voice · PWA and UX · data, evidence and demo content · testing and presentation.
