@@ -1975,3 +1975,19 @@ Action acceptance
 Correction rate
 Return usage
 ```
+
+Use privacy-preserving analytics.
+
+### Definition of Done
+
+Developers can identify major failures without inspecting production manually.
+
+---
+
+# PHASE 38 — DEPLOYMENT & INFRASTRUCTURE
+
+## Objective
+
+Deploy the complete application.
+
+## Architecture
