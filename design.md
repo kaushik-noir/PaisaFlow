@@ -51,3 +51,5 @@ Never begin with a long financial form.
 ### Avoid
 
 ```text
+Business name
+Revenue
