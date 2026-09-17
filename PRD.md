@@ -378,3 +378,53 @@ Every important value in PaisaFlow carries one of four labels, and the label dec
 7. Escalation: if the user asks a question the system cannot support with FACT or ESTIMATE, it says so plainly and suggests what evidence would help (for example, "3 din tak daily bikri bataiye").
 
 **Evidence card layout (UI).** Label chip · value · source line · date · confidence · "Assumptions dekhein" expander. The same card component is reused for Twin values, scenario outputs and market signals so that the trust language is consistent everywhere.
+
+## 13. What-if Simulation Engine
+
+The engine takes the Twin, a proposed decision and a set of explicit assumptions, and returns month-by-month projections for a base case, configurable downside cases and a growth case — deterministically.
+
+**Inputs**
+
+| Input | Source | Examples |
+| --- | --- | --- |
+| Business state | Twin snapshot | Current cash, revenue streams, costs, receivables, existing loans |
+| Proposed decision | User utterance or slider | Loan of ₹9,00,000; add 6 cows; open a second counter |
+| Assumptions | Defaults by category, editable by user | Interest rate, tenure, moratorium, yield per cow, price per litre, seasonal multipliers, cost inflation |
+| Horizon | Default 12 months, extendable to tenure | 12 / 24 / 36 months |
+
+**Scenario set**
+
+| Scenario | Definition | Default parameters | Purpose |
+| --- | --- | --- | --- |
+| Base | Current and expected assumptions unchanged | — | Reference case |
+| Sales reduction | Revenue quantity or price down by X% | −20% | Demand risk |
+| Cost increase | Variable and/or fixed costs up by X% | +15% | Input-price risk |
+| Payment delay | Receivables settle N days late | +30 days | Working-capital risk |
+| Seasonal decline | Category seasonality applied to specific months | Dairy: Dec–Feb yield −25 to −30% | Timing risk |
+| Combined stress | Two or more shocks together | Sales −20% and cost +15% | Worst plausible case |
+| Growth | Capacity or customer expansion under explicit assumptions | +6 cows at 8 L/day each | Upside with its own cost side |
+
+**Outputs per scenario, per month**
+
+- Revenue, expenses, operating surplus
+- Repayment (EMI) and repayment burden = EMI ÷ operating surplus
+- Closing cash and cash buffer in months of fixed cost
+- Risk flags: buffer below 1 month, repayment burden above 60%, negative closing cash, worst month name and cause
+
+**Calculation rules**
+
+1. EMI uses the standard reducing-balance formula; moratorium months accrue interest only.
+2. Seasonal multipliers are applied to quantity, not price, unless the user states a price effect.
+3. Growth scenarios add the expansion's own costs (feed, labour, maintenance) before adding its revenue, with a configurable ramp-up period.
+4. Every number is computed in Python with unit tests; the LLM never touches the arithmetic.
+5. Results are cached per (Twin version, decision, assumption set) so slider movements return instantly.
+
+**Worked example — dairy (illustrative demo values, all ESTIMATE)**
+
+| Item | Base | Sales −20% | Cost +15% | Winter month |
+| --- | --- | --- | --- | --- |
+| Monthly revenue (₹) | 78,000 | 62,400 | 78,000 | 55,000 |
+| Monthly costs (₹) | 46,000 | 46,000 | 52,900 | 46,000 |
+| Operating surplus (₹) | 32,000 | 16,400 | 25,100 | 9,000 |
+| EMI on ₹9 lakh, 11%, 5 yrs (₹) | 19,570 | 19,570 | 19,570 | 19,570 |
+| Surplus after EMI (₹) | 12,430 | −3,170 | 5,530 | −10,570 |
