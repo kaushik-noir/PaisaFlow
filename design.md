@@ -415,3 +415,27 @@ Do not start with a registration-heavy form.
 ```
 
 ---
+
+# 12. Screen 04 — Voice Conversation
+
+This is the core screen.
+
+```text
+┌──────────────────────────────┐
+│ ← PaisaFlow                  │
+│                              │
+│        Aap boliye...         │
+│                              │
+│          ╭─────╮             │
+│         │  🎙️  │             │
+│          ╰─────╯             │
+│                              │
+│        Listening...          │
+│                              │
+│ ──────────────────────────── │
+│                              │
+│ "Mere paas ₹1 lakh hai..."   │
+│                              │
+│          [ Stop ]            │
+└──────────────────────────────┘
+```
