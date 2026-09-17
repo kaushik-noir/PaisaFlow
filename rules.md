@@ -871,3 +871,30 @@ ErrorState
 Avoid creating duplicate components with slightly different implementations.
 
 ---
+
+# 21. Visual Design Rules
+
+PaisaFlow should feel:
+
+```text
+Trustworthy
+Calm
+Friendly
+Modern
+Indian
+Accessible
+Non-intimidating
+```
+
+Avoid:
+
+```text
+Trading-terminal look
+Corporate ERP look
+Overly technical AI look
+Excessive neon
+Dense dashboards
+Unnecessary 3D effects
+```
+
+---
