@@ -455,3 +455,14 @@ MetricCard
 StatusCard
 ActionCard
 ScenarioCard
+EvidenceCard
+MemoryEvent
+AlertCard
+VoiceButton
+Modal
+ConfirmationDialog
+```
+
+## 04.4 States
+
+Every component should define:
