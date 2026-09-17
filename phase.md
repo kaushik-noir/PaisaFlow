@@ -1078,3 +1078,11 @@ Input:
 Output:
 
 ```json
+{
+  "intent": "ADD_TRANSACTION",
+  "customer": "Ramesh",
+  "amount": 850,
+  "transaction_type": "SALE",
+  "payment_status": "PENDING"
+}
+```
