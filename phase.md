@@ -20,3 +20,4 @@ Each phase contains:
 - Sub-phases
 - Exact work
 - Inputs
+- Outputs
