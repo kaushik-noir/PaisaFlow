@@ -606,3 +606,9 @@ AI INFERENCE
 ```
 
 ---
+
+## Rule 10.2 — No Unsupported Local Intelligence
+
+If the system does not have evidence for a local claim, do not present it as fact.
+
+---
