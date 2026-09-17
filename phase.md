@@ -1872,3 +1872,51 @@ Critical workflows have automated or repeatable tests.
 ## Objective
 
 Make the system stable enough for repeated demos and real users.
+
+## Measure
+
+```text
+Frontend load time
+API latency
+Voice latency
+Simulation latency
+Database query time
+Error rate
+```
+
+## Improve
+
+```text
+Caching
+Lazy loading
+Database indexing
+Query optimization
+Background tasks
+Timeouts
+Retries where safe
+```
+
+### Definition of Done
+
+No major performance bottleneck exists in the core demo journey.
+
+---
+
+# PHASE 36 — OFFLINE / LOW-CONNECTIVITY SUPPORT
+
+## Objective
+
+Make core UX resilient to weak connectivity.
+
+## Cache
+
+Potentially cache:
+
+```text
+Business Profile
+Recent Memory
+Recent Dashboard
+UI Assets
+```
+
+## Queue
