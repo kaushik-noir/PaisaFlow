@@ -1649,3 +1649,52 @@ Follow-up
 
 ```text
 Insight
+ ↓
+Draft
+ ↓
+User Review
+ ↓
+User Approval
+ ↓
+Action
+ ↓
+Audit
+```
+
+## Rule
+
+No consequential external action without explicit approval.
+
+### Definition of Done
+
+A user can review, edit and approve a communication.
+
+---
+
+# PHASE 31 — PROACTIVE ALERTS & BUSINESS INSIGHTS
+
+## Objective
+
+Surface important changes automatically.
+
+## Alerts
+
+```text
+Payment Delay
+Cash Buffer Risk
+Inventory Attention
+Scenario Risk
+Important Business Event
+```
+
+## Alert Structure
+
+```text
+What happened?
+Why does it matter?
+What can I do?
+```
+
+Avoid notification spam.
+
+### Definition of Done
