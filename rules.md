@@ -512,3 +512,9 @@ Example:
 > **Updated today**
 
 ---
+
+# 9. Memory Rules
+
+Business Memory should preserve meaningful events.
+
+Possible event types:
