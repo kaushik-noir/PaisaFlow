@@ -76,3 +76,5 @@ PaisaFlow:
 Do not simply translate technical terminology.
 
 Instead of:
+
+> “Your DSCR is below the recommended threshold.”
