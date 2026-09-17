@@ -994,3 +994,13 @@ The microphone is a core brand element.
      ◌
 Samajh raha hoon...
 ```
+### Responding
+
+```text
+     🔊
+  Sun raha hai...
+```
+
+Animation should be subtle and performant.
+
+---
