@@ -271,3 +271,7 @@ Product philosophy: Simple outside; sophisticated inside.
 55–70 sec: Show evidence/assumptions and simple explanation.
 70–85 sec: Show Top 3 Actions, approval gate and memory update.
 Closing: “PaisaFlow does not just answer a business question. It maintains a living model of the business and helps the entrepreneur test what could happen before acting.”
+# 26. Final Product Definition
+PaisaFlow is a voice-first, evidence-aware business decision-support platform. Its central object is a Business Digital Twin representing the evolving state of a small business. Specialised modules cover money, market, operations, communication and risk; deterministic calculations and simulation engines produce scenario outputs; an AI layer explains those results in the user's language; and an approval-controlled action layer turns analysis into practical next steps.
+The product succeeds when a user who may not understand financial software can speak naturally, understand what is happening in the business, test a decision such as taking a loan or expanding, see assumptions and risks in simple language, choose an action, and return later to a system that remembers what happened.
+Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN.
