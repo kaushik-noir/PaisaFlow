@@ -1300,3 +1300,24 @@ Expected Outflows
 Receivables
 Payables
 Cash Buffer
+```
+
+## Explanation
+
+Example:
+
+> “Agle kuch din mein payments delay hue toh cash buffer tight ho sakta hai.”
+
+### Definition of Done
+
+PaisaFlow can explain the business's cash-flow situation in simple language.
+
+---
+
+# PHASE 23 — LOAN & REPAYMENT ENGINE
+
+## Objective
+
+Model financing scenarios.
+
+## Inputs
