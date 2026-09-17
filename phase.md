@@ -2071,3 +2071,16 @@ Local fallback where possible
 The demo can be reset and reproduced reliably.
 
 ---
+
+# PHASE 40 — SIH PRESENTATION INTEGRATION
+
+## Objective
+
+Make the product and presentation tell exactly the same story.
+
+## Presentation Narrative
+
+```text
+PROBLEM
+ ↓
+USER
