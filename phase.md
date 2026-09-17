@@ -445,3 +445,13 @@ Noto Sans Devanagari
 ```
 
 ## 04.3 Components
+
+Create:
+
+```text
+Button
+Card
+MetricCard
+StatusCard
+ActionCard
+ScenarioCard
