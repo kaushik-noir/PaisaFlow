@@ -42,3 +42,4 @@ TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
  What: voice-first AI Business Companion.
  Core object: Business Digital Twin.
  Core intelligence: evidence + deterministic finance + prediction/risk + what-if simulation.
+ Core UX: simple language, one question at a time, icons, voice and actionable outputs.
