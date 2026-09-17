@@ -822,3 +822,26 @@ audit_logs
 ```
 
 ---
+
+# 19. Frontend Rules
+
+Use:
+
+```text
+React
+Vite
+Tailwind CSS
+PWA
+```
+
+The frontend should:
+
+- Be responsive
+- Be mobile-first
+- Be accessible
+- Be voice-friendly
+- Avoid unnecessary complexity
+- Never contain secrets
+- Never become the source of truth for financial calculations
+
+---
