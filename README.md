@@ -132,3 +132,8 @@ AI Brain: Understands intent, maintains context and routes tasks.
 Money Module: Cash-flow, expenses, margins, repayment scenarios and financial summaries.
 Market Module: Hyper-local context, competition signals, demand indicators and opportunity evidence.
 Operations Module: Inventory, suppliers, recurring expenses and operating events.
+Risk Module: Stress tests, threshold alerts and uncertainty presentation.
+Communication Module: Drafts messages and summaries; no automatic sending without approval.
+Memory Module: Stores and retrieves business facts, events, decisions and outcomes.
+Evidence Module: Tracks source type, timestamp, confidence and provenance.
+
