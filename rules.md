@@ -518,3 +518,20 @@ Example:
 Business Memory should preserve meaningful events.
 
 Possible event types:
+
+```text
+FACT
+SALE
+PURCHASE
+PAYMENT
+CUSTOMER_EVENT
+INVENTORY_EVENT
+DECISION
+ACTION
+OUTCOME
+CORRECTION
+GOAL
+ASSUMPTION
+```
+
+---
