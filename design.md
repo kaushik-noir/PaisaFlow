@@ -847,3 +847,22 @@ kar dein."
 No consequential communication should be sent automatically without user approval.
 
 ---
+
+# 27. Screen 19 — Profile / Business Settings
+
+```text
+MY BUSINESS
+
+🏪 Business Profile
+💰 Financial Information
+📦 Inventory
+👥 Customers
+📍 Location
+🧠 Business Memory
+🔔 Alerts
+🌐 Language
+🔐 Privacy
+❓ Help
+```
+
+---
