@@ -718,3 +718,5 @@ Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LE
 | Repayment burden | EMI divided by operating surplus for a month |
 | Cash buffer | Closing cash expressed in months of fixed cost |
 | Top 3 Actions | The three highest-ranked next steps by urgency, value, confidence and preference |
+| Voice Khata | Conversational entry of credit, payment, purchase and expense transactions |
+| Facilitator | An authorised person who assists the owner with scoped access and an audit trail |
