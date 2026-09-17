@@ -187,3 +187,7 @@ main dairy expand karna chahta hoon."
 ↓
 
 Business uSmall Entrepreneur
+Rural / Semi-Urban Business Owner
+Low / Medium Digital Literacy
+```
+nderstanding
