@@ -558,3 +558,11 @@ Create routes for:
 
 ```text
 /
+ /onboarding
+ /talk
+ /home
+ /business
+ /simulation
+ /memory
+ /profile
+```
