@@ -1391,3 +1391,72 @@ Memory Update
 ```
 
 ---
+
+# 43. SIH Demo Rules
+
+The demo should tell one continuous story.
+
+Example:
+
+```text
+"Mere paas ₹1 lakh hai,
+dairy expand karna hai."
+
+        ↓
+
+PaisaFlow understands
+
+        ↓
+
+Business Digital Twin
+
+        ↓
+
+"Agar main ₹9 lakh loan loon?"
+
+        ↓
+
+Scenario Simulator
+
+        ↓
+
+Base
+Sales -20%
+Costs +15%
+Seasonal Shock
+
+        ↓
+
+Risk + Evidence
+
+        ↓
+
+Top 3 Actions
+
+        ↓
+
+Memory Update
+```
+
+Do not spend the demo on low-value features.
+
+---
+
+# 44. Demo Data Rules
+
+Demo data may be fictional, but it must be clearly treated as sample/demo data.
+
+Example:
+
+```text
+Business: Dairy
+Capital: ₹1,00,000
+Monthly Sales: ₹96,000
+Monthly Costs: ₹58,000
+Receivables: ₹18,500
+Loan Scenario: ₹9,00,000
+```
+
+Do not present fictional numbers as real-world statistics.
+
+---
