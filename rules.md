@@ -58,3 +58,8 @@ The user should be able to say:
 > “Mere paas ₹1 lakh hai, main dairy expand karna chahta hoon.”
 
 PaisaFlow should handle the underlying:
+
+```text
+Intent
++
+Business Context
