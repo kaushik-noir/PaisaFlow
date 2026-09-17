@@ -1361,3 +1361,37 @@ Loan scenarios are calculated independently and reproducibly.
 ## Objective
 
 Allow users to test business decisions.
+
+Hero:
+
+> **“Agar main ₹9 lakh ka loan loon?”**
+
+## Scenario Types
+
+```text
+Base Case
+Sales -20%
+Costs +15%
+Payment Delay
+Seasonal Shock
+Loan Scenario
+Expansion Scenario
+```
+
+## Pipeline
+
+```text
+Scenario
+ ↓
+Digital Twin
+ ↓
+Assumptions
+ ↓
+Simulation
+ ↓
+Validation
+ ↓
+Comparison
+ ↓
+Explanation
+```
