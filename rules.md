@@ -123,3 +123,18 @@ GST
 ↓
 
 "Dairy."
+
+↓
+
+"Monthly sales approx kitni hai?"
+
+↓
+
+"₹80,000."
+```
+
+---
+
+## Rule 3.3 — Use Simple Language
+
+Prefer:
