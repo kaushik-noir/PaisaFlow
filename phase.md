@@ -513,3 +513,15 @@ Result
 Actions
  ↓
 Memory
+```
+
+## 05.2 Secondary Flows
+
+```text
+Voice Khata
+Alerts
+Evidence
+Communication
+Profile
+Help
+```
