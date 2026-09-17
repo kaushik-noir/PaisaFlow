@@ -197,3 +197,24 @@ The loop from Learn back to Analyse is what makes the Twin persistent: every rec
 
 ## 7. Product Architecture
 
+PaisaFlow is a layered system in which the language model handles only understanding and explanation; state, arithmetic and simulation live in deterministic, testable layers.
+
+```mermaid
+flowchart TD
+  IN[Input layer<br/>voice · text · photo · tap] --> BR[PaisaFlow Brain<br/>intent · context · routing]
+  BR --> EV[Evidence layer<br/>records · events · permitted data]
+  BR --> MEM[Business Memory<br/>facts · events · decisions]
+  EV --> TW[Business Digital Twin<br/>money · market · ops · risk]
+  MEM --> TW
+  TW --> DC[Decision Core<br/>finance · forecast · rules · simulation]
+  DC --> EX[Explanation layer<br/>LLM in local language]
+  EX --> AC[Action layer<br/>Top 3 · alerts · drafts · reports]
+  AC --> LL[Learning loop<br/>outcomes back to Memory]
+  LL --> MEM
+```
+
+| Layer | Responsibility | Key rule |
+| --- | --- | --- |
+| Input layer | Capture voice, text, photos or scans of bills/khata pages, and simple tap choices | Every input is confirmed before it becomes a fact |
+| PaisaFlow Brain | Detect intent, manage conversation context, route to modules, orchestrate the response | The Brain never computes money; it routes to the Decision Core |
+| Evidence layer | Approved business records, timestamped events, permitted external data, official/public documents | Every item carries source type, timestamp and classification |
