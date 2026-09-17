@@ -157,3 +157,8 @@ Understand common difficulties:
 Freeze the core definition:
 
 > **PaisaFlow is a voice-first AI business companion that understands a small entrepreneur's business, maintains a Business Digital Twin, simulates future scenarios, explains the implications simply, and recommends actionable next steps.**
+
+## 00.3 Freeze the Core Loop
+
+```text
+TALK
