@@ -1238,3 +1238,380 @@ Every important recommendation should answer:
 ### WHAT?
 
 > “Repayment pressure may increase.”
+
+### WHY?
+
+> “Sales decline reduces available cash.”
+
+### BASED ON?
+
+> “Your current business data + selected assumptions.”
+
+### WHAT NEXT?
+
+> “Compare a lower loan amount or improve the cash buffer.”
+
+---
+
+# 42. Frontend Technical Design
+
+Recommended stack:
+
+```text
+React
+  +
+Vite
+  +
+Tailwind CSS
+  +
+PWA
+```
+
+Suggested structure:
+
+```text
+frontend/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── hooks/
+│   ├── services/
+│   ├── stores/
+│   ├── types/
+│   ├── utils/
+│   └── assets/
+│
+├── public/
+└── package.json
+```
+
+---
+
+# 43. Backend Design
+
+```text
+Python
+   +
+FastAPI
+```
+
+Suggested structure:
+
+```text
+backend/
+└── app/
+    ├── api/
+    ├── agents/
+    ├── business/
+    ├── digital_twin/
+    ├── finance/
+    ├── simulation/
+    ├── evidence/
+    ├── memory/
+    ├── market/
+    ├── risk/
+    ├── communication/
+    ├── models/
+    ├── schemas/
+    ├── services/
+    └── main.py
+```
+
+---
+
+# 44. API Design
+
+Suggested endpoints:
+
+```text
+POST /api/v1/auth/...
+POST /api/v1/voice/transcribe
+POST /api/v1/conversation/message
+
+GET  /api/v1/business
+POST /api/v1/business
+PATCH /api/v1/business
+
+GET  /api/v1/business/twin
+GET  /api/v1/business/memory
+
+POST /api/v1/finance/cashflow
+POST /api/v1/simulation/loan
+POST /api/v1/simulation/scenario
+
+GET  /api/v1/actions
+GET  /api/v1/alerts
+
+POST /api/v1/communication/draft
+POST /api/v1/communication/approve
+```
+
+Exact APIs can be refined during implementation.
+
+---
+
+# 45. Database Design
+
+Core entities:
+
+
+```text
+users
+businesses
+business_profiles
+business_facts
+business_events
+transactions
+customers
+suppliers
+inventory
+financing
+scenarios
+simulation_results
+risk_events
+market_evidence
+memory
+actions
+alerts
+communication_drafts
+approvals
+audit_logs
+```
+
+---
+
+# 46. Digital Twin Data Flow
+
+```text
+USER INPUT
+   ↓
+VALIDATION
+   ↓
+BUSINESS MEMORY
+   ↓
+DIGITAL TWIN STATE
+   ↓
+CALCULATION / ML
+   ↓
+SIMULATION
+   ↓
+RESULT
+   ↓
+EXPLANATION
+   ↓
+USER ACTION
+   ↓
+OUTCOME
+   ↓
+MEMORY UPDATE
+```
+
+---
+
+# 47. AI Guardrail Architecture
+
+Never:
+
+```text
+User
+ ↓
+LLM
+ ↓
+Financial Decision
+```
+Preferred:
+
+```text
+User
+ ↓
+LLM / Intent
+ ↓
+Structured Inputs
+ ↓
+Deterministic Finance Engine
+ ↓
+Simulation Engine
+ ↓
+Validated Results
+ ↓
+LLM Explanation
+ ↓
+User Approval
+```
+
+This separation is a core design requirement.
+
+---
+
+# 48. Low-Literacy Interaction Rules
+
+### Rule 1
+
+Never require typing when voice can perform the task.
+
+### Rule 2
+
+Ask one important question at a time.
+
+### Rule 3
+
+Confirm numbers
+
+### Rule 4
+
+Use examples from the user's own business.
+
+### Rule 5
+
+Prefer:
+
+> “Aapka paisa agle 7 din mein kitna aa sakta hai?”
+
+over:
+
+> “Projected short-term liquidity.”
+
+### Rule 6
+
+Every complex screen must have:
+
+> **🎙️ Mujhe samjhao**
+
+### Rule 7
+
+Use audio explanations for important decisions.
+
+---
+
+# 49. Poor Connectivity Strategy
+
+Design the product so lightweight operations can degrade gracefully.
+
+Possible approach:
+
+```text
+NETWORK AVAILABLE
+      ↓
+FULL EXPERIENCE
+
+NETWORK WEAK
+      ↓
+CACHE BUSINESS PROFILE
+CACHE RECENT MEMORY
+CACHE UI
+QUEUE SAFE LOCAL EVENTS
+      ↓
+SYNC WHEN AVAILABLE
+```
+
+Do not claim complete offline functionality unless it is actually implemented and tested.
+
+---
+
+# 50. First Prototype Screen Priority
+
+Do not build all screens before testing the core experience.
+
+Build first:
+
+```text
+01 Splash
+ ↓
+02 Language
+ ↓
+03 Voice Onboarding
+ ↓
+04 Voice Conversation
+ ↓
+05 Confirmation
+ ↓
+06 Home
+ ↓
+07 Digital Twin
+ ↓
+08 What-If Simulator
+ ↓
+09 Scenario Results
+ ↓
+10 Top 3 Actions
+ ↓
+11 Business Memory
+```
+
+Then:
+
+```text
+Voice Khata
+Evidence Mode
+Alerts
+Communication Draft
+Hyper-Local Radar
+```
+
+---
+
+# 51. SIH Demo UI Flow
+
+The complete demo should feel like one continuous story.
+
+```text
+LANDING
+   ↓
+NAMASTE
+   ↓
+VOICE
+   ↓
+"Mere paas ₹1 lakh hai..."
+   ↓
+CONFIRM
+   ↓
+BUSINESS DIGITAL TWIN
+   ↓
+"₹9 lakh loan?"
+   ↓
+WHAT-IF
+   ↓
+BASE
+SALES -20%
+COST +15%
+SEASONAL SHOCK
+   ↓
+   RISK + ASSUMPTIONS
+   ↓
+TOP 3 ACTIONS
+   ↓
+USER APPROVES
+   ↓
+MEMORY UPDATE
+```
+
+---
+
+# 52. Hero Screen
+
+The main screen shown to judges should communicate the entire product in seconds.
+
+```text
+
+┌────────────────────────────────┐
+│ PaisaFlow                 🔔   │
+│                                │
+│ Namaste 👋                     │
+│ Aaj business mein kya karna hai?│
+│                                │
+│          ┌───────┐             │
+│          │  🎙️   │             │
+│          └───────┘             │
+│          BOLIYE                │
+│                                │
+│ 🎯 Aaj ke Top 3 Actions       │
+│                                │
+│ 💰 Cash       🏪 Market        │
+│ 📦 Stock      💳 Payments      │
+│                                │
+│ 🧬 Business Twin               │
+└────────────────────────────────┘
+```
+
+---

@@ -445,3 +445,282 @@ Noto Sans Devanagari
 ```
 
 ## 04.3 Components
+
+Create:
+
+```text
+Button
+Card
+MetricCard
+StatusCard
+ActionCard
+ScenarioCard
+EvidenceCard
+MemoryEvent
+AlertCard
+VoiceButton
+Modal
+ConfirmationDialog
+```
+
+## 04.4 States
+
+Every component should define:
+
+```text
+Default
+Hover
+Active
+Disabled
+Loading
+Error
+Success
+```
+
+### Definition of Done
+
+A reusable design system exists before full screen development.
+
+---
+
+# PHASE 05 — UX FLOW & INFORMATION ARCHITECTURE
+
+## Objective
+
+Define how users move through PaisaFlow.
+
+## 05.1 Primary Flow
+
+```text
+Splash
+ ↓
+Language
+ ↓
+Onboarding
+ ↓
+Voice
+ ↓
+Confirmation
+ ↓
+Home
+ ↓
+Digital Twin
+ ↓
+Simulation
+ ↓
+Result
+ ↓
+Actions
+ ↓
+Memory
+```
+
+## 05.2 Secondary Flows
+
+```text
+Voice Khata
+Alerts
+Evidence
+Communication
+Profile
+Help
+```
+
+## 05.3 Error Flows
+
+Define:
+
+```text
+No microphone
+Speech failure
+Network failure
+Invalid data
+Missing information
+API failure
+External source failure
+```
+
+### Definition of Done
+
+Every primary journey has a defined happy path and error path.
+
+---
+
+# PHASE 06 — FRONTEND SHELL
+
+## Objective
+
+Build the basic React application.
+
+## 06.1 Routing
+
+Create routes for:
+
+```text
+/
+ /onboarding
+ /talk
+ /home
+ /business
+ /simulation
+ /memory
+ /profile
+```
+
+## 06.2 Layout
+
+Create:
+
+```text
+AppLayout
+TopBar
+BottomNavigation
+PageContainer
+```
+
+## 06.3 Theme
+
+Implement:
+
+```text
+Colors
+Typography
+Spacing
+Responsive breakpoints
+```
+
+### Definition of Done
+
+All primary pages are navigable.
+
+---
+
+# PHASE 07 — RESPONSIVE PWA FOUNDATION
+
+Implement:
+
+```text
+manifest
+icons
+service worker
+install experience
+```
+
+## 07.2 Responsive
+
+Test:
+
+```text
+360px
+390px
+430px
+768px
+1024px
+1280px+
+```
+
+## 07.3 Accessibility
+
+Implement:
+
+```text
+Keyboard navigation
+Focus states
+ARIA labels
+Touch targets
+Contrast
+Text alternatives
+```
+
+### Definition of Done
+
+PaisaFlow behaves like a mobile-first application on supported browsers.
+
+All primary pages are navigable.
+
+---
+
+# PHASE 07 — RESPONSIVE PWA FOUNDATION
+
+---
+
+# PHASE 08 — BACKEND FOUNDATION
+
+## Objective
+
+Build FastAPI application infrastructure.
+
+## 08.1 Structure
+
+```text
+backend/app/
+├── api/
+├── core/
+├── services/
+├── models/
+├── schemas/
+├── agents/
+├── business/
+├── finance/
+├── simulation/
+├── memory/
+├── evidence/
+└── main.py
+```
+├── memory/
+├── evidence/
+└── main.py
+```
+
+```text
+GET /api/v1/health
+```
+
+## 08.3 Error Handling
+
+Standardize:
+
+```text
+Validation Error
+Authentication Error
+Authorization Error
+Not Found
+Server Error
+External Service Error
+```
+
+### Definition of Done
+
+FastAPI is stable and ready for business services.
+
+---
+
+# PHASE 09 — DATABASE FOUNDATION
+
+## Objective
+
+Create persistent business data storage.
+
+## 09.1 Database
+
+Use:
+
+```text
+PostgreSQL
+```
+
+Use PostGIS where location-aware functionality requires it.
+Create persistent business data storage.
+
+## 09.1 Database
+
+Use:
+
+```text
+PostgreSQL
+```
+
+Use PostGIS where location-aware functionality requires it.
+
+inventory
+financing
