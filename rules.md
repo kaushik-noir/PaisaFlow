@@ -691,3 +691,31 @@ Do not expose private business data to unauthorized users.
 Do not execute consequential external actions without approval.
 
 ---
+
+# 14. Privacy Rules
+
+Collect only information necessary for the product's declared functions.
+
+Protect:
+
+```text
+Business Information
+Financial Information
+Customer Information
+Supplier Information
+Voice Data
+Authentication Data
+Location Data
+```
+
+Do not expose private information through:
+
+- Logs
+- Debug screens
+- Public APIs
+- Frontend source
+- Error messages
+
+---
+
+# 15. Security Rules
