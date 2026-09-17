@@ -277,7 +277,7 @@ The product succeeds when a user who may not understand financial software can s
 Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN.
 # 27. Reference & Design Basis
 SIH problem: SIH26091 title and FinTech framing are based on the problem statement supplied by the user.
-Presentation style: The earlier PaisaFlow presentation follows the user's uploaded Rail Cast SIH deck structure: numbered problem framing, proposed solution, innovation/uniqueness, technology, architecture, feasibility/viability and impact. The reference deck explicitly separates these sections and describes a software/API-integrable, scalable approach. fileciteturn1file0L10-L24 fileciteturn1file1L35-L43
+Presentation style: The earlier PaisaFlow presentation follows the user's uploaded Rail Cast SIH deck structure: numbered problem framing, proposed solution, innovation/uniqueness, technology, architecture, feasibility/viability and impact. The reference deck explicitly separates these sections and describes a software/API-integrable, scalable approach. 
 Scope note: No unsupported performance percentage, guaranteed loan approval, guaranteed profit or nationwide market-coverage claim is included in this PRD.
 
 | Field | Value |

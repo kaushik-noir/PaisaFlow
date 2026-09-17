@@ -710,3 +710,17 @@ PostgreSQL
 ```
 
 Use PostGIS where location-aware functionality requires it.
+Create persistent business data storage.
+
+## 09.1 Database
+
+Use:
+
+```text
+PostgreSQL
+```
+
+Use PostGIS where location-aware functionality requires it.
+
+inventory
+financing
