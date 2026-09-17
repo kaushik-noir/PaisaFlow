@@ -275,3 +275,15 @@ Closing: “PaisaFlow does not just answer a business question. It maintains a l
 PaisaFlow is a voice-first, evidence-aware business decision-support platform. Its central object is a Business Digital Twin representing the evolving state of a small business. Specialised modules cover money, market, operations, communication and risk; deterministic calculations and simulation engines produce scenario outputs; an AI layer explains those results in the user's language; and an approval-controlled action layer turns analysis into practical next steps.
 The product succeeds when a user who may not understand financial software can speak naturally, understand what is happening in the business, test a decision such as taking a loan or expanding, see assumptions and risks in simple language, choose an action, and return later to a system that remembers what happened.
 Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN.
+# 27. Reference & Design Basis
+SIH problem: SIH26091 title and FinTech framing are based on the problem statement supplied by the user.
+Presentation style: The earlier PaisaFlow presentation follows the user's uploaded Rail Cast SIH deck structure: numbered problem framing, proposed solution, innovation/uniqueness, technology, architecture, feasibility/viability and impact. The reference deck explicitly separates these sections and describes a software/API-integrable, scalable approach. fileciteturn1file0L10-L24 fileciteturn1file1L35-L43
+Scope note: No unsupported performance percentage, guaranteed loan approval, guaranteed profit or nationwide market-coverage claim is included in this PRD.
+
+| Field | Value |
+|---|---|
+| Version | 1.0 |
+| Date | 17 September 2026 |
+| Category | Software • FinTech |
+| Primary stack | Python + FastAPI + PostgreSQL/PostGIS + Web/PWA |
+| Core innovation | Business Digital Twin + Evidence Layer + What-if Simulation |
