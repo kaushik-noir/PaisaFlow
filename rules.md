@@ -313,3 +313,11 @@ Never invent:
 ## Rule 5.5 — No Fake Precision
 
 Avoid statements like:
+
+> “Your business will earn exactly ₹47,832 next month.”
+
+Prefer:
+
+> “Based on the assumptions, projected sales are around ₹X.”
+
+---
