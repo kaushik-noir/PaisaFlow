@@ -308,3 +308,13 @@ flowchart TD
 
 | Module | Inputs | Responsibilities | Outputs | Deterministic? |
 | --- | --- | --- | --- | --- |
+| AI Brain | Transcript, session context, Twin summary | Intent detection, slot filling, next-question selection, routing, response assembly | Structured intent object, module calls, final response | No (LLM + rules) |
+| Money module | Twin money state, assumptions | Cash-flow projection, expense and margin analysis, EMI and repayment schedules, financial summaries | Monthly projections, surplus, buffer, repayment burden | Yes |
+| Market module | Location, business category, permitted local data, user observations | Hyper-local context, competition signals, demand indicators, price observations, opportunity evidence | Market signals with source, date and confidence | Mostly (rules + data) |
+| Operations module | Inventory, suppliers, recurring expenses | Stock levels and movement, reorder needs, supplier terms, operating events | Inventory status, reorder suggestions, operating cost changes | Yes |
+| Risk module | Twin + scenario outputs | Stress tests, threshold alerts, uncertainty presentation, trigger evaluation | Risk flags, alert events, worst-case months | Yes |
+| Communication module | Twin, action list, user preference | Drafts messages and summaries in the user's language; never sends | Draft text with approve/edit/discard | No (LLM) but approval-gated |
+| Memory module | All approved inputs and outcomes | Store and retrieve facts, events, decisions, corrections, outcomes with timestamps | Event log, current fact set, timeline | Yes |
+| Evidence module | Every claim from other modules | Attach source type, timestamp, confidence and provenance; enforce labelling | Labelled claims (Fact / Observation / Estimate / AI inference) | Yes |
+
+**Routing rule.** The AI Brain produces a structured intent; if the intent needs a number, the Brain calls a deterministic module and passes the result to the Explanation layer. The Brain may not answer a numeric question from the language model directly.
