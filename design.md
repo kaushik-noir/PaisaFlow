@@ -68,3 +68,6 @@ PaisaFlow:
 "Mahine ki approx sales kitni hoti hai?"
 User:
 "₹80,000"
+PaisaFlow:
+"Monthly kharcha approx kitna hai?"
+```
