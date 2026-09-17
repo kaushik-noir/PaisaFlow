@@ -75,3 +75,11 @@ No-shame UX: include “Samajh nahi aa raha” with an example-based explanation
  Action over analytics: finish analysis with clear next actions.
  User control: require approval before external communication or consequential actions.
   Evidence visibility: important claims show evidence/source context and confidence where available.
+  # 6. Core User Journey
+- Enter → user opens PaisaFlow and taps/says “Boliye”.
+- State goal → “Mere paas ₹1 lakh hai, main dairy expand karna chahta hoon.”
+- Understand → speech is converted to intent and business entities.
+- Clarify → system asks only essential follow-up questions.
+- Build Twin → approved facts become the initial Business Digital Twin.
+- Analyse → money, market, operations and risk modules analyse the state.
+- Simulate → user changes loan/sales/cost/seasonality assumptions.
