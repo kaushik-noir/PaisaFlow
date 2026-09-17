@@ -278,3 +278,13 @@ Example:
 ## Rule 5.3 — Never Trust Unvalidated AI Output
 
 Before critical processing:
+
+```text
+AI Output
+ ↓
+Schema Validation
+ ↓
+Business Validation
+ ↓
+Calculation
+```
