@@ -136,4 +136,9 @@ Risk Module: Stress tests, threshold alerts and uncertainty presentation.
 Communication Module: Drafts messages and summaries; no automatic sending without approval.
 Memory Module: Stores and retrieves business facts, events, decisions and outcomes.
 Evidence Module: Tracks source type, timestamp, confidence and provenance.
+# 11. Business Digital Twin — Data Model
+Identity: Business ID, owner-provided profile, category, location and creation date.
+Money: Cash, revenue streams, expenses, receivables, payables and financing obligations.
+Market: Available local signals, competitor observations, pricing observations and demand assumptions.
+Operations: Inventory items, stock movement, suppliers and recurring operating events.
 
