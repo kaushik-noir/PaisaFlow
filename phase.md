@@ -141,7 +141,5 @@ Define:
 
 ```text
 Primary User
-Small Entrepreneur
-Rural / Semi-Urban Business Owner
-Low / Medium Digital Literacy
-```
+
+Understand common difficulties:
