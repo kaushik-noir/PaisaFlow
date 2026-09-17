@@ -691,3 +691,7 @@ The demo runs the complete dairy scenario in roughly 90 seconds, from first voic
 **Demo safeguards.** Pre-warmed backend, cached STT for the two scripted utterances with live fallback, seeded dairy dataset labelled as simulated, offline copy of the deck.
 
 ## 26. Final Product Definition
+
+PaisaFlow is a voice-first, evidence-aware business decision-support platform whose central object is a Business Digital Twin representing the evolving state of a small business.
+
+Specialised modules cover money, market, operations, communication and risk; deterministic calculation and simulation engines produce scenario outputs; an AI layer explains those results in the user's language; and an approval-controlled action layer turns analysis into practical next steps.
