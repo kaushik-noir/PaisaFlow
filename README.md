@@ -40,3 +40,4 @@ TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
 # PRD at a Glance
 - Who: rural/semi-urban micro-entrepreneurs and small business owners.
  What: voice-first AI Business Companion.
+ Core object: Business Digital Twin.
