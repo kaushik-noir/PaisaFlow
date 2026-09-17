@@ -1528,3 +1528,17 @@ Do not build:
 - A feature that cannot be explained to the target user
 
 ---
+
+# 48. Product Differentiation Rule
+
+The strongest differentiator is not:
+
+> “We use AI.”
+
+The system should demonstrate:
+
+> **A living Business Digital Twin + What-If Simulation + Evidence + Action + Memory**
+
+The product should feel like it understands the business over time.
+
+---
