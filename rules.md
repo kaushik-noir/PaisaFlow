@@ -217,3 +217,13 @@ Allow:
 ## Rule 4.6
 
 Support text when voice is unavailable.
+
+## Rule 4.7
+
+Never punish users for making mistakes.
+
+Correction should be easy:
+
+> **“Badalna hai”**
+
+---
