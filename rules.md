@@ -321,3 +321,7 @@ Prefer:
 > “Based on the assumptions, projected sales are around ₹X.”
 
 ---
+
+# 6. Financial Rules
+
+## Rule 6.1 — Calculations Must Be Reproducible
