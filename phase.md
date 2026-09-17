@@ -24,3 +24,4 @@ Each phase contains:
 - Dependencies
 - Testing
 - Definition of Done
+- Exit checkpoint
