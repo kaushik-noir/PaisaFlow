@@ -57,3 +57,8 @@ Expenses
 Inventory
 Customers
 Loan
+Interest
+Tenure
+Location
+...
+```
