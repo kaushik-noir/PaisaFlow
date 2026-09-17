@@ -14,3 +14,5 @@ PaisaFlow is a voice-first AI Business Companion that builds a living Digital Tw
  PaisaFlow is a voice-first, evidence-aware AI Business Companion built around a **Business Digital Twin** and a **What-if Simulation Engine**.
 ### Core Loop
 ```text
+TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
+```
