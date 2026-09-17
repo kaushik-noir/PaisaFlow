@@ -2202,3 +2202,61 @@ The team knows exactly what works, what does not, and what the demo fallback is 
 ## Objective
 
 Practice the exact presentation.
+
+## Rehearsal Flow
+
+```text
+OPEN
+ ↓
+INTRO
+ ↓
+VOICE
+ ↓
+BUSINESS
+ ↓
+TWIN
+ ↓
+₹9L SCENARIO
+ ↓
+STRESS TEST
+ ↓
+EVIDENCE
+ ↓
+TOP 3 ACTIONS
+ ↓
+MEMORY
+ ↓
+CLOSE
+```
+
+## Team Roles
+
+Define:
+
+```text
+Presenter
+Technical Operator
+Backup Operator
+Q&A Owner
+```
+
+## Rehearse Failure
+
+Prepare answers for:
+
+```text
+What if internet fails?
+What if voice fails?
+What if AI gives an unexpected response?
+What if simulation fails?
+```
+
+### Definition of Done
+
+The team can complete the demo without improvising core technical steps.
+
+---
+
+# PHASE 44 — PRODUCTION READINESS
+
+## Objective
