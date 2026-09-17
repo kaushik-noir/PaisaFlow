@@ -32,3 +32,5 @@ VOICE
   ↓
   TOP 3 ACTIONS
   ↓
+  USER APPROVES
+  ↓
