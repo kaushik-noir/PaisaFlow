@@ -638,3 +638,9 @@ Testing concentrates on three failure classes: wrong numbers, unsafe outputs and
 | Adversarial | Missing data, contradictory inputs, unrealistic numbers, ambiguous voice, unsupported local claims | "₹1 lakh" then "₹10 lakh"; "1 crore litre milk"; competitor question with no local data |
 | Safety | No guarantees from estimates; no external sending without approval | Banned-phrase scan; attempted send without approval is rejected |
 | Demo | Full dairy scenario from first voice input to simulation, action and memory update | Scripted run with timing |
+
+**Known-answer test set.** A spreadsheet of at least 10 business cases (dairy, kirana, tailoring) with hand-verified cash-flow, EMI and scenario results is the oracle for the finance engine; it is version-controlled with the code.
+
+## 23. Key Risks and Mitigations
+
+Eight risks could undermine the product or the demo; each has an owner-level mitigation built into the requirements above.
