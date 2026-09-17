@@ -9,14 +9,7 @@ android {
     namespace = "com.paisaflow.app"
     compileSdk = 34
 
-    defaultConfig {
-        applicationId = "com.paisaflow.app"
-        minSdk = 26
-        targetSdk = 34
-        versionCode = 1
-        versionName = "0.1.0"
-
-        // Android emulator reaches the host machine at 10.0.2.2.
+    
         // For a physical phone, change to your laptop's LAN IP.
         buildConfigField("String", "API_BASE_URL", "\"http://10.0.2.2:8000/\"")
     }
