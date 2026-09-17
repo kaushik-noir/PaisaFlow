@@ -661,3 +661,9 @@ Eight risks could undermine the product or the demo; each has an owner-level mit
 PaisaFlow does not compete on chat, RAG, EMI maths or translation; it competes on a persistent, evidence-aware model of one business and the ability to test decisions against it.
 
 | Do not compete on | Compete on |
+| --- | --- |
+| Generic chatbot | Persistent Business Digital Twin |
+| Generic RAG over documents | Evidence-aware reasoning with labels and provenance |
+| Generic EMI calculator | Scenario simulation with survivability view |
+| Language translation alone | Low-literacy voice UX with conceptual translation |
+| Feature count | Closed-loop learning from real outcomes |
