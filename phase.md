@@ -1543,3 +1543,109 @@ Add external and location-aware business intelligence.
 
 ```text
 External Source
+ ↓
+Retrieve
+ ↓
+Validate
+ ↓
+Timestamp
+ ↓
+Evidence Store
+ ↓
+Market Module
+ ↓
+Business Context
+```
+
+## Local
+
+Use PostGIS when appropriate.
+
+Potential:
+
+```text
+Nearby businesses
+Market signals
+Geographic patterns
+Local opportunities
+```
+
+## Rule
+
+No unsupported local claims.
+
+### Definition of Done
+
+The system can distinguish verified local evidence from estimates or unavailable information.
+
+---
+
+# PHASE 29 — RECOMMENDATION & ACTION ENGINE
+
+## Objective
+
+Convert analysis into practical next steps.
+
+## Action Format
+
+```text
+Action
+Reason
+Priority
+Source
+Status
+Approval Required
+```
+
+## Top 3
+
+Example:
+
+```text
+1. Follow up pending payments
+2. Review inventory
+3. Compare lower loan scenario
+```
+
+## Recommendation Logic
+
+```text
+Business State
++
+Evidence
++
+Scenario
++
+Risk
+ ↓
+Action Candidates
+ ↓
+Prioritize
+ ↓
+Top 3
+```
+
+### Definition of Done
+
+Important insights produce explainable and actionable next steps.
+
+---
+
+# PHASE 30 — COMMUNICATION & APPROVAL SYSTEM
+
+## Objective
+
+Allow PaisaFlow to prepare external communications while keeping the user in control.
+
+## Examples
+
+```text
+Customer Payment Reminder
+Supplier Message
+Follow-up
+```
+
+## Flow
+
+```text
+Insight
