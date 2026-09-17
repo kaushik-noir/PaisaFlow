@@ -89,3 +89,5 @@ Advanced users can open:
 ---
 
 ## 2.4 Action Over Analytics
+
+Every major analysis should end with:
