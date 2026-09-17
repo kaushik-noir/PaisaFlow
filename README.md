@@ -225,4 +225,13 @@ Phase 7 — Evidence Layer: Source/provenance, confidence, timestamps and assump
 Phase 8 — Actions & Alerts: Top 3 actions, reminders, drafts and approval flow.
 Phase 9 — Field UX: Low-literacy refinement, facilitator mode, Voice Khata and OCR.
 Phase 10 — SIH Hardening: Seed demo data, test failure cases, correctness, latency, explainability and presentation flow.
+# 21. Success Metrics
+Activation: Percentage of test users who can create a business profile without tutorial assistance.
+Voice task completion: Percentage completing a core task using voice.
+Extraction accuracy: Rate of correct entity extraction without correction.
+Simulation correctness: Deterministic calculations match independently verified test cases.
+Action usefulness: User/facilitator rating of whether actions are understandable and relevant.
+Evidence coverage: Percentage of important claims showing source/assumption metadata.
+Approval safety: Percentage of consequential actions blocked until explicit approval.
+State continuity: Ability to reproduce and explain a business state after new events.
 
