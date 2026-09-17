@@ -37,3 +37,5 @@ AI-Driven Hyper-Local Business Advisory and Financial
 Structuring Assistant
 for Rural Micro-Entrepreneurs
 TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
+# PRD at a Glance
+- Who: rural/semi-urban micro-entrepreneurs and small business owners.
