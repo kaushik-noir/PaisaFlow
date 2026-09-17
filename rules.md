@@ -482,3 +482,17 @@ Memory
 ```
 
 ---
+
+## Rule 8.1 — The Twin Must Evolve
+
+When verified business events change:
+
+```text
+Event
+ ↓
+Memory
+ ↓
+Twin Update
+```
+
+---
