@@ -445,3 +445,9 @@ vs
 ```
 
 ---
+
+## Rule 7.4
+
+Simulation output must not be confused with reality.
+
+Use:
