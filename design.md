@@ -63,3 +63,6 @@ Location
 ...
 ```
 ### Prefer
+```text
+PaisaFlow:
+"Mahine ki approx sales kitni hoti hai?"
