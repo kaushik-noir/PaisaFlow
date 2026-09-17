@@ -391,3 +391,5 @@ Avoid unnecessary animation.
 ```
 
 Future language expansion can include additional supported regional languages.
+
+---
