@@ -127,4 +127,8 @@ K7 — Low-Literacy UX: Icons, voice, one-question screens, examples and “Sama
 K8 — Business Health Story: Explains the biggest issue and why rather than only showing a score.
 K9 — Proactive Alerts: Surfaces important business changes without waiting for a query.
 K10 — Family / Assisted Mode: Simple visual/audio summaries and authorised assistance.
-
+# 10. Agent / Module Design
+AI Brain: Understands intent, maintains context and routes tasks.
+Money Module: Cash-flow, expenses, margins, repayment scenarios and financial summaries.
+Market Module: Hyper-local context, competition signals, demand indicators and opportunity evidence.
+Operations Module: Inventory, suppliers, recurring expenses and operating events.
