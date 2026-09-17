@@ -209,5 +209,9 @@ Observability: Log operational errors/metrics while avoiding unnecessary sensiti
 - Do not let the LLM directly perform financial calculations when deterministic logic can do so.
 - Maintain an audit trail for user approvals and major business-state changes.
 - Provide correction and appropriate deletion workflows.
-
+# 19. MVP Scope for SIH
+Must have: Voice onboarding; business profile; Business Memory; Digital Twin; basic cash-flow; loan/expansion what-if simulator; health report; Top 3 Actions; evidence/assumption display; basic alerts; seeded demo data.
+Should have: Voice Khata; bill/khata OCR; family report; business experiment mode; facilitator mode; multilingual output.
+Could have: Hyper-local opportunity map; supplier intelligence; advanced demand model; WhatsApp integration; richer notifications.
+Not required for first demo: Full banking integration, automated loan application, autonomous money movement, guaranteed credit scoring, complete offline operation or nationwide market coverage.
 
