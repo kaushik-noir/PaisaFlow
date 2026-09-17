@@ -578,3 +578,19 @@ Avoid making a single opaque score the main output.
 
 ```text
 BUSINESS HEALTH
+
+🟢 Cash-flow
+Stable
+
+🟡 Payments
+3 delayed
+
+🟢 Inventory
+Healthy
+
+🟡 Expansion
+Needs review
+
+🔴 Repayment
+Stress under downside scenario
+```
