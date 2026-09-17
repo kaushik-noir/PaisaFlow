@@ -713,3 +713,8 @@ Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LE
 | Business Digital Twin | Structured, versioned model of one business's money, market, operations, customers, financing and risk, derived from the event log |
 | Business Memory | Append-only log of approved facts, events, transactions, corrections, decisions and outcomes |
 | Evidence label | One of FACT, OBSERVATION, ESTIMATE, AI INFERENCE attached to every important value |
+| Provenance | Source type, reference, timestamp and classification stored with a value |
+| What-if simulation | Deterministic projection of the Twin under a proposed decision and a set of scenarios |
+| Repayment burden | EMI divided by operating surplus for a month |
+| Cash buffer | Closing cash expressed in months of fixed cost |
+| Top 3 Actions | The three highest-ranked next steps by urgency, value, confidence and preference |
