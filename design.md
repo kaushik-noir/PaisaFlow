@@ -272,3 +272,9 @@ Production implementation should use a consistent SVG icon library rather than e
 # 7. Layout System
 
 ## Mobile-first
+
+Primary design target:
+
+```text
+360–430 px
+```
