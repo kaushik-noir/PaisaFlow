@@ -36,3 +36,5 @@ VOICE
   ↓
   ACTION
   ↓
+  MEMORY
+```
