@@ -1,6 +1,5 @@
 # PaisaFlow — Master Development Phase Blueprint
-
-**SIH Problem Statement:** SIH26091  
+ 
 **Product:** PaisaFlow  
 **Version:** 2.0  
 **Purpose:** Detailed step-by-step construction plan for the complete PaisaFlow system.
@@ -769,3 +768,958 @@ Potential roles:
 Owner
 Assisted User
 Admin
+```
+
+### Definition of Done
+
+Unauthorized users cannot access another user's business data.
+
+---
+
+# PHASE 11 — BUSINESS ONBOARDING
+
+## Objective
+
+Allow a new entrepreneur to create their business conversationally.
+
+## 11.1 Initial Questions
+
+Ask only what is necessary.
+
+Example:
+
+```text
+Business type?
+Business goal?
+Approximate monthly sales?
+Approximate monthly expenses?
+Available capital?
+```
+
+## 11.2 Confirmation
+
+Show extracted values:
+
+```text
+Business: Dairy
+Capital: ₹1,00,000
+Goal: Expansion
+```
+
+Buttons:
+
+```text
+Haan
+Badalna
+```
+
+### Definition of Done
+
+A new business can be created without filling a complex form.
+
+---
+
+# PHASE 12 — BUSINESS PROFILE SYSTEM
+
+## Objective
+
+Create the persistent business identity.
+
+## Profile
+
+Store:
+
+```text
+Business name
+Business type
+Owner
+Location where required
+Goal
+Operating information
+Financial summary
+```
+
+## Profile API
+
+```text
+GET /business
+POST /business
+PATCH /business
+```
+
+### Definition of Done
+
+Business profile can be created, viewed and corrected.
+
+
+---
+
+# PHASE 13 — BUSINESS DATA & TRANSACTION ENGINE
+
+## Objective
+
+Convert business activity into structured data.
+
+## 13.1 Transaction Types
+
+```text
+SALE
+PURCHASE
+PAYMENT_RECEIVED
+EXPENSE
+RECEIVABLE
+PAYABLE
+```
+
+## 13.2 Inventory Events
+
+```text
+STOCK_IN
+STOCK_OUT
+ADJUSTMENT
+```
+
+## 13.3 Event Validation
+
+Validate:
+
+```text
+Amount
+Date
+Entity
+Quantity
+Transaction type
+```
+
+### Definition of Done
+
+Business events can update the business state correctly.
+
+---
+
+# PHASE 14 — VOICE INPUT/OUTPUT INFRASTRUCTURE
+
+## Objective
+
+Build reliable voice infrastructure.
+
+## Flow
+
+```text
+Microphone
+ ↓
+Audio Capture
+ ↓
+Speech-to-Text
+ ↓
+Transcript
+ ↓
+Response
+ ↓
+Text-to-Speech
+ ↓
+Audio
+```
+
+## 14.1 Voice States
+
+```text
+IDLE
+LISTENING
+PROCESSING
+RESPONDING
+ERROR
+```
+
+## 14.2 Language
+
+Initial target:
+
+```text
+Hindi
+Hinglish
+English
+```
+
+### Definition of Done
+
+A user can speak and hear a response.
+
+---
+
+# PHASE 15 — CONVERSATION ENGINE
+
+## Objective
+
+Manage multi-turn conversation.
+
+## 15.1 Conversation State
+
+Track:
+
+```text
+conversation_id
+ language
+intent
+known_facts
+missing_facts
+last_question
+```
+
+## 15.2 Follow-Up
+
+Rule:
+
+```text
+One question
+ ↓
+User answer
+ ↓
+Update context
+ ↓
+Next question
+```
+
+## 15.3 Correction
+
+Allow:
+
+> “Nahi, ₹80,000 nahi ₹85,000.”
+
+### Definition of Done
+
+PaisaFlow can maintain a coherent multi-turn conversation.
+
+---
+
+# PHASE 16 — PAISAFLOW AI BRAIN
+
+## Objective
+
+Create the central AI orchestration layer.
+
+## 16.1 Brain Responsibilities
+
+```text
+Understand
+Extract
+Route
+Retrieve context
+Call tools
+Explain
+```
+
+## 16.2 Tool Architecture
+
+## 16.1 Brain Responsibilities
+
+```text
+Understand
+Extract
+Route
+Retrieve context
+Call tools
+Explain
+```
+
+## 16.2 Tool Architecture
+
+
+The Brain must not bypass deterministic financial engines.
+
+### Definition of Done
+
+A natural-language request reaches the correct service.
+
+---
+
+# PHASE 17 — INTENT & ENTITY EXTRACTION
+
+## Objective
+
+Turn natural language into structured commands.
+
+## Intent Examples
+
+```text
+CREATE_BUSINESS
+UPDATE_BUSINESS
+ADD_TRANSACTION
+ASK_FINANCE
+SIMULATE_LOAN
+SIMULATE_SCENARIO
+VIEW_TWIN
+VIEW_MEMORY
+ASK_MARKET
+GET_ACTIONS
+CREATE_MESSAGE
+```
+
+## Entity Examples
+
+```text
+Amount
+Date
+Customer
+Supplier
+Product
+Business Type
+Loan Amount
+Percentage
+Goal
+```
+
+### Example
+
+Input:
+
+> “Ramesh ko ₹850 ka maal diya.”
+
+Output:
+
+```json
+{
+  "intent": "ADD_TRANSACTION",
+  "customer": "Ramesh",
+  "amount": 850,
+  "transaction_type": "SALE",
+  "payment_status": "PENDING"
+}
+```
+
+### Definition of Done
+
+Representative Hindi/Hinglish/English inputs produce validated structured data.
+
+---
+
+# PHASE 18 — CONTEXT MANAGEMENT
+
+## Objective
+
+Make every AI response aware of the relevant business context.
+
+## Context Stack
+
+```text
+Current Message
++
+Conversation State
++
+Business Profile
++
+Relevant Memory
++
+Digital Twin
++
+Evidence
+```
+
+## Context Selection
+
+## Memory Types
+
+```text
+FACT
+SALE
+PURCHASE
+PAYMENT
+DECISION
+ACTION
+OUTCOME
+CORRECTION
+GOAL
+ASSUMPTION
+```
+
+## Pipeline
+
+```text
+Conversation
+ ↓
+Event Extraction
+ ↓
+Validation
+ ↓
+Memory Event
+ ↓
+Database
+ ↓
+Twin Update
+```
+
+## Timeline UI
+
+```text
+TODAY
+✓ ₹850 sale
+✓ ₹2,500 payment
+
+YESTERDAY
+✓ Inventory update
+```
+
+### Definition of Done
+
+Business history survives across sessions and can affect future context.
+
+---
+
+# PHASE 20 — BUSINESS DIGITAL TWIN
+
+## Objective
+
+Create a living mode
+```text
+Current Message
++
+Conversation State
++
+Business Profile
++
+Relevant Memory
++
+Digital Twin
++
+Evidence
+```
+
+## Context Selection
+l of the business.
+
+## Twin Inputs
+
+```text
+Profile
+Money
+Transactions
+Inventory
+Customers
+Suppliers
+Goals
+Risk
+Market
+Memory
+```
+
+## Twin Update
+
+```text
+Event
+ ↓
+Validation
+ ↓
+State Calculation
+ ↓
+Twin Update
+ ↓
+Persist
+```
+
+## Twin Views
+
+```text
+Money
+Market
+Operations
+Risk
+```
+
+### Definition of Done
+
+The Digital Twin accurately reflects the current structured business state.
+
+---
+
+# PHASE 21 — FINANCIAL CALCULATION ENGINE
+
+## Objective
+
+Create deterministic financial calculations.
+
+## Functions
+
+```text
+Revenue
+Expenses
+Cash-flow
+Margin
+Receivables
+Payables
+EMI
+Loan repayment
+Cash buffer
+```
+
+## Rule
+
+Financial calculations must not depend on free-form LLM arithmetic.
+
+## Testing
+
+Test:
+
+```text
+Normal
+Zero
+Boundary
+Large
+Invalid
+```
+
+### Definition of Done
+
+Financial calculations are deterministic, validated and tested.
+
+---
+
+# PHASE 22 — CASH-FLOW INTELLIGENCE
+
+## Objective
+
+Turn financial records into understandable cash-flow information.
+
+## Model
+
+```text
+Opening Cash
++
+Inflows
+-
+Outflows
+=
+Closing Cash
+```
+
+## Views
+
+```text
+Current Cash
+Expected Inflows
+Expected Outflows
+Receivables
+Payables
+Cash Buffer
+```
+
+## Explanation
+
+Example:
+
+> “Agle kuch din mein payments delay hue toh cash buffer tight ho sakta hai.”
+
+### Definition of Done
+
+PaisaFlow can explain the business's cash-flow situation in simple language.
+
+---
+
+# PHASE 23 — LOAN & REPAYMENT ENGINE
+
+## Objective
+
+Model financing scenarios.
+
+## Inputs
+
+```text
+Principal
+Interest Rate
+Tenure
+```
+
+## Outputs
+
+```text
+EMI
+Total Interest
+Total Repayment
+Repayment Schedule
+Cash-flow Impact
+```
+
+## Important
+
+This engine estimates scenario consequences.
+
+It must not claim:
+
+```text
+Guaranteed Loan Approval
+Guaranteed Rate
+Guaranteed Profit
+```
+
+### Definition of Done
+
+Loan scenarios are calculated independently and reproducibly.
+
+---
+
+# PHASE 24 — WHAT-IF SIMULATION ENGINE
+
+## Objective
+
+Allow users to test business decisions.
+
+Hero:
+
+> **“Agar main ₹9 lakh ka loan loon?”**
+
+## Scenario Types
+
+```text
+Base Case
+Sales -20%
+Costs +15%
+Payment Delay
+Seasonal Shock
+Loan Scenario
+Expansion Scenario
+```
+
+## Pipeline
+
+```text
+Scenario
+ ↓
+Digital Twin
+ ↓
+Assumptions
+ ↓
+Simulation
+ ↓
+Validation
+ ↓
+Comparison
+ ↓
+Explanation
+```
+
+## Comparison
+
+```text
+₹7L Loan
+vs
+₹9L Loan
+```
+
+### Definition of Done
+
+Users can change scenario variables and receive validated comparison results.
+
+---
+
+# PHASE 25 — RISK & STRESS TESTING
+
+## Objective
+
+Understand how the business behaves under adverse conditions.
+
+## Stress Factors
+
+```text
+Sales decline
+Cost increase
+Delayed payments
+Seasonality
+Higher repayment burden
+Inventory pressure
+```
+
+## Risk Output
+
+```text
+Risk Factor
+Impact
+Severity
+Explanation
+Possible Action
+```
+
+Do not use an unexplained single risk score as the only output.
+
+### Definition of Done
+
+The system can identify and explain important downside scenarios.
+
+---
+
+# PHASE 26 — FORECASTING & ML
+
+## Objective
+
+Introduce prediction only after reliable historical data and deterministic foundations exist.
+
+## Potential Models
+
+```text
+Sales Forecast
+Demand Forecast
+Anomaly Detection
+Risk Pattern Detection
+Trend Detection
+```
+
+## ML Pipeline
+
+```text
+Historical Data
+ ↓
+Cleaning
+ ↓
+Feature Engineering
+ ↓
+Model
+ ↓
+Prediction
+ ↓
+Uncertainty / Confidence
+ ↓
+Explanation
+```
+
+## Rule
+
+ML predictions must not silently replace user-provided facts.
+
+### Definition of Done
+
+At least one useful ML capability is validated against a defined test dataset.
+
+---
+
+# PHASE 27 — EVIDENCE & PROVENANCE ENGINE
+
+## Objective
+
+Make results traceable.
+
+## Evidence Types
+
+```text
+USER-PROVIDED FACT
+CALCULATED
+EXTERNAL SOURCE
+ESTIMATE
+ASSUMPTION
+AI INFERENCE
+```
+
+## Evidence Record
+
+```text
+source
+claim
+source_type
+retrieved_at
+published_at
+freshness
+confidence
+```
+
+## UI
+
+```text
+Based on:
+✓ Your business data
+✓ PaisaFlow calculation
+✓ Selected assumptions
+```
+
+### Definition of Done
+
+Important outputs can explain where their inputs came from.
+
+---
+
+# PHASE 28 — MARKET & LOCAL INTELLIGENCE
+
+## Objective
+
+Add external and location-aware business intelligence.
+
+## Pipeline
+
+```text
+External Source
+ ↓
+Retrieve
+ ↓
+Validate
+ ↓
+Timestamp
+ ↓
+Evidence Store
+ ↓
+Market Module
+ ↓
+Business Context
+```
+
+## Local
+
+Use PostGIS when appropriate.
+
+Potential:
+
+```text
+Nearby businesses
+Market signals
+Geographic patterns
+Local opportunities
+```
+
+## Rule
+
+No unsupported local claims.
+
+### Definition of Done
+
+The system can distinguish verified local evidence from estimates or unavailable information.
+
+---
+
+# PHASE 29 — RECOMMENDATION & ACTION ENGINE
+
+## Objective
+
+Convert analysis into practical next steps.
+
+## Action Format
+
+```text
+Action
+Reason
+Priority
+Source
+Status
+Approval Required
+```
+
+## Top 3
+
+Example:
+
+```text
+1. Follow up pending payments
+2. Review inventory
+3. Compare lower loan scenario
+```
+
+## Recommendation Logic
+
+```text
+Business State
++
+Evidence
++
+Scenario
++
+Risk
+ ↓
+Action Candidates
+ ↓
+Prioritize
+ ↓
+Top 3
+```
+
+### Definition of Done
+
+Important insights produce explainable and actionable next steps.
+
+---
+
+# PHASE 30 — COMMUNICATION & APPROVAL SYSTEM
+
+## Objective
+
+Allow PaisaFlow to prepare external communications while keeping the user in control.
+
+## Examples
+
+```text
+Customer Payment Reminder
+Supplier Message
+Follow-up
+```
+
+## Flow
+
+```text
+Insight
+ ↓
+Draft
+ ↓
+User Review
+ ↓
+User Approval
+ ↓
+Action
+ ↓
+Audit
+```
+
+## Rule
+
+No consequential external action without explicit approval.
+
+### Definition of Done
+
+A user can review, edit and approve a communication.
+
+---
+
+# PHASE 31 — PROACTIVE ALERTS & BUSINESS INSIGHTS
+
+## Objective
+
+Surface important changes automatically.
+
+## Alerts
+
+```text
+Payment Delay
+Cash Buffer Risk
+Inventory Attention
+Scenario Risk
+Important Business Event
+```
+
+## Alert Structure
+
+```text
+What happened?
+Why does it matter?
+What can I do?
+```
+
+Avoid notification spam.
+
+### Definition of Done
+
+At least the core alert types are generated from real business state.
+
+---
+
+# PHASE 32 — FULL SYSTEM INTEGRATION
+
+## Objective
+
+Connect every core module into one continuous product.
+
+## Full Flow
+
+```mermaid
+flowchart LR
+    USER[User]
+    VOICE[Voice]
+    BRAIN[AI Brain]
+    MEMORY[Memory]
+    TWIN[Digital Twin]
+    FIN[Finance]
+    SIM[Simulation]
+    RISK[Risk]
+    EVIDENCE[Evidence]
+    ACTION[Actions]

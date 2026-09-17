@@ -1,6 +1,5 @@
 # PaisaFlow — Product, Engineering & AI Rules
-
-**Problem Statement:** SIH26091  
+ 
 **Product:** PaisaFlow  
 **Rules Version:** 1.0  
 **Status:** Master Project Rules
@@ -307,5 +306,651 @@ Never invent:
 - Local demand
 - Business performance
 - External evidence
+
+---
+
+## Rule 5.5 — No Fake Precision
+
+Avoid statements like:
+
+> “Your business will earn exactly ₹47,832 next month.”
+
+Prefer:
+
+> “Based on the assumptions, projected sales are around ₹X.”
+
+---
+
+# 6. Financial Rules
+
+## Rule 6.1 — Calculations Must Be Reproducible
+
+Important financial calculations should be deterministic.
+
+Examples:
+
+```text
+EMI
+Cash-flow
+Loan schedule
+Revenue
+Expenses
+Cash buffer
+Scenario impact
+```
+
+---
+
+## Rule 6.2 — Separate Fact From Estimate
+
+Every important result should distinguish:
+
+```text
+FACT
+OBSERVATION
+ESTIMATE
+ASSUMPTION
+AI INFERENCE
+```
+
+---
+
+## Rule 6.3 — No Guaranteed Outcomes
+
+Never present a simulation as:
+
+- Guaranteed profit
+- Guaranteed repayment
+- Guaranteed loan approval
+- Guaranteed business growth
+- Guaranteed future performance
+
+Use scenario language:
+
+> “Is assumption ke under…”
+
+---
+
+## Rule 6.4 — Show Assumptions
+
+A scenario should expose important assumptions.
+
+Example:
+
+```text
+Loan: ₹9,00,000
+Sales: ₹96,000/month
+Costs: ₹58,000/month
+Sales shock: -20%
+Cost shock: +15%
+```
+
+---
+
+# 7. What-If Simulator Rules
+
+The What-If Simulator is a core PaisaFlow feature.
+
+## Rule 7.1
+
+Every simulation must identify the scenario.
+
+Examples:
+
+```text
+Base Case
+Sales -20%
+Costs +15%
+Payment Delay
+Seasonal Shock
+Loan Scenario
+Expansion Scenario
+```
+
+---
+
+
+## Rule 7.2
+
+Every result should show:
+
+```text
+Scenario
+ ↓
+Inputs
+ ↓
+Assumptions
+ ↓
+Calculated Effects
+ ↓
+Risk
+ ↓
+Explanation
+ ↓
+Actions
+```
+
+---
+
+## Rule 7.3
+
+Users should be able to compare scenarios.
+
+Example:
+
+```text
+₹7L Loan
+vs
+₹9L Loan
+```
+
+---
+
+## Rule 7.4
+
+Simulation output must not be confused with reality.
+
+Use:
+
+> “Projected”
+
+> “Estimated”
+
+> “Under this scenario”
+
+where appropriate.
+
+---
+
+# 8. Business Digital Twin Rules
+
+The Digital Twin is the central representation of the business.
+
+It should reflect:
+
+```text
+Business Profile
+Financial State
+Transactions
+Inventory
+Customers
+Suppliers
+Goals
+Risks
+Market Evidence
+Memory
+```
+
+---
+
+## Rule 8.1 — The Twin Must Evolve
+
+When verified business events change:
+
+```text
+Event
+ ↓
+Memory
+ ↓
+Twin Update
+```
+
+---
+
+## Rule 8.2 — Do Not Silently Change Important Facts
+
+Important facts should have provenance and, where appropriate, user confirmation.
+
+---
+
+## Rule 8.3 — Show Last Updated State
+
+The UI should make data freshness understandable.
+
+Example:
+
+> **Updated today**
+
+---
+
+# 9. Memory Rules
+
+Business Memory should preserve meaningful events.
+
+Possible event types:
+
+```text
+FACT
+SALE
+PURCHASE
+PAYMENT
+CUSTOMER_EVENT
+INVENTORY_EVENT
+DECISION
+ACTION
+OUTCOME
+CORRECTION
+GOAL
+ASSUMPTION
+```
+
+---
+
+## Rule 9.1
+
+Memory should not be treated as an unlimited dump of conversation text.
+
+Store structured business events where possible.
+
+---
+
+## Rule 9.2
+
+Important memory should retain:
+
+```text
+Source
+Date
+Business
+Event
+Confidence
+Confirmation
+```
+
+---
+
+## Rule 9.3
+
+Corrections Must Be Possible
+
+If PaisaFlow records:
+
+> “Ramesh ko ₹850 diya.”
+
+but the user says:
+
+> “Nahi, ₹580 tha.”
+
+the system should allow correction and preserve the relevant audit trail.
+
+---
+
+# 10. Evidence Rules
+
+Evidence should make PaisaFlow trustworthy.
+
+Every meaningful external claim should ideally include:
+
+```text
+Source
+Timestamp
+Freshness
+Claim
+Evidence Type
+Confidence
+```
+
+---
+
+## Rule 10.1 — Evidence Types
+
+Use:
+
+```text
+USER-PROVIDED
+CALCULATED
+EXTERNAL SOURCE
+ESTIMATE
+ASSUMPTION
+AI INFERENCE
+```
+
+---
+
+## Rule 10.2 — No Unsupported Local Intelligence
+
+If the system does not have evidence for a local claim, do not present it as fact.
+
+---
+
+## Rule 10.3 — Freshness Matters
+
+Market information should display an appropriate update/retrieval time.
+
+---
+
+# 11. Communication Rules
+
+PaisaFlow may prepare communications.
+
+Example:
+
+```text
+Customer Follow-up
+Payment Reminder
+Supplier Message
+```
+
+But:
+
+> **PaisaFlow should not automatically perform consequential external actions without user approval.**
+
+Required flow:
+
+```text
+DRAFT
+ ↓
+REVIEW
+ ↓
+APPROVE
+ ↓
+SEND / ACTION
+```
+
+---
+
+# 12. User Control Rules
+
+The user must remain in control of:
+
+- Business facts
+- Corrections
+- Scenario assumptions
+- Important recommendations
+- External communications
+- Consequential actions
+
+The system should never make the user feel that an irreversible action happened without their knowledge.
+
+---
+
+# 13. Safety Rules
+
+## Rule 13.1
+
+Do not fabricate financial facts.
+
+## Rule 13.2
+
+Do not present estimates as certainty.
+
+## Rule 13.3
+
+Do not hide assumptions.
+
+## Rule 13.4
+
+Do not hide important uncertainty.
+
+## Rule 13.5
+
+Do not expose private business data to unauthorized users.
+
+## Rule 13.6
+
+Do not execute consequential external actions without approval.
+
+---
+
+# 14. Privacy Rules
+
+Collect only information necessary for the product's declared functions.
+
+Protect:
+
+```text
+Business Information
+Financial Information
+Customer Information
+Supplier Information
+Voice Data
+Authentication Data
+Location Data
+```
+
+Do not expose private information through:
+
+- Logs
+- Debug screens
+- Public APIs
+- Frontend source
+- Error messages
+
+---
+
+# 15. Security Rules
+
+Mandatory principles:
+
+```text
+HTTPS
+Secure Authentication
+Authorization
+Input Validation
+Rate Limiting
+Secret Management
+Least Privilege
+Audit Logging
+```
+
+Never commit:
+
+```text
+API keys
+Passwords
+Database credentials
+Private tokens
+Production secrets
+```
+
+to Git.
+
+---
+
+# 16. API Rules
+
+All APIs should use versioning.
+
+Recommended:
+
+```text
+/api/v1/
+```
+
+API responsibilities:
+
+- Validate requests
+- Authenticate users
+- Authorize access
+- Call services
+- Return structured responses
+- Handle errors consistently
+
+The frontend should not directly access protected databases.
+
+---
+
+# 17. Backend Rules
+
+Use Python/FastAPI for the core backend.
+
+Recommended separation:
+
+```text
+API
+ ↓
+SERVICE
+ ↓
+DOMAIN / ENGINE
+ ↓
+DATABASE
+```
+
+Do not put complex business logic directly inside API route handlers.
+
+---
+
+# 18. Database Rules
+
+PostgreSQL is the primary structured database.
+
+PostGIS is used where geospatial functionality is required.
+
+Core entities include:
+
+```text
+users
+businesses
+business_profiles
+business_facts
+business_events
+transactions
+customers
+suppliers
+inventory
+financing
+scenarios
+simulation_results
+risk_events
+market_evidence
+memory
+actions
+alerts
+communication_drafts
+approvals
+audit_logs
+```
+
+---
+
+# 19. Frontend Rules
+
+Use:
+
+```text
+React
+Vite
+Tailwind CSS
+PWA
+```
+
+The frontend should:
+
+- Be responsive
+- Be mobile-first
+- Be accessible
+- Be voice-friendly
+- Avoid unnecessary complexity
+- Never contain secrets
+- Never become the source of truth for financial calculations
+
+---
+
+# 20. Component Rules
+
+Reusable components should be preferred.
+
+Examples:
+
+```text
+VoiceButton
+Card
+MetricCard
+StatusCard
+ActionCard
+ScenarioCard
+EvidenceCard
+MemoryEvent
+AlertCard
+ConfirmationDialog
+VoiceWaveform
+LoadingState
+ErrorState
+```
+
+Avoid creating duplicate components with slightly different implementations.
+
+---
+
+# 21. Visual Design Rules
+
+PaisaFlow should feel:
+
+```text
+Trustworthy
+Calm
+Friendly
+Modern
+Indian
+Accessible
+Non-intimidating
+```
+
+Avoid:
+
+```text
+Trading-terminal look
+Corporate ERP look
+Overly technical AI look
+Excessive neon
+Dense dashboards
+Unnecessary 3D effects
+```
+
+---
+
+# 22. Color Rules
+
+Primary:
+
+```text
+PaisaFlow Green #33B878
+```
+
+Deep:
+
+```text
+#1F7350
+```
+
+Background:
+
+```text
+#F7FAF8
+```
+
+Surface:
+
+```text
+#FFFFFF
+```
+
+Status:
+
+```text
+Success #33B878
+Warning #F5C85B
+Risk    #E96A6A
+Info    #5BAEEB
+```
+
+Status colors should represent meaning, not decoration.
+
+---
+
+# 23. Accessibility Rules
+
+The application should support:
+
+- Large touch targets
+- Readable text
+- High contrast
+- Keyboard navigation
+- Screen-reader labels
+- Voice alternatives
+- Text alternatives
+- Clear focus states
+- Error recovery
+- Confirmation for important actions
 
 ---

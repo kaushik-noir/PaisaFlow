@@ -1718,3 +1718,8 @@ Not:
                  ↓
           GET SMARTER
 ```
+# PAISAFLOW
+
+> ## **Simple outside. Sophisticated inside.**
+
+> ## **Your business. Understood.**
