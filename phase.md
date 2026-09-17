@@ -18,3 +18,4 @@ Each phase contains:
 - Objective
 - Why it exists
 - Sub-phases
+- Exact work
