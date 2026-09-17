@@ -355,3 +355,19 @@ AI INFERENCE
 ```
 
 ---
+
+## Rule 6.3 — No Guaranteed Outcomes
+
+Never present a simulation as:
+
+- Guaranteed profit
+- Guaranteed repayment
+- Guaranteed loan approval
+- Guaranteed business growth
+- Guaranteed future performance
+
+Use scenario language:
+
+> “Is assumption ke under…”
+
+---
