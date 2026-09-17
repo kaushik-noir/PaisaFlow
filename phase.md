@@ -631,3 +631,13 @@ Touch targets
 Contrast
 Text alternatives
 ```
+
+### Definition of Done
+
+PaisaFlow behaves like a mobile-first application on supported browsers.
+
+All primary pages are navigable.
+
+---
+
+# PHASE 07 — RESPONSIVE PWA FOUNDATION
