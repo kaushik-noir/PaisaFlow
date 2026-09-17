@@ -1241,3 +1241,26 @@ Create deterministic financial calculations.
 
 ```text
 Revenue
+Expenses
+Cash-flow
+Margin
+Receivables
+Payables
+EMI
+Loan repayment
+Cash buffer
+```
+
+## Rule
+
+Financial calculations must not depend on free-form LLM arithmetic.
+
+## Testing
+
+Test:
+
+```text
+Normal
+Zero
+Boundary
+Large
