@@ -2084,3 +2084,39 @@ Make the product and presentation tell exactly the same story.
 PROBLEM
  ↓
 USER
+ ↓
+VOICE
+ ↓
+UNDERSTAND
+ ↓
+DIGITAL TWIN
+ ↓
+WHAT-IF
+ ↓
+RISK
+ ↓
+EVIDENCE
+ ↓
+ACTION
+ ↓
+MEMORY
+```
+
+## Screenshots
+
+Capture:
+
+```text
+Hero UI
+Voice Interaction
+Digital Twin
+Simulator
+Scenario Results
+Evidence
+Top 3 Actions
+Memory
+```
+
+Do not introduce features in the presentation that are not demonstrated or implemented.
+
+### Definition of Done
