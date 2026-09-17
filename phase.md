@@ -263,3 +263,8 @@ Define:
 Performance
 Security
 Availability
+Accessibility
+Privacy
+Scalability
+Maintainability
+```
