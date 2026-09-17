@@ -588,3 +588,13 @@ The SIH build is scoped with MoSCoW so the demo runs end to end on the dairy sce
 - [ ] Recording an outcome updates the Twin and the health story
 - [ ] All finance functions pass known-answer unit tests
 - [ ] The 90-second demo script (section 25) runs without manual intervention
+
+## 20. Implementation Phases
+
+Ten phases take the product from foundation to SIH hardening; phases 1–8 are on the critical path for the demo, 9 improves field usability, 10 is stabilisation.
+
+| Phase | Name | Deliverables | Depends on | Exit criterion |
+| --- | --- | --- | --- | --- |
+| 1 | Foundation | PWA shell, FastAPI backend, PostgreSQL/PostGIS schema, OTP auth, business profile CRUD | — | Profile created and read via API and UI |
+| 2 | Voice experience | STT/TTS integration, intent and entity extraction, guided one-question flow, read-back confirmation | 1 | Dairy onboarding by voice completes |
+| 3 | Business Memory | Facts, events, transactions, corrections, timeline view | 1 | Event log replays to the same state |
