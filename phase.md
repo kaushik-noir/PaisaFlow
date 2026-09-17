@@ -614,3 +614,11 @@ Test:
 360px
 390px
 430px
+768px
+1024px
+1280px+
+```
+
+## 07.3 Accessibility
+
+Implement:
