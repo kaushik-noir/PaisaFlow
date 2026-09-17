@@ -622,3 +622,9 @@ Eight metrics measure whether the product works for its primary persona; targets
 | Evidence coverage | % of important claims showing source/assumption metadata | 100% | Automated card audit |
 | Approval safety | % of consequential actions blocked until explicit approval | 100% | Safety tests and logs |
 | State continuity | Twin state reproducible and explainable after new events | 100% | Replay tests |
+
+**Leading indicators post-SIH.** Weekly returning users, Voice Khata entries per user per week, actions approved vs dismissed, outcomes recorded.
+
+## 22. Testing Strategy
+
+Testing concentrates on three failure classes: wrong numbers, unsafe outputs and flows the primary persona cannot complete.
