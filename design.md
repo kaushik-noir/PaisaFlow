@@ -1650,3 +1650,7 @@ The presentation UI should visually communicate:
                     ▼
                 LEARNING
 ```
+
+This should be the central visual narrative of the SIH presentation and product demo.
+
+---
