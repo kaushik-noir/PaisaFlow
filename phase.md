@@ -122,3 +122,13 @@ Each phase contains:
  ↓
 42  FINAL TESTING
  ↓
+43  SIH DEMO REHEARSAL
+ ↓
+44  PRODUCTION READINESS
+```
+
+---
+
+# PHASE 00 — PRODUCT & PROBLEM UNDERSTANDING
+
+## Objective
