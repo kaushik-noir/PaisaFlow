@@ -1186,3 +1186,20 @@ Evidence
 
 ## Context Selection
 l of the business.
+
+## Twin Inputs
+
+```text
+Profile
+Money
+Transactions
+Inventory
+Customers
+Suppliers
+Goals
+Risk
+Market
+Memory
+```
+
+## Twin Update
