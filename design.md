@@ -7,3 +7,4 @@ PaisaFlow should feel like a **trusted business companion**, not an accounting a
 
 The target entrepreneur should not need to understand:
  Accounting terminology
+ Financial dashboards
