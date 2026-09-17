@@ -53,3 +53,7 @@ Never begin with a long financial form.
 ```text
 Business name
 Revenue
+Expenses
+Inventory
+Customers
+Loan
