@@ -1457,3 +1457,17 @@ Ask one important question at a time.
 ### Rule 3
 
 Confirm numbers
+
+### Rule 4
+
+Use examples from the user's own business.
+
+### Rule 5
+
+Prefer:
+
+> “Aapka paisa agle 7 din mein kitna aa sakta hai?”
+
+over:
+
+> “Projected short-term liquidity.”
