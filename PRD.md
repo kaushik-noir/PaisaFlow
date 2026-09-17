@@ -701,3 +701,5 @@ The product succeeds when a user who does not understand financial software can 
 Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN.
 
 ## 27. Reference and Design Basis
+
+- SIH problem: SIH26091 title and FinTech framing follow the problem statement supplied by the user.
