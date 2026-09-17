@@ -1363,3 +1363,31 @@ Scale only when necessary.
 Do not build a microservice architecture merely for presentation.
 
 ---
+
+# 42. SIH MVP Rules
+
+The MVP must prioritize the strongest story.
+
+### Must demonstrate
+
+```text
+Voice Input
+ ↓
+Business Understanding
+ ↓
+Digital Twin
+ ↓
+What-If Simulation
+ ↓
+Stress Testing
+ ↓
+Evidence + Assumptions
+ ↓
+Simple Explanation
+ ↓
+Top 3 Actions
+ ↓
+Memory Update
+```
+
+---
