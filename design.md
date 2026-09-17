@@ -114,3 +114,5 @@ ESTIMATE
 ASSUMPTION
 AI EXPLANATION
 ```
+
+Never hide uncertainty.
