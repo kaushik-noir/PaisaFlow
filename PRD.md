@@ -448,3 +448,18 @@ The primary persona must be able to complete every core task without typing, wit
 | A-01 | Primary interaction possible without typing | Voice input on every screen; tap choices for yes/no and small menus |
 | A-02 | Short sentences and familiar vocabulary | Copy limit \~12 words per line; glossary of approved plain-language terms per language |
 | A-03 | Large touch targets and meaningful icons | Minimum 56 px targets; icon set validated with 5+ field users |
+| A-04 | Speak important explanations aloud | TTS on every explanation card; auto-play in low-literacy mode |
+| A-05 | Explain concepts using the user's own numbers | Every concept explanation pulls the user's actual values from the Twin |
+| A-06 | Read back critical captured information for confirmation | Amounts, quantities, names and dates are always read back before storing |
+| A-07 | "Badalna hai" correction flow on every confirmation | Correction creates an event; no silent overwrite |
+| A-08 | "Samajh nahi aa raha" on every explanation | Returns an example-based re-explanation, then a simpler one, then offers a facilitator |
+| A-09 | Authorised assisted mode | Facilitator scope, owner approval and audit trail (see section 18) |
+| A-10 | Graceful operation under poor connectivity | Queue voice notes and transactions locally; sync when online; clear "offline — save ho jayega" state. Full offline is a later milestone |
+| A-11 | Readable typography and contrast | WCAG AA contrast; minimum 18 px body text; high-contrast mode |
+| A-12 | Low-end device support | PWA tested on 2 GB RAM Android; no heavy client-side models |
+
+## 15. Communication and Action System
+
+Analysis ends in at most three actions, every outgoing message is a draft until approved, and every completed action feeds an outcome back into the Twin.
+
+**Top 3 Actions — ranking model**
