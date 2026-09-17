@@ -628,3 +628,30 @@ Eight metrics measure whether the product works for its primary persona; targets
 ## 22. Testing Strategy
 
 Testing concentrates on three failure classes: wrong numbers, unsafe outputs and flows the primary persona cannot complete.
+
+| Level | Scope | Examples |
+| --- | --- | --- |
+| Unit | Financial formulas, scenario engine, state updates, validation | EMI at 11%/60 months; seasonal multiplier application; correction supersedes original |
+| Integration | Voice → intent → memory → twin → simulation → explanation | Dairy utterance produces four scenario cards with correct numbers |
+| Data | Schema constraints, timestamps, provenance, correction | Every stored value has provenance; event log ordering |
+| UX | Users unfamiliar with business software complete core flows with minimal assistance | 5 field testers, think-aloud, task completion time |
+| Adversarial | Missing data, contradictory inputs, unrealistic numbers, ambiguous voice, unsupported local claims | "₹1 lakh" then "₹10 lakh"; "1 crore litre milk"; competitor question with no local data |
+| Safety | No guarantees from estimates; no external sending without approval | Banned-phrase scan; attempted send without approval is rejected |
+| Demo | Full dairy scenario from first voice input to simulation, action and memory update | Scripted run with timing |
+
+**Known-answer test set.** A spreadsheet of at least 10 business cases (dairy, kirana, tailoring) with hand-verified cash-flow, EMI and scenario results is the oracle for the finance engine; it is version-controlled with the code.
+
+## 23. Key Risks and Mitigations
+
+Eight risks could undermine the product or the demo; each has an owner-level mitigation built into the requirements above.
+
+| Risk | Likelihood | Impact | Mitigation | Where in PRD |
+| --- | --- | --- | --- | --- |
+| Insufficient hyper-local data | High | Medium | Evidence labels, ranges, confidence; start with permitted/simulated data; facilitator-collected observations later | §12, §16 |
+| LLM hallucination of numbers or facts | High | High | Deterministic engines for all arithmetic; evidence boundaries; banned-phrase check | §7, §12, §18 |
+| Low literacy blocks adoption | High | High | Voice-first UX, icons, examples, read-back, assisted mode | §5, §14 |
+| Poor speech recognition in dialects/noise | Medium | High | Confirmation and correction flows, text fallback, constrained questions, dialect test set | §8 FR-V1–V3 |
+| Over-complex product | Medium | Medium | One-question screens; Top 3 Actions; MoSCoW discipline | §5, §19 |
+| Financial harm from misread outputs | Low | Very high | Scenario framing, assumptions, safety notices, approval gates, human escalation | §12, §18 |
+| Privacy breach or misuse | Low | High | Minimisation, consent, role scoping, audit log, redacted logs | §17, §18 |
+| Overpromising in pitch or UI | Medium | High | No guaranteed profit, approval or predictive certainty anywhere; copy review | §12, §25 |
