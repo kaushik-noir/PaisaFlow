@@ -404,3 +404,9 @@ Git
 Package managers
 Environment variables
 ```
+
+### Definition of Done
+
+A fresh developer can clone the repository and run the project.
+
+---
