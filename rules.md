@@ -158,3 +158,17 @@ WHY
  ↓
 ASSUMPTIONS
  ↓
+ EVIDENCE
+ ↓
+ACTION
+```
+
+---
+
+## Rule 3.5 — Action Over Analytics
+
+Important analysis should end with practical actions.
+
+Default format:
+
+> **🎯 AAJ KE TOP 3 ACTIONS**

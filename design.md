@@ -298,3 +298,11 @@ Use a responsive grid.
 Single-column cards.
 
 ### Tablet
+
+Two-column dashboard where appropriate.
+
+### Desktop
+
+Three-column information layout can be used for advanced views.
+
+---
