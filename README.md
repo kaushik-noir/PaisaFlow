@@ -251,4 +251,15 @@ Over-complex product: One-question screens and Top 3 Actions.
 Financial harm: Scenario framing, assumptions, safety notices, approval gates and human escalation where needed.
 Privacy: Data minimisation, secure access, consent and auditability.
 Overpromising: Never claim guaranteed profit, loan approval or predictive certainty.
-
+# 24. Competitive Differentiation Strategy
+Do not compete on: Generic chatbot, generic RAG, generic EMI calculator, language translation alone or feature count.
+Compete on: Persistent Business Digital Twin, evidence-aware reasoning, scenario simulation, low-literacy voice UX and closed-loop learning.
+Moat: Value increases as a business accumulates structured events and outcomes, while provenance makes important claims more defensible.
+Demo advantage: Show one business under multiple scenarios, then update the Twin after a real business event.
+Product philosophy: Simple outside; sophisticated inside.
+# 24. Competitive Differentiation Strategy
+Do not compete on: Generic chatbot, generic RAG, generic EMI calculator, language translation alone or feature count.
+Compete on: Persistent Business Digital Twin, evidence-aware reasoning, scenario simulation, low-literacy voice UX and closed-loop learning.
+Moat: Value increases as a business accumulates structured events and outcomes, while provenance makes important claims more defensible.
+Demo advantage: Show one business under multiple scenarios, then update the Twin after a real business event.
+Product philosophy: Simple outside; sophisticated inside.
