@@ -29,3 +29,4 @@ PaisaFlow is a voice-first AI Business Companion that maintains a living Busines
 
 | Dimension | Summary |
 | --- | --- |
+| Who | Rural and semi-urban micro-entrepreneurs and small business owners who are comfortable with voice but not with spreadsheets, dashboards or financial jargon |
