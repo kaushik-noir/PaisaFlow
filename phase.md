@@ -812,3 +812,14 @@ Buttons:
 ```text
 Haan
 Badalna
+```
+
+### Definition of Done
+
+A new business can be created without filling a complex form.
+
+---
+
+# PHASE 12 — BUSINESS PROFILE SYSTEM
+
+## Objective
