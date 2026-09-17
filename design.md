@@ -866,3 +866,28 @@ MY BUSINESS
 ```
 
 ---
+
+# 28. Screen 20 — "Samajh Nahi Aa Raha?"
+
+This is essential for the target audience.
+
+```text
+❓ Samajh nahi aa raha?
+
+Main ise simple example se
+samjha sakta hoon.
+
+[ 🎙️ Dobara samjhao ]
+
+[ Example do ]
+
+[ Chhota answer ]
+
+[ Kisi ko dikhao ]
+```
+
+Example:
+
+> “EMI ka matlab hai har mahine loan ke liye deni wali rakam.”
+
+---
