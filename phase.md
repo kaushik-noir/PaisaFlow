@@ -418,3 +418,11 @@ A fresh developer can clone the repository and run the project.
 Create a consistent visual language.
 
 ## 04.1 Colors
+
+## 04.1 Colors
+
+```text
+#33B878
+```
+
+Deep:
