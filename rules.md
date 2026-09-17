@@ -1297,3 +1297,33 @@ ACTION
 Do not bypass the architecture by putting critical logic directly into the frontend or an uncontrolled LLM prompt.
 
 ---
+
+# 39. AI Guardrail Architecture Rule
+
+Mandatory:
+
+```text
+User
+ ↓
+LLM / Intent
+ ↓
+Structured Inputs
+ ↓
+Validation
+ ↓
+Deterministic Finance Engine
+ ↓
+Simulation Engine
+ ↓
+Validated Results
+ ↓
+LLM Explanation
+ ↓
+User
+```
+
+This rule is especially important for financial scenarios.
+
+---
+
+# 40. Performance Rules
