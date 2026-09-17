@@ -650,3 +650,29 @@ This is a hero feature.
 ```
 
 ---
+
+# 19. Screen 11 — Simple Explanation
+
+```text
+PaisaFlow:
+
+"Loan possible scenario hai,
+lekin downside situation mein
+cash-flow pressure badh sakta hai."
+
+WHY?
+
+• Sales 20% lower
+• Costs 15% higher
+• Monthly repayment continues
+
+ASSUMPTIONS
+
+Sales: ₹96,000
+Costs: ₹58,000
+Loan: ₹9,00,000
+
+[ Details Dekhein ]
+```
+
+---
