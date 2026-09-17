@@ -2447,3 +2447,20 @@ Records the outcome in Memory
 ```
 
 ---
+
+# PHASE STATUS TEMPLATE
+
+Use this for every phase:
+
+```text
+PHASE:
+NAME:
+
+OBJECTIVE:
+[ ]
+
+SUB-PHASES:
+[ ]
+
+IMPLEMENTATION:
+[ ]
