@@ -388,3 +388,13 @@ The engine takes the Twin, a proposed decision and a set of explicit assumptions
 | Input | Source | Examples |
 | --- | --- | --- |
 | Business state | Twin snapshot | Current cash, revenue streams, costs, receivables, existing loans |
+| Proposed decision | User utterance or slider | Loan of ₹9,00,000; add 6 cows; open a second counter |
+| Assumptions | Defaults by category, editable by user | Interest rate, tenure, moratorium, yield per cow, price per litre, seasonal multipliers, cost inflation |
+| Horizon | Default 12 months, extendable to tenure | 12 / 24 / 36 months |
+
+**Scenario set**
+
+| Scenario | Definition | Default parameters | Purpose |
+| --- | --- | --- | --- |
+| Base | Current and expected assumptions unchanged | — | Reference case |
+| Sales reduction | Revenue quantity or price down by X% | −20% | Demand risk |
