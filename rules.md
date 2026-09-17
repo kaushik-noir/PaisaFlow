@@ -268,3 +268,13 @@ Example:
 ↓
 
 {
+      "scenario": "loan",
+  "amount": 900000
+}
+```
+
+---
+
+## Rule 5.3 — Never Trust Unvalidated AI Output
+
+Before critical processing:
