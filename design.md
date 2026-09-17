@@ -87,3 +87,5 @@ Advanced users can open:
 > **Details dekhein**
 
 ---
+
+## 2.4 Action Over Analytics
