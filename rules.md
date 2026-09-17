@@ -391,3 +391,9 @@ Cost shock: +15%
 # 7. What-If Simulator Rules
 
 The What-If Simulator is a core PaisaFlow feature.
+
+## Rule 7.1
+
+Every simulation must identify the scenario.
+
+Examples:
