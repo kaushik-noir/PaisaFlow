@@ -578,3 +578,13 @@ The SIH build is scoped with MoSCoW so the demo runs end to end on the dairy sce
 | Should have | Voice Khata · bill/khata OCR · family report · business experiment mode · facilitator mode · multilingual output beyond Hindi/English |
 | Could have | Hyper-local opportunity map (PostGIS) · supplier intelligence · advanced demand model · WhatsApp Business integration · richer notifications |
 | Won't have (first demo) | Full banking integration · automated loan application · autonomous money movement · guaranteed credit scoring · complete offline operation · nationwide market coverage |
+
+**Definition of done for the SIH MVP**
+
+- [ ] A new user creates a dairy profile by voice in under 5 minutes
+- [ ] The Twin is displayed and can be corrected
+- [ ] "Agar main ₹9 lakh ka loan loon?" returns four scenario cards with evidence labels
+- [ ] Top 3 Actions appear with reasons; a draft message requires approval
+- [ ] Recording an outcome updates the Twin and the health story
+- [ ] All finance functions pass known-answer unit tests
+- [ ] The 90-second demo script (section 25) runs without manual intervention
