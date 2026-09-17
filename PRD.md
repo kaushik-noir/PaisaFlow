@@ -463,3 +463,201 @@ The primary persona must be able to complete every core task without typing, wit
 Analysis ends in at most three actions, every outgoing message is a draft until approved, and every completed action feeds an outcome back into the Twin.
 
 **Top 3 Actions — ranking model**
+
+| Factor | Weight (default) | Source |
+| --- | --- | --- |
+| Urgency | 0.35 | Risk module thresholds and due dates |
+| Expected business value | 0.35 | Money module delta (surplus, buffer) |
+| Confidence | 0.20 | Evidence module labels on the inputs |
+| User preference | 0.10 | Past accept/dismiss behaviour |
+
+Weights are configurable per deployment. Each action carries a one-line reason, the evidence behind it and an approve / snooze / dismiss control.
+
+**Action types**
+
+| Type | Example | Approval needed |
+| --- | --- | --- |
+| Customer follow-up | "Ramesh ko ₹850 ka reminder bhejein — 12 din late" | Yes, before sending |
+| Supplier communication | Draft reorder or price query from inventory state | Yes, before sending |
+| Financial adjustment | "Loan ₹9 lakh ki jagah ₹6 lakh consider karein" | No (advice only) |
+| Business experiment | "Pehle 1 gaay 1 mahine ke liye add karke dekhein" | No (advice only) |
+| Record keeping | "Aaj ki bikri bataiye" | No |
+| Report sharing | Family or facilitator summary | Yes, before sharing |
+
+**Draft-first flow**
+
+```mermaid
+flowchart LR
+  S[Twin state + trigger] --> D[Draft generated]
+  D --> R[User reviews<br/>edit · approve · discard]
+  R -->|approve| A[Approval logged<br/>timestamp + actor]
+  A --> X[Send via chosen channel]
+  X --> O[Outcome captured]
+  O --> T[Twin updated]
+  R -->|discard| N[Nothing sent]
+```
+
+**Channels.** WhatsApp share-sheet, SMS and email drafts in MVP; native WhatsApp Business API integration is a later phase.
+
+**Outcome capture.** After an action is approved, the system asks at the next session whether it was completed and what happened ("Ramesh ne paisa diya?"). The answer becomes an outcome event.
+
+## 16. Data and Integration Strategy
+
+Phase 1 runs entirely on user-provided, seeded and permitted public data; external integrations arrive only when access, permission and interfaces exist.
+
+| Phase | Data sources | Integration | Status |
+| --- | --- | --- | --- |
+| Phase 1 (SIH) | User inputs, seeded demo dataset (dairy + 2 other categories), permitted public/official documents for scheme information | None required | MVP |
+| Phase 2 | Approved integrations where available: UPI/bank statement upload with consent, WhatsApp Business, local market surveys | Consent-gated connectors | Post-SIH |
+| Phase 3 | Verified hyper-local observation network via facilitators; category seasonality datasets | Facilitator data-collection mode | Later |
+
+**Data principles**
+
+- Official information: scheme and rule retrieval uses official documents or authorised sources, stored with source URL, retrieval date and version.
+- Local data: use observed or verified signals only; never imply complete local coverage; display coverage metadata ("based on 3 observations in this block").
+- Privacy: collect only what the product and the business model need; customer records hold the minimum needed for receivable tracking.
+- Data quality: every dataset carries source, update date and coverage; stale data is flagged, not silently used.
+- Seed data: the demo dataset is clearly labelled as simulated in the UI and in the evidence cards.
+
+**Category assumption templates.** For each supported business category the system ships default assumptions (yield, price ranges, cost structure, seasonality) labelled ESTIMATE with a source; the user's own numbers always override the template.
+
+## 17. Non-Functional Requirements
+
+The system must feel conversational, compute deterministically and remain auditable; these targets are benchmarked during Phase 10.
+
+| Area | Requirement | Target / rule |
+| --- | --- | --- |
+| Performance | Voice interactions feel conversational | Speech-to-response under \~3 s on 4G for simple intents; simulation re-run under 2 s; exact latency benchmarked in implementation |
+| Reliability | Core calculations deterministic and independently testable | 100% of finance and simulation functions covered by unit tests with known-answer cases |
+| Scalability | Backend supports many businesses and locations without coupling logic to UI | Stateless API, business-scoped data, background jobs for alerts |
+| Security | Authenticated sessions, encrypted transport, least privilege, secure secrets | OTP/phone auth, TLS everywhere, role-based access, secrets in environment or vault |
+| Auditability | Important inputs, scenario assumptions and approvals traceable | Immutable event log with actor and timestamp; approvals stored as events |
+| Maintainability | Separate AI orchestration, business logic, simulation, evidence and persistence | Five packages with defined interfaces; no LLM calls inside finance code |
+| Accessibility | Large controls, contrast, typography, voice | Section 14 requirements A-01 to A-12 |
+| Observability | Log errors and metrics without logging sensitive content | Structured logs; transcripts and amounts redacted in logs; latency and error dashboards |
+| Localisation | Language packs for prompts, labels and explanations | Hindi, Hinglish, English in MVP; framework supports more |
+| Data retention | Business data retained while the account is active | Deletion workflow completes within a defined window; backups encrypted |
+
+## 18. Security, Privacy and Safety
+
+PaisaFlow handles a family's livelihood data, so consent, minimisation, approval gates and honest labelling are requirements, not options.
+
+**Consent and data minimisation**
+
+- Obtain explicit consent, in the user's language and by voice where needed, before storing business information and before enabling any optional integration.
+- Collect only what is needed; customer records hold the minimum for receivable tracking; no Aadhaar, PAN or bank credentials in MVP.
+- Provide correction and deletion workflows; deletion removes personal data and anonymises the event log where legally permissible.
+
+**Access control**
+
+| Role | Can | Cannot |
+| --- | --- | --- |
+| Owner | Everything on own business; approve actions; grant/revoke facilitator | — |
+| Facilitator (authorised) | Create/review profile, enter data, view reports, propose changes | Approve external sends or consequential changes without owner confirmation; export data |
+| Family viewer | View family report | Edit anything |
+| System | Compute, alert, draft | Send, submit or move money |
+
+**Safety rules**
+
+1. Explicit approval before any external message, submission or consequential action; approvals are logged events.
+2. Estimates, assumptions and limitations are labelled on every relevant card (section 12).
+3. The LLM never performs financial calculations when deterministic logic can; outputs are validated before display.
+4. Banned-phrase check on all user-facing copy: no "approved", "guaranteed", "eligible", "will earn".
+5. Human escalation: when a decision is high-stakes and evidence is low-confidence, the system recommends consulting a facilitator, cooperative officer or bank official and can draft the questions to ask.
+6. Audit trail for all approvals and major business-state changes, retained with the event log.
+
+**Threat considerations.** Account takeover via shared phones (mitigate with PIN/voice re-confirmation for approvals), facilitator overreach (scoped roles + owner notification), prompt injection through pasted or scanned text (evidence layer treats OCR content as data, never instructions).
+
+## 19. MVP Scope for SIH
+
+The SIH build is scoped with MoSCoW so the demo runs end to end on the dairy scenario without depending on any external integration.
+
+| Priority | Scope items |
+| --- | --- |
+| Must have | Voice onboarding · business profile · Business Memory · Digital Twin · basic 12-month cash-flow · loan/expansion what-if simulator with base, sales −20%, cost +15% and seasonal cases · business health story · Top 3 Actions · evidence/assumption display · basic alerts (payment delay, cash pressure) · seeded demo data · correction flow |
+| Should have | Voice Khata · bill/khata OCR · family report · business experiment mode · facilitator mode · multilingual output beyond Hindi/English |
+| Could have | Hyper-local opportunity map (PostGIS) · supplier intelligence · advanced demand model · WhatsApp Business integration · richer notifications |
+| Won't have (first demo) | Full banking integration · automated loan application · autonomous money movement · guaranteed credit scoring · complete offline operation · nationwide market coverage |
+
+**Definition of done for the SIH MVP**
+
+- [ ] A new user creates a dairy profile by voice in under 5 minutes
+- [ ] The Twin is displayed and can be corrected
+- [ ] "Agar main ₹9 lakh ka loan loon?" returns four scenario cards with evidence labels
+- [ ] Top 3 Actions appear with reasons; a draft message requires approval
+- [ ] Recording an outcome updates the Twin and the health story
+- [ ] All finance functions pass known-answer unit tests
+- [ ] The 90-second demo script (section 25) runs without manual intervention
+
+## 20. Implementation Phases
+
+Ten phases take the product from foundation to SIH hardening; phases 1–8 are on the critical path for the demo, 9 improves field usability, 10 is stabilisation.
+
+| Phase | Name | Deliverables | Depends on | Exit criterion |
+| --- | --- | --- | --- | --- |
+| 1 | Foundation | PWA shell, FastAPI backend, PostgreSQL/PostGIS schema, OTP auth, business profile CRUD | — | Profile created and read via API and UI |
+| 2 | Voice experience | STT/TTS integration, intent and entity extraction, guided one-question flow, read-back confirmation | 1 | Dairy onboarding by voice completes |
+| 3 | Business Memory | Facts, events, transactions, corrections, timeline view | 1 | Event log replays to the same state |
+| 4 | Digital Twin | Money, market, operations, financing and risk state derived from Memory; Twin versioning | 3 | Twin regenerates from events |
+| 5 | Finance engine | Cash-flow projection, EMI and repayment schedules, scenario data structures, unit tests | 4 | Known-answer tests pass |
+| 6 | Simulation | Base, downside, growth and combined scenarios; scenario cards and sliders | 5 | Four scenario cards render for ₹9 lakh case |
+| 7 | Evidence layer | Provenance on every value, labels, confidence, freshness, assumption display, banned-phrase check | 4, 6 | Every important number has a tappable evidence card |
+| 8 | Actions and alerts | Top 3 ranking, reminders, drafts, approval gate, outcome capture | 6, 7 | Draft blocked until approved; outcome updates Twin |
+| 9 | Field UX | Low-literacy refinement, facilitator mode, Voice Khata, OCR | 2, 8 | 5 field users complete core flow with minimal help |
+| 10 | SIH hardening | Seed demo data, adversarial and failure tests, latency benchmarks, explainability review, presentation flow | All | Demo script runs clean 3 times in a row |
+
+**Team split (suggested).** Backend/finance engine · AI orchestration and voice · PWA and UX · data, evidence and demo content · testing and presentation.
+
+## 21. Success Metrics
+
+Eight metrics measure whether the product works for its primary persona; targets are for the SIH demo cohort and should be re-baselined in the field.
+
+| Metric | Definition | MVP target | How measured |
+| --- | --- | --- | --- |
+| Activation | % of test users creating a business profile without tutorial assistance | ≥ 80% | Onboarding logs |
+| Voice task completion | % completing a core task (profile, simulation, action) by voice | ≥ 75% | Session logs |
+| Extraction accuracy | % of entities captured correctly without correction | ≥ 90% on seeded set | Correction events ÷ extractions |
+| Simulation correctness | Deterministic outputs match independently verified test cases | 100% | Unit and known-answer tests |
+| Action usefulness | User/facilitator rating that actions are understandable and relevant | ≥ 4 / 5 | In-app rating after Top 3 |
+| Evidence coverage | % of important claims showing source/assumption metadata | 100% | Automated card audit |
+| Approval safety | % of consequential actions blocked until explicit approval | 100% | Safety tests and logs |
+| State continuity | Twin state reproducible and explainable after new events | 100% | Replay tests |
+
+**Leading indicators post-SIH.** Weekly returning users, Voice Khata entries per user per week, actions approved vs dismissed, outcomes recorded.
+
+## 22. Testing Strategy
+
+Testing concentrates on three failure classes: wrong numbers, unsafe outputs and flows the primary persona cannot complete.
+
+| Level | Scope | Examples |
+| --- | --- | --- |
+| Unit | Financial formulas, scenario engine, state updates, validation | EMI at 11%/60 months; seasonal multiplier application; correction supersedes original |
+| Integration | Voice → intent → memory → twin → simulation → explanation | Dairy utterance produces four scenario cards with correct numbers |
+| Data | Schema constraints, timestamps, provenance, correction | Every stored value has provenance; event log ordering |
+| UX | Users unfamiliar with business software complete core flows with minimal assistance | 5 field testers, think-aloud, task completion time |
+| Adversarial | Missing data, contradictory inputs, unrealistic numbers, ambiguous voice, unsupported local claims | "₹1 lakh" then "₹10 lakh"; "1 crore litre milk"; competitor question with no local data |
+| Safety | No guarantees from estimates; no external sending without approval | Banned-phrase scan; attempted send without approval is rejected |
+| Demo | Full dairy scenario from first voice input to simulation, action and memory update | Scripted run with timing |
+
+**Known-answer test set.** A spreadsheet of at least 10 business cases (dairy, kirana, tailoring) with hand-verified cash-flow, EMI and scenario results is the oracle for the finance engine; it is version-controlled with the code.
+
+## 23. Key Risks and Mitigations
+
+Eight risks could undermine the product or the demo; each has an owner-level mitigation built into the requirements above.
+
+| Risk | Likelihood | Impact | Mitigation | Where in PRD |
+| --- | --- | --- | --- | --- |
+| Insufficient hyper-local data | High | Medium | Evidence labels, ranges, confidence; start with permitted/simulated data; facilitator-collected observations later | §12, §16 |
+| LLM hallucination of numbers or facts | High | High | Deterministic engines for all arithmetic; evidence boundaries; banned-phrase check | §7, §12, §18 |
+| Low literacy blocks adoption | High | High | Voice-first UX, icons, examples, read-back, assisted mode | §5, §14 |
+| Poor speech recognition in dialects/noise | Medium | High | Confirmation and correction flows, text fallback, constrained questions, dialect test set | §8 FR-V1–V3 |
+| Over-complex product | Medium | Medium | One-question screens; Top 3 Actions; MoSCoW discipline | §5, §19 |
+| Financial harm from misread outputs | Low | Very high | Scenario framing, assumptions, safety notices, approval gates, human escalation | §12, §18 |
+| Privacy breach or misuse | Low | High | Minimisation, consent, role scoping, audit log, redacted logs | §17, §18 |
+| Overpromising in pitch or UI | Medium | High | No guaranteed profit, approval or predictive certainty anywhere; copy review | §12, §25 |
+
+## 24. Competitive Differentiation Strategy
+
+PaisaFlow does not compete on chat, RAG, EMI maths or translation; it competes on a persistent, evidence-aware model of one business and the ability to test decisions against it.
+
+| Do not compete on | Compete on |
