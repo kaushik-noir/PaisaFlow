@@ -1327,3 +1327,17 @@ This rule is especially important for financial scenarios.
 ---
 
 # 40. Performance Rules
+
+Prioritize:
+
+- Fast initial load
+- Lightweight mobile UI
+- Lazy loading
+- API timeouts
+- Caching where appropriate
+- Efficient database queries
+- Background processing for long tasks
+
+Voice interaction should provide clear processing feedback even when a response takes time.
+
+---
