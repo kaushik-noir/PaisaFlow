@@ -5,8 +5,6 @@ PaisaFlow is a voice-first AI Business Companion that builds a living Digital Tw
 # PaisaFlow
 
  **AI Business Companion for Rural & Semi-Urban Micro-Entrepreneurs**
-
- **SIH Problem Statement:** SIH26091
  
  **Theme:** FinTech
  
