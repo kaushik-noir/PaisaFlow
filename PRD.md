@@ -368,3 +368,13 @@ Every important value in PaisaFlow carries one of four labels, and the label dec
 | AI INFERENCE | A generated interpretation or explanation | "Winter is your risky season because…" | Explanation only, never a verified fact | Explanation layer only |
 
 **Rules**
+
+1. Confidence: attach a confidence label (high / medium / low) whenever estimation uncertainty is material to the decision.
+2. Freshness: show the date of any external or market evidence; hide or flag signals older than a configurable threshold (default 90 days).
+3. No fabricated precision: where local evidence is incomplete, present ranges ("₹12,000–₹18,000") rather than a single number.
+4. Financial safety: every scenario output carries the notice that it is an estimate and does not guarantee financing approval, profitability or future performance.
+5. Separation of arithmetic: the language model receives computed numbers as inputs and may not alter, round beyond display rules, or invent numbers.
+6. Traceability: tapping any important number reveals its label, source, timestamp and the assumptions behind it.
+7. Escalation: if the user asks a question the system cannot support with FACT or ESTIMATE, it says so plainly and suggests what evidence would help (for example, "3 din tak daily bikri bataiye").
+
+**Evidence card layout (UI).** Label chip · value · source line · date · confidence · "Assumptions dekhein" expander. The same card component is reused for Twin values, scenario outputs and market signals so that the trust language is consistent everywhere.
