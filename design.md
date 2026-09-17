@@ -170,3 +170,9 @@ Use for:
 - Growth indicators
 - Voice interaction
 - Selected states
+
+## Deep Green
+
+```text
+#1F7350
+```
