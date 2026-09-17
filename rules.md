@@ -732,3 +732,17 @@ Secret Management
 Least Privilege
 Audit Logging
 ```
+
+Never commit:
+
+```text
+API keys
+Passwords
+Database credentials
+Private tokens
+Production secrets
+```
+
+to Git.
+
+---
