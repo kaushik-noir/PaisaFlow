@@ -193,3 +193,19 @@ Use for:
 ```text
 #FFFFFF
 ```
+
+## Text
+
+```text
+Primary:   #1F2937
+Secondary: #64748B
+Muted:     #94A3B8
+```
+## Status
+
+```text
+Success: #33B878
+Warning: #F5C85B
+Risk:    #E96A6A
+Info:    #5BAEEB
+```
