@@ -38,3 +38,6 @@ PaisaFlow is a voice-first AI Business Companion that maintains a living Busines
 | SIH MVP | Voice onboarding + Business Memory + Digital Twin + cash-flow engine + loan/expansion simulation + evidence display + Top 3 Actions + basic alerts |
 
 **Reading guide**
+
+- Sections 1–6 define why the product exists, who it serves and how it should feel.
+- Sections 7–14 define what the system is made of: architecture, requirements, features, modules, data model, evidence rules and simulation engine.
