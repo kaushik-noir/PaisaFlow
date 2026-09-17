@@ -242,4 +242,13 @@ UX tests: Users unfamiliar with business software complete core flows with minim
 Adversarial tests: Missing data, contradictory inputs, unrealistic numbers, ambiguous voice and unsupported local claims.
 Safety tests: No guarantees from estimates; no external sending without approval.
 Demo test: Run the complete dairy scenario from first voice interaction through simulation, action and memory update.
+# 23. Key Risks & Mitigations
+Insufficient hyper-local data: Use evidence labels, ranges and confidence; start with permitted/simulated data and add local collection.
+LLM hallucination: Use evidence boundaries and deterministic engines for calculations.
+Low literacy: Voice-first UX, icons, examples and assisted mode.
+Poor speech recognition: Confirmation, correction, text fallback and constrained questions.
+Over-complex product: One-question screens and Top 3 Actions.
+Financial harm: Scenario framing, assumptions, safety notices, approval gates and human escalation where needed.
+Privacy: Data minimisation, secure access, consent and auditability.
+Overpromising: Never claim guaranteed profit, loan approval or predictive certainty.
 
