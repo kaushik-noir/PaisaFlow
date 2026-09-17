@@ -53,6 +53,8 @@ PaisaFlow is **not** primarily:
 
 ## The user should never need to understand the complexity behind PaisaFlow.
 
-# 2. Golden Rule
+The user should be able to say:
 
-## The user should never need to understand the complexity behind PaisaFlow.
+> “Mere paas ₹1 lakh hai, main dairy expand karna chahta hoon.”
+
+PaisaFlow should handle the underlying:
