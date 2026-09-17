@@ -741,3 +741,16 @@ Database can be initialized from zero using migrations.
 ## Objective
 
 Secure access to user and business data.
+
+## 10.1 User
+
+Implement:
+
+```text
+Registration
+Login
+Session/token
+Logout
+```
+
+## 10.2 Authorization
