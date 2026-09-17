@@ -24,3 +24,7 @@ VOICE
   ↓
   BUSINESS DIGITAL TWIN
   ↓
+  ANALYSE
+  ↓
+  WHAT-IF
+  ↓
