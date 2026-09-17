@@ -987,3 +987,10 @@ The microphone is a core brand element.
    )) 🎙️ ((
    Listening...
 ```
+
+### Processing
+
+```text
+     ◌
+Samajh raha hoon...
+```
