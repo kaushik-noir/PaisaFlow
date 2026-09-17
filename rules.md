@@ -371,3 +371,19 @@ Use scenario language:
 > “Is assumption ke under…”
 
 ---
+
+## Rule 6.4 — Show Assumptions
+
+A scenario should expose important assumptions.
+
+Example:
+
+```text
+Loan: ₹9,00,000
+Sales: ₹96,000/month
+Costs: ₹58,000/month
+Sales shock: -20%
+Cost shock: +15%
+```
+
+---
