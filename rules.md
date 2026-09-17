@@ -451,3 +451,13 @@ vs
 Simulation output must not be confused with reality.
 
 Use:
+
+> “Projected”
+
+> “Estimated”
+
+> “Under this scenario”
+
+where appropriate.
+
+---
