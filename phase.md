@@ -231,3 +231,20 @@ The whole team can explain the product and hero journey consistently.
 ---
 
 # PHASE 01 — REQUIREMENTS FREEZE
+
+## Objective
+
+Convert the product concept into an exact build scope.
+
+## 01.1 Functional Requirements
+
+Freeze requirements for:
+
+```text
+Authentication
+Business Profile
+Voice
+Conversation
+Digital Twin
+Finance
+Simulation
