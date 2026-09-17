@@ -305,3 +305,26 @@ No major MVP feature remains undefined.
 Freeze how all systems communicate.
 
 ## 02.1 High-Level Architecture
+
+```text
+USER
+ ↓
+REACT PWA
+ ↓
+FASTAPI
+ ↓
+PAISAFLOW BRAIN
+ ↓
+BUSINESS SERVICES
+ ↓
+DIGITAL TWIN
+ ↓
+DATABASE
+```
+
+## 02.2 AI Boundary
+
+```text
+LLM
+ ↓
+Structured Input
