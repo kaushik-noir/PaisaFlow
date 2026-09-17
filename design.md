@@ -1350,3 +1350,7 @@ POST /api/v1/communication/approve
 Exact APIs can be refined during implementation.
 
 ---
+
+# 45. Database Design
+
+Core entities:
