@@ -44,3 +44,5 @@ VOICE
 The microphone is the primary interaction.
 Primary CTA:
 > 🎙️ **BOLIYE**
+Typing is available as a fallback.
+---
