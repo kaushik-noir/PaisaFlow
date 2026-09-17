@@ -2054,3 +2054,20 @@ Seasonal Shock
 ```
 
 ## 39.3 Backup
+Sales Shock: -20%
+Cost Shock: +15%
+Payment Delay
+Seasonal Shock
+```
+
+## 39.3 Backup
+
+Screen recording
+Local fallback where possible
+```
+
+### Definition of Done
+
+The demo can be reset and reproduced reliably.
+
+---
