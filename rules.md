@@ -1513,3 +1513,18 @@ Can it be demonstrated clearly?
 Do not add features merely because they look impressive.
 
 ---
+
+# 47. "Do Not Build" Rules
+
+Do not build:
+
+- A complicated accounting ERP
+- A generic chatbot with no business memory
+- A fake AI financial advisor
+- A dashboard full of meaningless metrics
+- A system that fabricates local market data
+- An autonomous financial decision maker
+- An automatic messaging system without approval
+- A feature that cannot be explained to the target user
+
+---
