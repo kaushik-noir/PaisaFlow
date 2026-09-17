@@ -410,3 +410,11 @@ Environment variables
 A fresh developer can clone the repository and run the project.
 
 ---
+
+# PHASE 04 — DESIGN SYSTEM
+
+## Objective
+
+Create a consistent visual language.
+
+## 04.1 Colors
