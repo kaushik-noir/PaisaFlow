@@ -673,3 +673,21 @@ Do not fabricate financial facts.
 ## Rule 13.2
 
 Do not present estimates as certainty.
+
+## Rule 13.3
+
+Do not hide assumptions.
+
+## Rule 13.4
+
+Do not hide important uncertainty.
+
+## Rule 13.5
+
+Do not expose private business data to unauthorized users.
+
+## Rule 13.6
+
+Do not execute consequential external actions without approval.
+
+---
