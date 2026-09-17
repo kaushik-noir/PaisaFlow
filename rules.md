@@ -954,3 +954,25 @@ The application should support:
 - Confirmation for important actions
 
 ---
+
+# 24. Voice Interaction Rules
+
+Voice states:
+
+```text
+IDLE
+ ↓
+LISTENING
+ ↓
+PROCESSING
+ ↓
+UNDERSTANDING
+ ↓
+RESPONDING
+```
+
+The UI should clearly communicate the current state.
+
+Never leave the user wondering whether the system heard them.
+
+---
