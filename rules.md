@@ -618,3 +618,17 @@ If the system does not have evidence for a local claim, do not present it as fac
 Market information should display an appropriate update/retrieval time.
 
 ---
+
+# 11. Communication Rules
+
+PaisaFlow may prepare communications.
+
+Example:
+
+```text
+Customer Follow-up
+Payment Reminder
+Supplier Message
+```
+
+But:
