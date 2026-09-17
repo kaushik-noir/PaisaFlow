@@ -574,3 +574,20 @@ but the user says:
 the system should allow correction and preserve the relevant audit trail.
 
 ---
+
+# 10. Evidence Rules
+
+Evidence should make PaisaFlow trustworthy.
+
+Every meaningful external claim should ideally include:
+
+```text
+Source
+Timestamp
+Freshness
+Claim
+Evidence Type
+Confidence
+```
+
+---
