@@ -234,4 +234,12 @@ Action usefulness: User/facilitator rating of whether actions are understandable
 Evidence coverage: Percentage of important claims showing source/assumption metadata.
 Approval safety: Percentage of consequential actions blocked until explicit approval.
 State continuity: Ability to reproduce and explain a business state after new events.
+# 22. Testing Strategy
+Unit tests: Financial formulas, scenario engine, state updates and validation.
+Integration tests: Voice → intent → memory → twin → simulation → explanation.
+Data tests: Schema constraints, timestamps, provenance and correction.
+UX tests: Users unfamiliar with business software complete core flows with minimal assistance.
+Adversarial tests: Missing data, contradictory inputs, unrealistic numbers, ambiguous voice and unsupported local claims.
+Safety tests: No guarantees from estimates; no external sending without approval.
+Demo test: Run the complete dairy scenario from first voice interaction through simulation, action and memory update.
 
