@@ -724,3 +724,20 @@ Use PostGIS where location-aware functionality requires it.
 
 inventory
 financing
+```
+
+## 09.3 Migrations
+
+Set up a migration system.
+
+### Definition of Done
+
+Database can be initialized from zero using migrations.
+
+---
+
+# PHASE 10 — AUTHENTICATION & USER MANAGEMENT
+
+## Objective
+
+Secure access to user and business data.
