@@ -284,3 +284,9 @@ Secondary:
 ```text
 768–1024 px
 ```
+
+Desktop:
+
+```text
+1200 px+
+```
