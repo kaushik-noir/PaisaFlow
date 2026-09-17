@@ -591,3 +591,18 @@ Confidence
 ```
 
 ---
+
+## Rule 10.1 — Evidence Types
+
+Use:
+
+```text
+USER-PROVIDED
+CALCULATED
+EXTERNAL SOURCE
+ESTIMATE
+ASSUMPTION
+AI INFERENCE
+```
+
+---
