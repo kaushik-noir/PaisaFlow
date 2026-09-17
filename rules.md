@@ -38,3 +38,13 @@ LEARN
 ```
 
 PaisaFlow is **not** primarily:
+
+- An accounting dashboard
+- A generic chatbot
+- A loan-approval system
+- A stock-trading application
+- A traditional ERP
+- A replacement for a bank
+- A guaranteed financial advisor
+
+---
