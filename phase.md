@@ -1395,3 +1395,23 @@ Comparison
  ↓
 Explanation
 ```
+
+## Comparison
+
+```text
+₹7L Loan
+vs
+₹9L Loan
+```
+
+### Definition of Done
+
+Users can change scenario variables and receive validated comparison results.
+
+---
+
+# PHASE 25 — RISK & STRESS TESTING
+
+## Objective
+
+Understand how the business behaves under adverse conditions.
