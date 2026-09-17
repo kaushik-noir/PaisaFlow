@@ -1837,3 +1837,38 @@ Twin
  ↓
 Finance
  ↓
+Simulation
+ ↓
+Evidence
+ ↓
+Actions
+ ↓
+Memory
+```
+
+## 34.4 AI Evaluation
+
+Test:
+
+```text
+Hindi
+Hinglish
+English
+Ambiguous statements
+Missing information
+Wrong numbers
+Prompt injection resistance
+Hallucination resistance
+```
+
+### Definition of Done
+
+Critical workflows have automated or repeatable tests.
+
+---
+
+# PHASE 35 — PERFORMANCE & RELIABILITY
+
+## Objective
+
+Make the system stable enough for repeated demos and real users.
