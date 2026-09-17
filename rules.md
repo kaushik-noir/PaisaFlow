@@ -82,3 +82,19 @@ Explanation
 ---
 
 # 3. UX Rules
+
+## Rule 3.1 — Voice First
+
+The primary interaction should be voice.
+
+Primary CTA:
+
+> **🎙️ BOLIYE**
+
+Typing is a fallback.
+
+---
+
+## Rule 3.2 — One Question at a Time
+
+Never overwhelm the user with a long form.
