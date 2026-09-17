@@ -1116,3 +1116,18 @@ Evidence
 ```
 
 ## Context Selection
+
+## Memory Types
+
+```text
+FACT
+SALE
+PURCHASE
+PAYMENT
+DECISION
+ACTION
+OUTCOME
+CORRECTION
+GOAL
+ASSUMPTION
+```
