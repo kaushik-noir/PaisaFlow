@@ -543,3 +543,18 @@ Memory should not be treated as an unlimited dump of conversation text.
 Store structured business events where possible.
 
 ---
+
+## Rule 9.2
+
+Important memory should retain:
+
+```text
+Source
+Date
+Business
+Event
+Confidence
+Confirmation
+```
+
+---
