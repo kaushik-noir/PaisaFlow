@@ -138,3 +138,6 @@ Make sure the entire team understands the problem before writing implementation 
 ## 00.1 Understand the User
 
 Define:
+
+```text
+Primary User
