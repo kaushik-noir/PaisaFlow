@@ -1252,3 +1252,17 @@ Every important recommendation should answer:
 > “Compare a lower loan amount or improve the cash buffer.”
 
 ---
+
+# 42. Frontend Technical Design
+
+Recommended stack:
+
+```text
+React
+  +
+Vite
+  +
+Tailwind CSS
+  +
+PWA
+```
