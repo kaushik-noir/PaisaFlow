@@ -906,3 +906,34 @@ Primary:
 ```text
 PaisaFlow Green #33B878
 ```
+
+Deep:
+
+```text
+#1F7350
+```
+
+Background:
+
+```text
+#F7FAF8
+```
+
+Surface:
+
+```text
+#FFFFFF
+```
+
+Status:
+
+```text
+Success #33B878
+Warning #F5C85B
+Risk    #E96A6A
+Info    #5BAEEB
+```
+
+Status colors should represent meaning, not decoration.
+
+---
