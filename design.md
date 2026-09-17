@@ -1471,3 +1471,15 @@ Prefer:
 over:
 
 > “Projected short-term liquidity.”
+
+### Rule 6
+
+Every complex screen must have:
+
+> **🎙️ Mujhe samjhao**
+
+### Rule 7
+
+Use audio explanations for important decisions.
+
+---
