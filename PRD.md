@@ -677,3 +677,9 @@ PaisaFlow does not compete on chat, RAG, EMI maths or translation; it competes o
 ## 25. SIH Demonstration Script
 
 The demo runs the complete dairy scenario in roughly 90 seconds, from first voice input to a Twin update, with no manual intervention.
+
+| Time | Screen / action | Spoken line |
+| --- | --- | --- |
+| 0–10 s | Title screen, one "Boliye" button | "PaisaFlow is an AI Business Companion for entrepreneurs who do not want complicated business software." |
+| 10–25 s | Presenter speaks; transcript and confirmation card appear | Voice: "Mere paas ₹1 lakh hai, main dairy expand karna chahta hoon." |
+| 25–40 s | Three guided questions, then the Business Digital Twin card | "It asks only what it needs — cows, daily milk, price, costs — and builds a living model of the business." |
