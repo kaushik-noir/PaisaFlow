@@ -1073,3 +1073,19 @@ Ya:
 ```
 
 ---
+
+# 35. AI Response Design
+
+Every important response should follow:
+
+```text
+ANSWER
+  ↓
+WHY
+  ↓
+ASSUMPTIONS
+  ↓
+EVIDENCE
+  ↓
+ACTION
+```
