@@ -502,3 +502,9 @@ Twin Update
 Important facts should have provenance and, where appropriate, user confirmation.
 
 ---
+
+## Rule 8.3 — Show Last Updated State
+
+The UI should make data freshness understandable.
+
+Example:
