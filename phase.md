@@ -2170,3 +2170,35 @@ The product looks and behaves like one coherent application.
 Perform the final full-system verification.
 
 ## Test Matrix
+
+```text
+New User
+Returning User
+Hindi
+Hinglish
+English
+Slow Network
+API Failure
+Voice Failure
+Invalid Data
+Correction
+Simulation
+Action Approval
+Memory Update
+```
+
+## Critical Test
+
+Run the complete hero scenario at least multiple times from a clean state.
+
+### Definition of Done
+
+The team knows exactly what works, what does not, and what the demo fallback is for every critical dependency.
+
+---
+
+# PHASE 43 — SIH DEMO REHEARSAL
+
+## Objective
+
+Practice the exact presentation.
