@@ -1171,3 +1171,27 @@ Never log unnecessarily:
 Use correlation/request IDs.
 
 ---
+
+# 34. Git Rules
+
+Recommended branch model:
+
+```text
+main
+develop
+feature/*
+fix/*
+```
+
+Commit messages should describe the change.
+
+Examples:
+
+```text
+feat: add loan simulation engine
+feat: add voice onboarding
+fix: validate EMI inputs
+docs: update architecture
+```
+
+---
