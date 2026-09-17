@@ -439,3 +439,19 @@ This is the core screen.
 │          [ Stop ]            │
 └──────────────────────────────┘
 ```
+
+### Voice states
+
+```text
+IDLE
+ ↓
+LISTENING
+ ↓
+PROCESSING
+ ↓
+UNDERSTANDING
+ ↓
+RESPONDING
+```
+
+---
