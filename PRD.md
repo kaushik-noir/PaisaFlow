@@ -607,3 +607,14 @@ Ten phases take the product from foundation to SIH hardening; phases 1–8 are o
 | 10 | SIH hardening | Seed demo data, adversarial and failure tests, latency benchmarks, explainability review, presentation flow | All | Demo script runs clean 3 times in a row |
 
 **Team split (suggested).** Backend/finance engine · AI orchestration and voice · PWA and UX · data, evidence and demo content · testing and presentation.
+
+## 21. Success Metrics
+
+Eight metrics measure whether the product works for its primary persona; targets are for the SIH demo cohort and should be re-baselined in the field.
+
+| Metric | Definition | MVP target | How measured |
+| --- | --- | --- | --- |
+| Activation | % of test users creating a business profile without tutorial assistance | ≥ 80% | Onboarding logs |
+| Voice task completion | % completing a core task (profile, simulation, action) by voice | ≥ 75% | Session logs |
+| Extraction accuracy | % of entities captured correctly without correction | ≥ 90% on seeded set | Correction events ÷ extractions |
+| Simulation correctness | Deterministic outputs match independently verified test cases | 100% | Unit and known-answer tests |
