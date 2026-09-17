@@ -37,3 +37,5 @@ Each phase contains:
 
 ```text
 00  PRODUCT & PROBLEM UNDERSTANDING
+
+01  REQUIREMENTS FREEZE
