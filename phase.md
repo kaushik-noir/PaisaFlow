@@ -1991,3 +1991,27 @@ Developers can identify major failures without inspecting production manually.
 Deploy the complete application.
 
 ## Architecture
+
+```text
+Internet
+ ↓
+HTTPS / CDN
+ ↓
+React PWA
+ ↓
+FastAPI
+ ↓
+Services
+ ↓
+PostgreSQL
+```
+
+## Environments
+
+```text
+Development
+Staging
+Production
+```
+
+## Secrets
