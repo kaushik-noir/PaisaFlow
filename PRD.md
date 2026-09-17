@@ -710,3 +710,4 @@ Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LE
 
 | Term | Meaning |
 | --- | --- |
+| Business Digital Twin | Structured, versioned model of one business's money, market, operations, customers, financing and risk, derived from the event log |
