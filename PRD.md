@@ -428,3 +428,23 @@ The engine takes the Twin, a proposed decision and a set of explicit assumptions
 | Operating surplus (₹) | 32,000 | 16,400 | 25,100 | 9,000 |
 | EMI on ₹9 lakh, 11%, 5 yrs (₹) | 19,570 | 19,570 | 19,570 | 19,570 |
 | Surplus after EMI (₹) | 12,430 | −3,170 | 5,530 | −10,570 |
+| Repayment burden | 61% | 119% | 78% | 217% |
+| Flag | Amber | Red | Amber | Red |
+
+The engine's conclusion for this example is not "loan rejected" but: "₹9 lakh at these numbers fails in a bad month and in winter; ₹5–6 lakh with a 3-month cash reserve survives all four scenarios." The illustrative figures above are placeholders for the seeded demo dataset and must be replaced by the tested values.
+
+**Explainability.** Each scenario card lists exactly which assumptions changed and shows the delta on surplus and buffer. The user can toggle any shock on or off and see the effect.
+
+**Interactive UX.** Sliders or +/- steppers for loan amount, sales change, cost change and number of new units; a "sab dikhao" button runs the combined stress case.
+
+**Guardrail.** Scenario results are never converted into an unconditional guarantee, approval or eligibility statement. The card copy is reviewed against a banned-phrase list ("approved", "guaranteed", "will earn", "eligible for").
+
+## 14. Low-Literacy and Accessibility Requirements
+
+The primary persona must be able to complete every core task without typing, without reading long text and without understanding financial vocabulary.
+
+| ID | Requirement | Implementation note |
+| --- | --- | --- |
+| A-01 | Primary interaction possible without typing | Voice input on every screen; tap choices for yes/no and small menus |
+| A-02 | Short sentences and familiar vocabulary | Copy limit \~12 words per line; glossary of approved plain-language terms per language |
+| A-03 | Large touch targets and meaningful icons | Minimum 56 px targets; icon set validated with 5+ field users |
