@@ -63,3 +63,4 @@ Signature question: “Can I get this loan?” → “Can my business survive th
    A generic chatbot answers questions; a calculator produces numbers; a loan finder focuses on eligibility. PaisaFlow maintains a business state and supports scenario-based decisions.
    # 4. Target Users & Personas
 Primary: Rural/semi-urban micro-entrepreneur or small business owner who may use voice messaging comfortably but may not use spreadsheets or financial software.
+Secondary: Semi-urban small business owner wanting a single system for cash-flow, inventory, payments, market context and expansion decisions.
