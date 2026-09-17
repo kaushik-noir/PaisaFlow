@@ -408,3 +408,13 @@ The engine takes the Twin, a proposed decision and a set of explicit assumptions
 
 - Revenue, expenses, operating surplus
 - Repayment (EMI) and repayment burden = EMI ÷ operating surplus
+- Closing cash and cash buffer in months of fixed cost
+- Risk flags: buffer below 1 month, repayment burden above 60%, negative closing cash, worst month name and cause
+
+**Calculation rules**
+
+1. EMI uses the standard reducing-balance formula; moratorium months accrue interest only.
+2. Seasonal multipliers are applied to quantity, not price, unless the user states a price effect.
+3. Growth scenarios add the expansion's own costs (feed, labour, maintenance) before adding its revenue, with a configurable ramp-up period.
+4. Every number is computed in Python with unit tests; the LLM never touches the arithmetic.
+5. Results are cached per (Twin version, decision, assumption set) so slider movements return instantly.
