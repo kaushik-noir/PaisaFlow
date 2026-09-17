@@ -1319,3 +1319,7 @@ backend/
 ```
 
 ---
+
+# 44. API Design
+
+Suggested endpoints:
