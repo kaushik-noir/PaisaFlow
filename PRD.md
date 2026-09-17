@@ -650,3 +650,4 @@ Eight risks could undermine the product or the demo; each has an owner-level mit
 | Insufficient hyper-local data | High | Medium | Evidence labels, ranges, confidence; start with permitted/simulated data; facilitator-collected observations later | §12, §16 |
 | LLM hallucination of numbers or facts | High | High | Deterministic engines for all arithmetic; evidence boundaries; banned-phrase check | §7, §12, §18 |
 | Low literacy blocks adoption | High | High | Voice-first UX, icons, examples, read-back, assisted mode | §5, §14 |
+| Poor speech recognition in dialects/noise | Medium | High | Confirmation and correction flows, text fallback, constrained questions, dialect test set | §8 FR-V1–V3 |
