@@ -1097,3 +1097,8 @@ ANSWER
 
 Repayment pressure downside
 scenario mein badh sakta hai.
+
+WHY
+
+Sales 20% lower hone par
+available cash reduce hota hai.
