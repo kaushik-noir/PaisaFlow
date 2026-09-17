@@ -146,3 +146,5 @@ PaisaFlow should feel:
 - Accessible
 - Responsible
 - Non-intimidating
+
+Avoid making it look like:
