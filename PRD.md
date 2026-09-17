@@ -644,3 +644,8 @@ Testing concentrates on three failure classes: wrong numbers, unsafe outputs and
 ## 23. Key Risks and Mitigations
 
 Eight risks could undermine the product or the demo; each has an owner-level mitigation built into the requirements above.
+
+| Risk | Likelihood | Impact | Mitigation | Where in PRD |
+| --- | --- | --- | --- | --- |
+| Insufficient hyper-local data | High | Medium | Evidence labels, ranges, confidence; start with permitted/simulated data; facilitator-collected observations later | §12, §16 |
+| LLM hallucination of numbers or facts | High | High | Deterministic engines for all arithmetic; evidence boundaries; banned-phrase check | §7, §12, §18 |
