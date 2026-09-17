@@ -143,3 +143,8 @@ Define:
 Primary User
 
 Understand common difficulties:
+
+- Complex software
+- Financial uncertainty
+- Limited business data
+- Limited financial literacy
