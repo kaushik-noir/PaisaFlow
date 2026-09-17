@@ -2120,3 +2120,15 @@ Memory
 Do not introduce features in the presentation that are not demonstrated or implemented.
 
 ### Definition of Done
+
+Presentation claims match the actual working system.
+
+---
+
+# PHASE 41 — FINAL UX POLISH
+
+## Objective
+
+Remove friction and make the experience feel finished.
+
+## Check
