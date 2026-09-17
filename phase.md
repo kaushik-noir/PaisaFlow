@@ -366,3 +366,17 @@ Architecture diagram, module boundaries, API boundaries and data flow are docume
 Create the development foundation.
 
 ## 03.1 Repository
+
+```text
+paisaflow/
+├── frontend/
+├── backend/
+├── ml/
+├── docs/
+├── tests/
+├── scripts/
+├── .env.example
+├── .gitignore
+├── README.md
+└── docker-compose.yml
+```
