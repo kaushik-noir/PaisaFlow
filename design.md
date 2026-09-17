@@ -225,3 +225,13 @@ Inter / System Sans
 Hindi:
 Noto Sans Devanagari
 ```
+
+### Hierarchy
+
+```text
+H1      30–36 px
+H2      22–28 px
+H3      17–20 px
+Body    15–17 px
+Small   12–14 px
+```
