@@ -263,3 +263,11 @@ Compete on: Persistent Business Digital Twin, evidence-aware reasoning, scenario
 Moat: Value increases as a business accumulates structured events and outcomes, while provenance makes important claims more defensible.
 Demo advantage: Show one business under multiple scenarios, then update the Twin after a real business event.
 Product philosophy: Simple outside; sophisticated inside.
+# 25. SIH Demonstration Script
+0–10 sec: “PaisaFlow is an AI Business Companion for entrepreneurs who do not want complicated business software.”
+10–25 sec: Voice: “Mere paas ₹1 lakh hai, main dairy expand karna chahta hoon.”
+25–40 sec: Show guided questions and the Business Digital Twin.
+40–55 sec: Ask: “Agar main ₹9 lakh ka loan loon?” Show base, sales −20%, cost +15% and seasonal scenarios.
+55–70 sec: Show evidence/assumptions and simple explanation.
+70–85 sec: Show Top 3 Actions, approval gate and memory update.
+Closing: “PaisaFlow does not just answer a business question. It maintains a living model of the business and helps the entrepreneur test what could happen before acting.”
