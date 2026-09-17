@@ -98,3 +98,28 @@ Typing is a fallback.
 ## Rule 3.2 — One Question at a Time
 
 Never overwhelm the user with a long form.
+
+### Wrong
+
+```text
+Business Name
+Revenue
+Expenses
+Inventory
+Customers
+Loan
+Interest
+Tenure
+Location
+GST
+...
+```
+
+### Correct
+
+```text
+"Business kis type ka hai?"
+
+↓
+
+"Dairy."
