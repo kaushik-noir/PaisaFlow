@@ -66,3 +66,6 @@ Primary: Rural/semi-urban micro-entrepreneur or small business owner who may use
 Secondary: Semi-urban small business owner wanting a single system for cash-flow, inventory, payments, market context and expansion decisions.
 Assisted: Authorised facilitator who can help a user create or review a business profile.
 Family / decision group: Spouse, parent, partner or family member who may need a simple visual/audio summary.
+# 5. UX Principles
+- Voice first: speaking should be the default interaction.
+- One question at a time: ask only the next information required.
