@@ -937,3 +937,20 @@ Info    #5BAEEB
 Status colors should represent meaning, not decoration.
 
 ---
+
+# 23. Accessibility Rules
+
+The application should support:
+
+- Large touch targets
+- Readable text
+- High contrast
+- Keyboard navigation
+- Screen-reader labels
+- Voice alternatives
+- Text alternatives
+- Clear focus states
+- Error recovery
+- Confirmation for important actions
+
+---
