@@ -980,3 +980,10 @@ The microphone is a core brand element.
      🎙️
    BOLIYE
 ```
+
+### Listening
+
+```text
+   )) 🎙️ ((
+   Listening...
+```
