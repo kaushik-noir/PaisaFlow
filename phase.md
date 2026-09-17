@@ -268,3 +268,13 @@ Privacy
 Scalability
 Maintainability
 ```
+
+## 01.3 Feature Prioritization
+
+Use:
+
+```text
+P0 = Must have
+P1 = Important
+P2 = Future
+```
