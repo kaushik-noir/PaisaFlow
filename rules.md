@@ -648,3 +648,18 @@ SEND / ACTION
 ```
 
 ---
+
+# 12. User Control Rules
+
+The user must remain in control of:
+
+- Business facts
+- Corrections
+- Scenario assumptions
+- Important recommendations
+- External communications
+- Consequential actions
+
+The system should never make the user feel that an irreversible action happened without their knowledge.
+
+---
