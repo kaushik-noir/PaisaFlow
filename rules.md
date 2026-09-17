@@ -663,3 +663,13 @@ The user must remain in control of:
 The system should never make the user feel that an irreversible action happened without their knowledge.
 
 ---
+
+# 13. Safety Rules
+
+## Rule 13.1
+
+Do not fabricate financial facts.
+
+## Rule 13.2
+
+Do not present estimates as certainty.
