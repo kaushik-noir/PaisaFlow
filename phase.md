@@ -1339,3 +1339,25 @@ Cash-flow Impact
 ```
 
 ## Important
+
+This engine estimates scenario consequences.
+
+It must not claim:
+
+```text
+Guaranteed Loan Approval
+Guaranteed Rate
+Guaranteed Profit
+```
+
+### Definition of Done
+
+Loan scenarios are calculated independently and reproducibly.
+
+---
+
+# PHASE 24 — WHAT-IF SIMULATION ENGINE
+
+## Objective
+
+Allow users to test business decisions.
