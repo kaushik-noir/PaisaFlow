@@ -18,3 +18,6 @@ TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
 ```
 ### Core Differentiator
 > **PaisaFlow does not just answer a business question. It maintains a living model of the business and helps the entrepreneur test what could happen before acting.**
+---
+
+## Repository Documentation
