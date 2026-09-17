@@ -266,3 +266,5 @@ Use simple, familiar icons.
 ```
 
 Production implementation should use a consistent SVG icon library rather than emoji wherever possible.
+
+---
