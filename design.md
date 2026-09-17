@@ -594,3 +594,9 @@ Needs review
 🔴 Repayment
 Stress under downside scenario
 ```
+
+Then explain:
+
+> **“Sabse important issue: pending payments ki wajah se cash buffer kam ho raha hai.”**
+
+---
