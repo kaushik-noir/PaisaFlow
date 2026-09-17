@@ -45,3 +45,5 @@ TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
  Core UX: simple language, one question at a time, icons, voice and actionable outputs.
   Core loop: Talk → Understand → Model → Predict → Simulate → Act → Learn.
   SIH MVP: voice onboarding + memory + twin + cash-flow + loan/expansion simulation + evidence + top actions + alerts.
+# 1. Executive Summary
+PaisaFlow is a voice-first AI Business Companion for rural and small entrepreneurs who may not be comfortable with conventional business software, long forms, dashboards or financial terminology. The user can speak naturally about a business, a goal or a financial decision and receive a simple, explainable response.
