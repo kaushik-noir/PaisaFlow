@@ -922,3 +922,27 @@ Audio
 ```
 
 ## 14.1 Voice States
+
+```text
+IDLE
+LISTENING
+PROCESSING
+RESPONDING
+ERROR
+```
+
+## 14.2 Language
+
+Initial target:
+
+```text
+Hindi
+Hinglish
+English
+```
+
+### Definition of Done
+
+A user can speak and hear a response.
+
+---
