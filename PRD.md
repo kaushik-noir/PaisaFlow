@@ -567,3 +567,14 @@ PaisaFlow handles a family's livelihood data, so consent, minimisation, approval
 6. Audit trail for all approvals and major business-state changes, retained with the event log.
 
 **Threat considerations.** Account takeover via shared phones (mitigate with PIN/voice re-confirmation for approvals), facilitator overreach (scoped roles + owner notification), prompt injection through pasted or scanned text (evidence layer treats OCR content as data, never instructions).
+
+## 19. MVP Scope for SIH
+
+The SIH build is scoped with MoSCoW so the demo runs end to end on the dairy scenario without depending on any external integration.
+
+| Priority | Scope items |
+| --- | --- |
+| Must have | Voice onboarding · business profile · Business Memory · Digital Twin · basic 12-month cash-flow · loan/expansion what-if simulator with base, sales −20%, cost +15% and seasonal cases · business health story · Top 3 Actions · evidence/assumption display · basic alerts (payment delay, cash pressure) · seeded demo data · correction flow |
+| Should have | Voice Khata · bill/khata OCR · family report · business experiment mode · facilitator mode · multilingual output beyond Hindi/English |
+| Could have | Hyper-local opportunity map (PostGIS) · supplier intelligence · advanced demand model · WhatsApp Business integration · richer notifications |
+| Won't have (first demo) | Full banking integration · automated loan application · autonomous money movement · guaranteed credit scoring · complete offline operation · nationwide market coverage |
