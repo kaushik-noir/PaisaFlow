@@ -1100,3 +1100,19 @@ Representative Hindi/Hinglish/English inputs produce validated structured data.
 Make every AI response aware of the relevant business context.
 
 ## Context Stack
+
+```text
+Current Message
++
+Conversation State
++
+Business Profile
++
+Relevant Memory
++
+Digital Twin
++
+Evidence
+```
+
+## Context Selection
