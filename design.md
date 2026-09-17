@@ -1146,3 +1146,9 @@ Monthly kharcha approx?"
 ```
 
 ---
+
+# 37. Advanced Mode
+
+Advanced information remains available but hidden behind:
+
+> **Details dekhein**
