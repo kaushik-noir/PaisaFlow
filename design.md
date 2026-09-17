@@ -1420,3 +1420,40 @@ LLM
  ↓
 Financial Decision
 ```
+Preferred:
+
+```text
+User
+ ↓
+LLM / Intent
+ ↓
+Structured Inputs
+ ↓
+Deterministic Finance Engine
+ ↓
+Simulation Engine
+ ↓
+Validated Results
+ ↓
+LLM Explanation
+ ↓
+User Approval
+```
+
+This separation is a core design requirement.
+
+---
+
+# 48. Low-Literacy Interaction Rules
+
+### Rule 1
+
+Never require typing when voice can perform the task.
+
+### Rule 2
+
+Ask one important question at a time.
+
+### Rule 3
+
+Confirm numbers
