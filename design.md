@@ -1658,3 +1658,13 @@ This should be the central visual narrative of the SIH presentation and product 
 # 54. Design Acceptance Criteria
 
 The design is successful if a new user can:
+
+- Understand what PaisaFlow does within 5–10 seconds
+- Start a voice interaction without a tutorial
+- Create a basic business profile conversationally
+- Understand the Business Digital Twin
+- Run a what-if scenario
+- Understand why a scenario changed
+- Identify the Top 3 Actions
+- Correct incorrect information
+- Return later and see remembered business events
