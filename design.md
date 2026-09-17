@@ -20,3 +20,5 @@ PaisaFlow handles the complexity behind the scenes.
 ```text
 VOICE
   ↓
+  UNDERSTAND
+  ↓
