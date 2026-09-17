@@ -1519,3 +1519,27 @@ confidence
 ```
 
 ## UI
+
+```text
+Based on:
+✓ Your business data
+✓ PaisaFlow calculation
+✓ Selected assumptions
+```
+
+### Definition of Done
+
+Important outputs can explain where their inputs came from.
+
+---
+
+# PHASE 28 — MARKET & LOCAL INTELLIGENCE
+
+## Objective
+
+Add external and location-aware business intelligence.
+
+## Pipeline
+
+```text
+External Source
