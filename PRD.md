@@ -628,3 +628,8 @@ Eight metrics measure whether the product works for its primary persona; targets
 ## 22. Testing Strategy
 
 Testing concentrates on three failure classes: wrong numbers, unsafe outputs and flows the primary persona cannot complete.
+
+| Level | Scope | Examples |
+| --- | --- | --- |
+| Unit | Financial formulas, scenario engine, state updates, validation | EMI at 11%/60 months; seasonal multiplier application; correction supersedes original |
+| Integration | Voice → intent → memory → twin → simulation → explanation | Dairy utterance produces four scenario cards with correct numbers |
