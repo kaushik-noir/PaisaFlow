@@ -57,3 +57,81 @@ PaisaFlow replaces the question "Can I get this loan?" with "Can my business sur
 **The trust boundary.** PaisaFlow is a decision-support system. It is not a lender, an accountant, a legal authority or a guarantee engine. Every important output is shown as a calculation or a scenario estimate with its assumptions and evidence attached. The system must never present a simulated result as a guaranteed approval, profit or future performance.
 
 **Why it matters for SIH26091.** The problem statement asks for hyper-local business advisory and financial structuring for rural micro-entrepreneurs. Existing tools are either generic chatbots (plausible but unsupported), EMI calculators (numbers without context) or loan finders (eligibility without survivability). PaisaFlow is differentiated by a persistent business state, evidence-aware reasoning, scenario simulation and a low-literacy voice UX that closes the loop from conversation to action to learning.
+
+**What the SIH MVP delivers.** Voice onboarding, a business profile, Business Memory, the Digital Twin, a basic cash-flow engine, a loan/expansion what-if simulator, a business health report, Top 3 Actions, evidence and assumption display, basic alerts and seeded demo data — enough to run the full dairy-expansion scenario end to end in a 90-second demo.
+
+## 2. Product Vision and Positioning
+
+**Vision.** Make sophisticated business intelligence accessible through a simple conversation, so that a micro-entrepreneur with no accounting background can make decisions with the same clarity as a business with a finance team.
+
+**Positioning.** PaisaFlow is the *pre-decision intelligence layer* for small businesses. It sits before the lender, before the supplier order and before the expansion — understand the business, test the decision, then act.
+
+**Core promise (user-facing).** "Aapko business software samajhne ki zaroorat nahi. PaisaFlow aapke business ko samjhega." — You don't need to understand business software. PaisaFlow will understand your business.
+
+**Signature reframing.** Every competing tool answers "Can I get this loan?". PaisaFlow answers "Can my business survive this loan?" — under normal conditions, under a 20% sales drop, under a 15% cost rise and through the lean season.
+
+**Seven-word loop.** TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN. Every feature in this PRD maps to at least one stage of this loop.
+
+| Loop stage | What happens | Owning component |
+| --- | --- | --- |
+| Talk | User speaks a goal, fact or question | Input layer |
+| Understand | Intent and entities are extracted; only essential follow-ups are asked | PaisaFlow Brain |
+| Model | Approved facts become or update the Business Digital Twin | Business Memory + Twin |
+| Predict | Cash-flow, demand and risk are projected from the Twin | Decision Core (finance + forecast) |
+| Simulate | Decisions are tested under base, downside and growth scenarios | Simulation engine |
+| Act | Top 3 Actions, drafts and reminders are offered; user approves | Action layer |
+| Learn | Outcomes are recorded as events and update the Twin | Learning loop |
+
+**Product philosophy.** Simple outside, sophisticated inside. The user sees one question, one card, three actions. The system behind it runs deterministic finance, provenance tracking and scenario simulation.
+
+## 3. Problem Definition
+
+Rural micro-entrepreneurs make high-stakes capital decisions with informal records, fragmented information and no understandable analysis — and the tools built for them assume literacy and vocabulary they do not have.
+
+**3.1 The entrepreneur's situation**
+
+- Records are informal: a khata notebook, memory, or WhatsApp messages. Revenue, expenses and receivables are rarely consolidated.
+- Financial literacy is limited. Terms such as margin, working capital, EMI burden and cash buffer are not part of everyday vocabulary.
+- Information is fragmented across suppliers, customers, family members and local market observation.
+- Access to understandable business analysis is close to zero. A chartered accountant or bank officer speaks a different language and serves a different goal.
+
+**3.2 The decision gap**
+
+An entrepreneur often knows *that* capital or expansion is needed but cannot estimate:
+
+- the cash-flow impact of a new loan across the year, including lean months;
+- the level of local competition and whether demand actually exists for the extra capacity;
+- inventory and working-capital needs that come with expansion;
+- repayment pressure relative to realistic, not optimistic, sales;
+- the downside — what happens if sales fall, costs rise or a large customer pays late.
+
+**3.3 Why existing tools fail**
+
+| Tool type | What it does | Why it is insufficient |
+| --- | --- | --- |
+| Dashboards and accounting apps | Show financial reports | Assume typing, data entry discipline and financial vocabulary |
+| EMI / loan calculators | Compute instalments | Numbers without business context; no survivability view |
+| Loan finders and marketplaces | Check eligibility | Optimise for disbursement, not for whether the business can sustain repayment |
+| Generic chatbots / generic RAG | Answer questions | Produce plausible-sounding numbers without local evidence; no persistent business state |
+| Translation-only tools | Convert jargon to local language | Translate words, not concepts; the user still cannot act |
+
+**3.4 The AI-specific risk**
+
+Generative AI can produce confident, plausible numbers with no grounding in the user's business or locality. For a financial decision this is worse than no answer. PaisaFlow must therefore distinguish facts, observations, estimates, assumptions and AI explanations, and must keep arithmetic out of the language model.
+
+**3.5 Problem statement (one line)**
+
+Build a voice-first assistant that maintains an evidence-aware model of a rural micro-business and lets the owner test financial and expansion decisions before committing, in language they already use.
+
+## 4. Target Users and Personas
+
+PaisaFlow serves four user types; the primary persona drives every UX decision, and the other three must never add complexity to the primary flow.
+
+| Persona | Who they are | Goals | Constraints | What PaisaFlow must do for them |
+| --- | --- | --- | --- | --- |
+| Primary — rural micro-entrepreneur | Dairy, kirana, tailoring, agri-input, small manufacturing or service owner in a village or block town; uses WhatsApp voice notes comfortably | Decide on a loan or expansion, keep track of who owes money, know if the business is healthy | No spreadsheets, limited reading, low tolerance for forms, intermittent connectivity, low-end Android phone | Voice-first, one question at a time, read-back confirmation, plain-language explanations, Top 3 Actions |
+| Secondary — semi-urban small business owner | Shop or small unit owner in a district town with some smartphone and typing comfort | One system for cash-flow, inventory, payments, market context and expansion | Time-poor, distrustful of jargon, already uses 2–3 apps | Same voice flow plus text and tap inputs, Voice Khata, supplier and customer drafts, simple reports |
+| Assisted — authorised facilitator | CSC operator, SHG lead, NGO field worker, bank correspondent or family member with explicit authorisation | Help create or review a business profile for an entrepreneur | Must not silently override the owner; must be auditable | Facilitator mode with scoped access, audit trail, owner approval for consequential changes |
+| Family / decision group | Spouse, parent, partner or sibling who co-decides on money | Understand the business situation and the decision being made | May have even lower literacy; needs a summary, not a dashboard | Family report: a one-screen visual and audio summary of health, the decision and the risk |
+
+**Persona vignette — Sunita, dairy owner (primary).** Sunita runs 4 cows in a village near Sheikhpura, sells milk to a local collection centre and two tea shops, and keeps accounts in a notebook. She has ₹1 lakh saved and wants to add 6 cows. A dairy cooperative officer mentioned a ₹9 lakh loan. She wants to know one thing: will the loan sink her in the winter months when milk yield drops? She should be able to get that answer by speaking to PaisaFlow for under five minutes.
