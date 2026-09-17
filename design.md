@@ -571,3 +571,10 @@ This is the product's visual centerpiece.
 ```
 
 ---
+
+# 16. Screen 08 — Business Health
+
+Avoid making a single opaque score the main output.
+
+```text
+BUSINESS HEALTH
