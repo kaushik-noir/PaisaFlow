@@ -47,3 +47,4 @@ Primary CTA:
 Typing is available as a fallback.
 ---
 ## 2.2 One Question at a Time
+Never begin with a long financial form.
