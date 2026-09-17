@@ -607,3 +607,10 @@ install experience
 ```
 
 ## 07.2 Responsive
+
+Test:
+
+```text
+360px
+390px
+430px
