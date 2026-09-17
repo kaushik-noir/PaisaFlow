@@ -1496,3 +1496,26 @@ At least one useful ML capability is validated against a defined test dataset.
 Make results traceable.
 
 ## Evidence Types
+
+```text
+USER-PROVIDED FACT
+CALCULATED
+EXTERNAL SOURCE
+ESTIMATE
+ASSUMPTION
+AI INFERENCE
+```
+
+## Evidence Record
+
+```text
+source
+claim
+source_type
+retrieved_at
+published_at
+freshness
+confidence
+```
+
+## UI
