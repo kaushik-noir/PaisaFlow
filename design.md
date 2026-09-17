@@ -336,3 +336,7 @@ Recommended:
 The **Talk** action should be visually dominant.
 
 ---
+
+# 9. Screen 01 — Splash
+
+## Objective
