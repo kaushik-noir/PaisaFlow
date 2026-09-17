@@ -7,7 +7,8 @@ import com.paisaflow.app.i18n.AppLanguage
 class Prefs(context: Context) {
     private val sp = context.applicationContext.getSharedPreferences("paisaflow", Context.MODE_PRIVATE)
     var language: AppLanguage
-        
+           ./gradlew installDebug
+   
         set(v) = sp.edit().putString("lang", v.code).apply()
     var onboarded: Boolean
 
