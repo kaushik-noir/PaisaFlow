@@ -1550,3 +1550,7 @@ Hyper-Local Radar
 ```
 
 ---
+
+# 51. SIH Demo UI Flow
+
+The complete demo should feel like one continuous story.
