@@ -822,3 +822,21 @@ A new business can be created without filling a complex form.
 # PHASE 12 — BUSINESS PROFILE SYSTEM
 
 ## Objective
+
+Create the persistent business identity.
+
+## Profile
+
+Store:
+
+```text
+Business name
+Business type
+Owner
+Location where required
+Goal
+Operating information
+Financial summary
+```
+
+## Profile API
