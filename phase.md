@@ -993,3 +993,20 @@ PaisaFlow can maintain a coherent multi-turn conversation.
 ---
 
 # PHASE 16 — PAISAFLOW AI BRAIN
+
+## Objective
+
+Create the central AI orchestration layer.
+
+## 16.1 Brain Responsibilities
+
+```text
+Understand
+Extract
+Route
+Retrieve context
+Call tools
+Explain
+```
+
+## 16.2 Tool Architecture
