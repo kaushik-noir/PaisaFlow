@@ -1483,3 +1483,9 @@ Every complex screen must have:
 Use audio explanations for important decisions.
 
 ---
+
+# 49. Poor Connectivity Strategy
+
+Design the product so lightweight operations can degrade gracefully.
+
+Possible approach:
