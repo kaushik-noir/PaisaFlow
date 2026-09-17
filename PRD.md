@@ -36,3 +36,5 @@ PaisaFlow is a voice-first AI Business Companion that maintains a living Busines
 | Core UX | Simple language, one question at a time, icons, voice input/output, actionable outputs |
 | Core loop | TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN |
 | SIH MVP | Voice onboarding + Business Memory + Digital Twin + cash-flow engine + loan/expansion simulation + evidence display + Top 3 Actions + basic alerts |
+
+**Reading guide**
