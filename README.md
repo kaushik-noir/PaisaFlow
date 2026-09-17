@@ -200,5 +200,14 @@ Auditability: Important inputs, scenario assumptions and user approvals should b
 Maintainability: Separate AI orchestration, business logic, simulation, evidence and persistence layers.
 Accessibility: Large controls, clear contrast, readable typography and voice interaction.
 Observability: Log operational errors/metrics while avoiding unnecessary sensitive-content logging.
+# 18. Security, Privacy & Safety
+- Obtain consent for storing business information and optional integrations.
+- Minimise collection of personal/sensitive information.
+- Protect accounts and facilitator access with appropriate authentication and authorisation.
+- Require explicit approval before external messages, submissions or consequential actions.
+- Label estimates, assumptions and limitations clearly.
+- Do not let the LLM directly perform financial calculations when deterministic logic can do so.
+- Maintain an audit trail for user approvals and major business-state changes.
+- Provide correction and appropriate deletion workflows.
 
 
