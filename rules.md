@@ -325,3 +325,7 @@ Prefer:
 # 6. Financial Rules
 
 ## Rule 6.1 — Calculations Must Be Reproducible
+
+Important financial calculations should be deterministic.
+
+Examples:
