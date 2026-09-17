@@ -1543,3 +1543,58 @@ Add external and location-aware business intelligence.
 
 ```text
 External Source
+ ↓
+Retrieve
+ ↓
+Validate
+ ↓
+Timestamp
+ ↓
+Evidence Store
+ ↓
+Market Module
+ ↓
+Business Context
+```
+
+## Local
+
+Use PostGIS when appropriate.
+
+Potential:
+
+```text
+Nearby businesses
+Market signals
+Geographic patterns
+Local opportunities
+```
+
+## Rule
+
+No unsupported local claims.
+
+### Definition of Done
+
+The system can distinguish verified local evidence from estimates or unavailable information.
+
+---
+
+# PHASE 29 — RECOMMENDATION & ACTION ENGINE
+
+## Objective
+
+Convert analysis into practical next steps.
+
+## Action Format
+
+```text
+Action
+Reason
+Priority
+Source
+Status
+Approval Required
+```
+
+## Top 3
