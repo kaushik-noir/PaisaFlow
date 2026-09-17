@@ -2291,3 +2291,129 @@ Banking Integrations
 Advanced Market Intelligence
 Partner APIs
 ```
+
+These should be added without breaking the core architecture.
+
+---
+
+# DEVELOPMENT ORDER BY TEAM
+
+## Frontend
+
+Work primarily across:
+
+```text
+04
+05
+06
+07
+11
+12
+20
+24
+27
+29
+30
+31
+39
+41
+```
+
+## Backend
+
+```text
+03
+08
+09
+10
+12
+13
+15
+18
+19
+20
+21
+22
+23
+24
+25
+27
+29
+30
+31
+32
+33
+35
+37
+38
+```
+
+## AI / ML
+
+```text
+14
+15
+16
+17
+18
+26
+27
+28
+```
+
+## QA / Security
+
+```text
+33
+34
+35
+36
+37
+42
+```
+
+---
+
+# CRITICAL PATH
+
+If time becomes limited, prioritize:
+
+```text
+03 Foundation
+ ↓
+06 Frontend
+ ↓
+08 Backend
+ ↓
+09 Database
+ ↓
+11 Onboarding
+ ↓
+14 Voice
+ ↓
+15 Conversation
+ ↓
+16 AI Brain
+ ↓
+19 Memory
+ ↓
+20 Digital Twin
+ ↓
+21 Finance
+ ↓
+24 Simulation
+ ↓
+27 Evidence
+ ↓
+29 Actions
+ ↓
+32 Integration
+ ↓
+34 Testing
+ ↓
+39 Demo
+ ↓
+43 Rehearsal
+```
+
+---
