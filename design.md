@@ -1408,3 +1408,15 @@ MEMORY UPDATE
 ```
 
 ---
+
+# 47. AI Guardrail Architecture
+
+Never:
+
+```text
+User
+ ↓
+LLM
+ ↓
+Financial Decision
+```
