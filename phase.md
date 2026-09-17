@@ -1815,3 +1815,25 @@ Risk
 Validation
 Memory
 ```
+
+## 34.2 Integration Tests
+
+```text
+API
+ ↓
+Services
+ ↓
+Database
+```
+
+## 34.3 End-to-End
+
+```text
+Voice
+ ↓
+Brain
+ ↓
+Twin
+ ↓
+Finance
+ ↓
