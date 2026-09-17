@@ -2,7 +2,8 @@ package com.paisaflow.app.data.mock
 
 import com.paisaflow.app.model.BrainUnderstanding
 import com.paisaflow.app.model.ClarificationOption
-
+import com.paisaflow.app.model.ClarificationQuestion
+import com.paisaflow.app.model.EvidenceLabel
 import com.paisaflow.app.model.ExtractedFact
 
 /**
@@ -20,7 +21,7 @@ object DemoData {
         onboardingTotal = 3,
         isSampleData = true,
         facts = listOf(
-            ExtractedFact("Business Type", "डेयरी · Dairy", "Sheikhpura unit", EvidenceLabel.FACT),
+            ExtractedFact("Business Type", , EvidenceLabel.FACT),
             ExtractedFact("Lakshya (Goal)", "विस्तार · Expand", "+6 Cows target", EvidenceLabel.FACT),
             ExtractedFact("Apna Paisa", "₹1,00,000", "Self-investment", EvidenceLabel.FACT, isHighlight = true),
             ExtractedFact("Sarkari/KCC Sahayata", "Loan Needed", "~₹2.5L to ₹3L", EvidenceLabel.ESTIMATE),
