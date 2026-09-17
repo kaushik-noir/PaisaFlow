@@ -508,3 +508,13 @@ Phase 1 runs entirely on user-provided, seeded and permitted public data; extern
 | Phase | Data sources | Integration | Status |
 | --- | --- | --- | --- |
 | Phase 1 (SIH) | User inputs, seeded demo dataset (dairy + 2 other categories), permitted public/official documents for scheme information | None required | MVP |
+| Phase 2 | Approved integrations where available: UPI/bank statement upload with consent, WhatsApp Business, local market surveys | Consent-gated connectors | Post-SIH |
+| Phase 3 | Verified hyper-local observation network via facilitators; category seasonality datasets | Facilitator data-collection mode | Later |
+
+**Data principles**
+
+- Official information: scheme and rule retrieval uses official documents or authorised sources, stored with source URL, retrieval date and version.
+- Local data: use observed or verified signals only; never imply complete local coverage; display coverage metadata ("based on 3 observations in this block").
+- Privacy: collect only what the product and the business model need; customer records hold the minimum needed for receivable tracking.
+- Data quality: every dataset carries source, update date and coverage; stale data is flagged, not silently used.
+- Seed data: the demo dataset is clearly labelled as simulated in the UI and in the evidence cards.
