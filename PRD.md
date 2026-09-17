@@ -549,3 +549,21 @@ PaisaFlow handles a family's livelihood data, so consent, minimisation, approval
 - Provide correction and deletion workflows; deletion removes personal data and anonymises the event log where legally permissible.
 
 **Access control**
+
+| Role | Can | Cannot |
+| --- | --- | --- |
+| Owner | Everything on own business; approve actions; grant/revoke facilitator | — |
+| Facilitator (authorised) | Create/review profile, enter data, view reports, propose changes | Approve external sends or consequential changes without owner confirmation; export data |
+| Family viewer | View family report | Edit anything |
+| System | Compute, alert, draft | Send, submit or move money |
+
+**Safety rules**
+
+1. Explicit approval before any external message, submission or consequential action; approvals are logged events.
+2. Estimates, assumptions and limitations are labelled on every relevant card (section 12).
+3. The LLM never performs financial calculations when deterministic logic can; outputs are validated before display.
+4. Banned-phrase check on all user-facing copy: no "approved", "guaranteed", "eligible", "will earn".
+5. Human escalation: when a decision is high-stakes and evidence is low-confidence, the system recommends consulting a facilitator, cooperative officer or bank official and can draft the questions to ask.
+6. Audit trail for all approvals and major business-state changes, retained with the event log.
+
+**Threat considerations.** Account takeover via shared phones (mitigate with PIN/voice re-confirmation for approvals), facilitator overreach (scoped roles + owner notification), prompt injection through pasted or scanned text (evidence layer treats OCR content as data, never instructions).
