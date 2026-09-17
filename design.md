@@ -775,3 +775,27 @@ Each event can expose:
 - Effect on the Business Twin
 
 ---
+
+# 24. Screen 16 — Hyper-Local Opportunity Radar
+
+Advanced feature.
+
+```text
+┌──────────────────────────────┐
+│ 📍 LOCAL OPPORTUNITIES       │
+│                              │
+│             MAP              │
+│                              │
+│   ● Competitor               │
+│        ●                     │
+│             YOU ●            │
+│                       ●      │
+│      ● Demand signal         │
+│                              │
+│ [ Explore ]                  │
+└──────────────────────────────┘
+```
+
+Never claim precise local intelligence without actual supporting evidence.
+
+---
