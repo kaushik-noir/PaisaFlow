@@ -238,3 +238,15 @@ The LLM can:
 - Extract
 - Classify
 - Ask questions
+- Route tasks
+- Explain
+- Summarize
+
+The LLM should not independently perform critical financial calculations when a deterministic engine can perform them.
+
+---
+
+## Rule 5.2 — Structured Inputs Before Calculation
+
+```text
+Natural Language
