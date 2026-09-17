@@ -148,3 +148,10 @@ PaisaFlow should feel:
 - Non-intimidating
 
 Avoid making it look like:
+
+- A stock-trading terminal
+- A corporate ERP
+- A traditional banking portal
+- A generic ChatGPT clone
+
+---
