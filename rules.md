@@ -25,3 +25,16 @@ TALK
 UNDERSTAND
  ↓
 MODEL
+ ↓
+PREDICT
+ ↓
+SIMULATE
+ ↓
+EXPLAIN
+ ↓
+ACT
+ ↓
+LEARN
+```
+
+PaisaFlow is **not** primarily:
