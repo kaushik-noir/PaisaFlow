@@ -976,3 +976,29 @@ The UI should clearly communicate the current state.
 Never leave the user wondering whether the system heard them.
 
 ---
+
+# 25. Loading Rules
+
+Avoid:
+
+> “Loading…”
+
+Prefer:
+
+```text
+Aapki baat samajh raha hoon...
+```
+
+```text
+Business data check kar raha hoon...
+```
+
+```text
+Scenario calculate kar raha hoon...
+```
+
+```text
+Result ko simple bana raha hoon...
+```
+
+---
