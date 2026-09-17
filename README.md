@@ -64,3 +64,4 @@ Signature question: “Can I get this loan?” → “Can my business survive th
    # 4. Target Users & Personas
 Primary: Rural/semi-urban micro-entrepreneur or small business owner who may use voice messaging comfortably but may not use spreadsheets or financial software.
 Secondary: Semi-urban small business owner wanting a single system for cash-flow, inventory, payments, market context and expansion decisions.
+Assisted: Authorised facilitator who can help a user create or review a business profile.
