@@ -148,3 +148,6 @@ Understand common difficulties:
 - Financial uncertainty
 - Limited business data
 - Limited financial literacy
+- Language barriers
+- Poor connectivity
+- Difficulty evaluating business decisions
