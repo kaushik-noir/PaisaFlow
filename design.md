@@ -1194,3 +1194,18 @@ Sales trend
 - Data without explanation
 
 ---
+
+# 39. Business Health Visualization
+
+Use multiple dimensions rather than one opaque score.
+
+```text
+BUSINESS HEALTH
+
+Cash-flow       🟢
+Payments        🟡
+Inventory       🟢
+Market          🟢
+Debt            🟡
+Operations      🟢
+```
