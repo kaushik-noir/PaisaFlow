@@ -618,3 +618,7 @@ Eight metrics measure whether the product works for its primary persona; targets
 | Voice task completion | % completing a core task (profile, simulation, action) by voice | ≥ 75% | Session logs |
 | Extraction accuracy | % of entities captured correctly without correction | ≥ 90% on seeded set | Correction events ÷ extractions |
 | Simulation correctness | Deterministic outputs match independently verified test cases | 100% | Unit and known-answer tests |
+| Action usefulness | User/facilitator rating that actions are understandable and relevant | ≥ 4 / 5 | In-app rating after Top 3 |
+| Evidence coverage | % of important claims showing source/assumption metadata | 100% | Automated card audit |
+| Approval safety | % of consequential actions blocked until explicit approval | 100% | Safety tests and logs |
+| State continuity | Twin state reproducible and explainable after new events | 100% | Replay tests |
