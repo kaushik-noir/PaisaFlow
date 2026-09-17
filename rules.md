@@ -789,3 +789,11 @@ DATABASE
 Do not put complex business logic directly inside API route handlers.
 
 ---
+
+# 18. Database Rules
+
+PostgreSQL is the primary structured database.
+
+PostGIS is used where geospatial functionality is required.
+
+Core entities include:
