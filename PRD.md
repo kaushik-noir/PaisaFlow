@@ -704,3 +704,4 @@ Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LE
 
 - SIH problem: SIH26091 title and FinTech framing follow the problem statement supplied by the user.
 - Presentation style: the PaisaFlow deck follows the structure of the earlier RailCast SIH deck — numbered problem framing, proposed solution, innovation/uniqueness, technology, architecture, feasibility/viability and impact.
+- Scope note: no unsupported performance percentage, guaranteed loan approval, guaranteed profit or nationwide market-coverage claim appears in this PRD. Figures in the worked example (§13) are illustrative placeholders for the seeded demo dataset.
