@@ -797,3 +797,28 @@ PostgreSQL is the primary structured database.
 PostGIS is used where geospatial functionality is required.
 
 Core entities include:
+
+```text
+users
+businesses
+business_profiles
+business_facts
+business_events
+transactions
+customers
+suppliers
+inventory
+financing
+scenarios
+simulation_results
+risk_events
+market_evidence
+memory
+actions
+alerts
+communication_drafts
+approvals
+audit_logs
+```
+
+---
