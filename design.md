@@ -81,3 +81,7 @@ Instead of:
 Say:
 
 > **“Loan ki monthly payment aapke current cash-flow par pressure daal sakti hai.”**
+
+Advanced users can open:
+
+> **Details dekhein**
