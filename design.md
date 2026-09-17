@@ -102,3 +102,5 @@ Example:
 3. 🔮 Lower loan scenario compare karein
 ```
 ---
+
+## 2.5 Trust Before Intelligence

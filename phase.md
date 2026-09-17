@@ -10,3 +10,5 @@
 # 0. HOW TO USE THIS DOCUMENT
 
 This is the **implementation blueprint**, not just a feature list.
+
+PaisaFlow must be developed in controlled phases.
