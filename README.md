@@ -44,3 +44,4 @@ TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
  Core intelligence: evidence + deterministic finance + prediction/risk + what-if simulation.
  Core UX: simple language, one question at a time, icons, voice and actionable outputs.
   Core loop: Talk → Understand → Model → Predict → Simulate → Act → Learn.
+  SIH MVP: voice onboarding + memory + twin + cash-flow + loan/expansion simulation + evidence + top actions + alerts.
