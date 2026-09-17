@@ -1510,3 +1510,7 @@ Do not claim complete offline functionality unless it is actually implemented an
 ---
 
 # 50. First Prototype Screen Priority
+
+Do not build all screens before testing the core experience.
+
+Build first:
