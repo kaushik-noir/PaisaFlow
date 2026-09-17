@@ -71,3 +71,4 @@ Family / decision group: Spouse, parent, partner or family member who may need a
 - One question at a time: ask only the next information required.
 Visual language: icons, cards, status indicators and short sentences.
 Conceptual translation: explain financial ideas in everyday language rather than merely translating jargon.
+No-shame UX: include “Samajh nahi aa raha” with an example-based explanation.
