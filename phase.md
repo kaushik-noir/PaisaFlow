@@ -533,3 +533,9 @@ Define:
 ```text
 No microphone
 Speech failure
+Network failure
+Invalid data
+Missing information
+API failure
+External source failure
+```
