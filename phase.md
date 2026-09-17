@@ -1455,3 +1455,44 @@ Introduce prediction only after reliable historical data and deterministic found
 
 ```text
 Sales Forecast
+Demand Forecast
+Anomaly Detection
+Risk Pattern Detection
+Trend Detection
+```
+
+## ML Pipeline
+
+```text
+Historical Data
+ ↓
+Cleaning
+ ↓
+Feature Engineering
+ ↓
+Model
+ ↓
+Prediction
+ ↓
+Uncertainty / Confidence
+ ↓
+Explanation
+```
+
+## Rule
+
+ML predictions must not silently replace user-provided facts.
+
+### Definition of Done
+
+At least one useful ML capability is validated against a defined test dataset.
+
+---
+
+# PHASE 27 — EVIDENCE & PROVENANCE ENGINE
+
+## Objective
+
+Make results traceable.
+
+## Evidence Types
