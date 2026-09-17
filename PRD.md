@@ -673,3 +673,7 @@ PaisaFlow does not compete on chat, RAG, EMI maths or translation; it competes o
 **Demo advantage.** Show one business under multiple scenarios, then update the Twin after a real business event and show the changed recommendation — something a stateless chatbot cannot do.
 
 **Product philosophy.** Simple outside; sophisticated inside.
+
+## 25. SIH Demonstration Script
+
+The demo runs the complete dairy scenario in roughly 90 seconds, from first voice input to a Twin update, with no manual intervention.
