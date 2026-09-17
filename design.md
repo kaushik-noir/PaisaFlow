@@ -11,3 +11,4 @@ The target entrepreneur should not need to understand:
  Business analytics
  AI/ML
   Spreadsheets
+  Long forms
