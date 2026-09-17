@@ -24,3 +24,5 @@ PaisaFlow is a voice-first AI Business Companion that maintains a living Busines
 | Primary stack | Python + FastAPI + PostgreSQL/PostGIS + Web/PWA |
 | Core innovation | Business Digital Twin + Evidence Layer + What-if Simulation |
 | Product type | Decision-support system (not a lender, accountant, legal authority or guarantee engine) |
+
+**At a glance**
