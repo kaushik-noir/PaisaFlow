@@ -1568,3 +1568,23 @@ LEARN
 If a feature does not support this loop, it should be questioned before inclusion.
 
 ---
+
+# 50. Final Master Rule
+
+PaisaFlow should always satisfy:
+
+```text
+SIMPLE FOR USER
+        +
+RIGOROUS INSIDE
+        +
+EVIDENCE-BASED
+        +
+USER CONTROLLED
+        +
+MEMORY-AWARE
+        +
+SCENARIO-DRIVEN
+```
+
+The final experience should feel like:
