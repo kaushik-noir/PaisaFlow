@@ -245,3 +245,7 @@ For low-literacy users:
 - Minimal dense paragraphs
 
 ---
+
+# 6. Iconography
+
+Use simple, familiar icons.
