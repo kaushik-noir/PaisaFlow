@@ -318,3 +318,13 @@ flowchart TD
 | Evidence module | Every claim from other modules | Attach source type, timestamp, confidence and provenance; enforce labelling | Labelled claims (Fact / Observation / Estimate / AI inference) | Yes |
 
 **Routing rule.** The AI Brain produces a structured intent; if the intent needs a number, the Brain calls a deterministic module and passes the result to the Explanation layer. The Brain may not answer a numeric question from the language model directly.
+
+**Failure behaviour.** If a module cannot answer (missing data), it returns a *needs* list; the Brain converts the first item into the next single question to the user.
+
+## 11. Business Digital Twin — Data Model
+
+The Twin is nine linked entity groups; every value in it carries provenance, and the whole Twin is reproducible from the event log.
+
+| Group | Entities and key fields | Notes |
+| --- | --- | --- |
+| Identity | `business_id`, owner profile (name, phone, language), category (dairy, kirana, tailoring…), location (village/block/district, lat-long via PostGIS), `created_at` | Location drives the Market module; category drives default assumptions and seasonality templates |
