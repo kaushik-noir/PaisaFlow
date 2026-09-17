@@ -30,3 +30,9 @@ VOICE
   ↓
   EXPLAIN
   ↓
+  TOP 3 ACTIONS
+  ↓
+  USER APPROVES
+  ↓
+  ACTION
+  ↓
