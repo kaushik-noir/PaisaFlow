@@ -329,3 +329,15 @@ Prefer:
 Important financial calculations should be deterministic.
 
 Examples:
+
+```text
+EMI
+Cash-flow
+Loan schedule
+Revenue
+Expenses
+Cash buffer
+Scenario impact
+```
+
+---
