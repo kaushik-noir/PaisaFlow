@@ -531,3 +531,23 @@ Aaj business mein kya karna hai?
 ```
 
 ---
+
+# 15. Screen 07 — Business Digital Twin
+
+This is the product's visual centerpiece.
+
+```text
+                 BUSINESS
+                    │
+           ┌────────┴────────┐
+           │  DIGITAL TWIN   │
+           └────────┬────────┘
+                    │
+       ┌────────────┼────────────┐
+       ↓            ↓            ↓
+     MONEY        MARKET         OPS
+       │            │            │
+       └────────────┼────────────┘
+                    ↓
+                   RISK
+```
