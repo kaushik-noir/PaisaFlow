@@ -528,3 +528,12 @@ The system must feel conversational, compute deterministically and remain audita
 | Area | Requirement | Target / rule |
 | --- | --- | --- |
 | Performance | Voice interactions feel conversational | Speech-to-response under \~3 s on 4G for simple intents; simulation re-run under 2 s; exact latency benchmarked in implementation |
+| Reliability | Core calculations deterministic and independently testable | 100% of finance and simulation functions covered by unit tests with known-answer cases |
+| Scalability | Backend supports many businesses and locations without coupling logic to UI | Stateless API, business-scoped data, background jobs for alerts |
+| Security | Authenticated sessions, encrypted transport, least privilege, secure secrets | OTP/phone auth, TLS everywhere, role-based access, secrets in environment or vault |
+| Auditability | Important inputs, scenario assumptions and approvals traceable | Immutable event log with actor and timestamp; approvals stored as events |
+| Maintainability | Separate AI orchestration, business logic, simulation, evidence and persistence | Five packages with defined interfaces; no LLM calls inside finance code |
+| Accessibility | Large controls, contrast, typography, voice | Section 14 requirements A-01 to A-12 |
+| Observability | Log errors and metrics without logging sensitive content | Structured logs; transcripts and amounts redacted in logs; latency and error dashboards |
+| Localisation | Language packs for prompts, labels and explanations | Hindi, Hinglish, English in MVP; framework supports more |
+| Data retention | Business data retained while the account is active | Deletion workflow completes within a defined window; backups encrypted |
