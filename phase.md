@@ -1723,3 +1723,152 @@ flowchart LR
     RISK[Risk]
     EVIDENCE[Evidence]
     ACTION[Actions]
+
+Connect every core module into one continuous product.
+
+## Full Flow
+
+```mermaid
+flowchart LR
+    USER[User]
+    VOICE[Voice]
+    BRAIN[AI Brain]
+    MEMORY[Memory]
+    TWIN[Digital Twin]
+    FIN[Finance]
+    SIM[Simulation]
+    RISK[Risk]
+    EVIDENCE[Evidence]
+    ACTION[Actions]
+
+
+## Definition of Done
+
+The complete hero scenario works without manual intervention.
+
+---
+
+# PHASE 33 — SECURITY & PRIVACY HARDENING
+
+## Objective
+
+Secure the integrated system.
+
+## Security
+
+Implement and verify:
+
+```text
+HTTPS
+Authentication
+Authorization
+Validation
+Rate Limiting
+Secret Management
+Least Privilege
+Audit Logs
+```
+
+## Privacy
+
+Protect:
+
+```text
+Business Data
+Financial Data
+Customer Data
+Voice Data
+Location Data
+```
+
+## Security Testing
+
+Test:
+
+```text
+Unauthorized access
+Invalid tokens
+ID manipulation
+Injection
+Rate limits
+Secret exposure
+```
+
+### Definition of Done
+
+No known critical security issue remains in the demo environment.
+
+---
+
+# PHASE 34 — TESTING & AI EVALUATION
+
+## Objective
+
+Test the product as a complete system.
+
+## 34.1 Unit Tests
+
+```text
+Finance
+Simulation
+Risk
+Validation
+Memory
+```
+
+## 34.2 Integration Tests
+
+```text
+API
+ ↓
+Services
+ ↓
+Database
+```
+
+## 34.3 End-to-End
+
+```text
+Voice
+ ↓
+Brain
+ ↓
+Twin
+ ↓
+Finance
+ ↓
+Simulation
+ ↓
+Evidence
+ ↓
+Actions
+ ↓
+Memory
+```
+
+## 34.4 AI Evaluation
+
+Test:
+
+```text
+Hindi
+Hinglish
+English
+Ambiguous statements
+Missing information
+Wrong numbers
+Prompt injection resistance
+Hallucination resistance
+```
+
+### Definition of Done
+
+Critical workflows have automated or repeatable tests.
+
+---
+
+# PHASE 35 — PERFORMANCE & RELIABILITY
+
+## Objective
+
+Make the system stable enough for repeated demos and real users.

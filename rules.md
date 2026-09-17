@@ -954,3 +954,93 @@ The application should support:
 - Confirmation for important actions
 
 ---
+
+# 24. Voice Interaction Rules
+
+Voice states:
+
+```text
+IDLE
+ ↓
+LISTENING
+ ↓
+PROCESSING
+ ↓
+UNDERSTANDING
+ ↓
+RESPONDING
+```
+
+The UI should clearly communicate the current state.
+
+Never leave the user wondering whether the system heard them.
+
+---
+
+# 25. Loading Rules
+
+Avoid:
+
+> “Loading…”
+
+Prefer:
+
+```text
+Aapki baat samajh raha hoon...
+```
+
+```text
+Business data check kar raha hoon...
+```
+
+```text
+Scenario calculate kar raha hoon...
+```
+
+```text
+Result ko simple bana raha hoon...
+```
+
+---
+
+# 26. Error Rules
+
+Never expose raw technical errors.
+
+### Wrong
+
+```text
+500 Internal Server Error
+```
+
+### Correct
+
+```text
+😕 Kuch problem aa gayi.
+
+Dobara try karein.
+
+[ Retry ]
+```
+
+Technical details should be available to developers through logs, not shown to ordinary users.
+
+---
+
+# 27. Offline / Poor Network Rules
+
+PaisaFlow should degrade gracefully.
+
+Potentially available:
+
+```text
+Cached Profile
+Recent Memory
+Cached UI
+Safe Local Events
+Queued Sync
+```
+
+Do not pretend that cloud AI is available offline if it is not.
+
+---
