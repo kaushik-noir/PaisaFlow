@@ -1131,3 +1131,21 @@ CORRECTION
 GOAL
 ASSUMPTION
 ```
+
+## Pipeline
+
+```text
+Conversation
+ ↓
+Event Extraction
+ ↓
+Validation
+ ↓
+Memory Event
+ ↓
+Database
+ ↓
+Twin Update
+```
+
+## Timeline UI
