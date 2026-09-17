@@ -676,3 +676,29 @@ Loan: ₹9,00,000
 ```
 
 ---
+
+# 20. Screen 12 — Evidence Mode
+
+```text
+🔎 YE RESULT KAHAN SE AAYA?
+
+BUSINESS DATA
+✓ User-provided
+
+CALCULATION
+✓ PaisaFlow Finance Engine
+
+MARKET DATA
+✓ Source available
+Updated: DD/MM/YYYY
+
+ESTIMATE
+~ Based on stated assumptions
+
+AI EXPLANATION
+Generated from above inputs
+```
+
+Important information should never appear more certain than its evidence supports.
+
+---
