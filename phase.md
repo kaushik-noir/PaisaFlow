@@ -850,3 +850,14 @@ PATCH /business
 ### Definition of Done
 
 Business profile can be created, viewed and corrected.
+
+
+---
+
+# PHASE 13 — BUSINESS DATA & TRANSACTION ENGINE
+
+## Objective
+
+Convert business activity into structured data.
+
+## 13.1 Transaction Types
