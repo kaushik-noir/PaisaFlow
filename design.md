@@ -799,3 +799,29 @@ Advanced feature.
 Never claim precise local intelligence without actual supporting evidence.
 
 ---
+
+# 25. Screen 17 — Alerts
+
+Alerts should be useful, not noisy.
+
+```text
+🔔 IMPORTANT
+
+⚠️ 3 customer payments are delayed
+
+💰 Cash buffer may become tight
+if current expenses continue.
+
+📦 Feed inventory may need review
+within the next few days.
+```
+
+Actions:
+
+```text
+[ View ]
+[ Remind Me ]
+[ Dismiss ]
+```
+
+---
