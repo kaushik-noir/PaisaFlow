@@ -12,3 +12,5 @@
 *TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN*
 
 ## 0. Document Control and PRD at a Glance
+
+PaisaFlow is a voice-first AI Business Companion that maintains a living Business Digital Twin of a rural micro-enterprise and lets the owner test a decision before acting on it.
