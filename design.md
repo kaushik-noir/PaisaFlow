@@ -1166,3 +1166,7 @@ dvanced users can access:
 This allows the same product to support both low-literacy and financially sophisticated users.
 
 ---
+
+# 38. Dashboard Chart Rules
+
+Every chart should answer a question.
