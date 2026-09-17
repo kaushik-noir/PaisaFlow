@@ -537,3 +537,15 @@ The system must feel conversational, compute deterministically and remain audita
 | Observability | Log errors and metrics without logging sensitive content | Structured logs; transcripts and amounts redacted in logs; latency and error dashboards |
 | Localisation | Language packs for prompts, labels and explanations | Hindi, Hinglish, English in MVP; framework supports more |
 | Data retention | Business data retained while the account is active | Deletion workflow completes within a defined window; backups encrypted |
+
+## 18. Security, Privacy and Safety
+
+PaisaFlow handles a family's livelihood data, so consent, minimisation, approval gates and honest labelling are requirements, not options.
+
+**Consent and data minimisation**
+
+- Obtain explicit consent, in the user's language and by voice where needed, before storing business information and before enabling any optional integration.
+- Collect only what is needed; customer records hold the minimum for receivable tracking; no Aadhaar, PAN or bank credentials in MVP.
+- Provide correction and deletion workflows; deletion removes personal data and anonymises the event log where legally permissible.
+
+**Access control**
