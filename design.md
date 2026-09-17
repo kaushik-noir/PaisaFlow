@@ -1619,3 +1619,34 @@ The main screen shown to judges should communicate the entire product in seconds
 # 53. Judge-Facing Visual Story
 
 The presentation UI should visually communicate:
+
+```text
+                PAISAFLOW
+                    │
+                    ▼
+              CONVERSATION
+                    │
+                    ▼
+              BUSINESS DATA
+                    │
+                    ▼
+            🧬 DIGITAL TWIN
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+       CURRENT              FUTURE
+        STATE              SCENARIOS
+          │                   │
+          └─────────┬─────────┘
+                    ▼
+              RISK + EVIDENCE
+                    │
+                    ▼
+              TOP 3 ACTIONS
+                    │
+                    ▼
+                 ACTION
+                    │
+                    ▼
+                LEARNING
+```
