@@ -9,5 +9,6 @@ PaisaFlow is a voice-first AI Business Companion that builds a living Digital Tw
  **SIH Problem Statement:** SIH26091
  
  **Theme:** FinTech
+ 
  **Stack:** Python + FastAPI + PostgreSQL/PostGIS + Web/PWA
  PaisaFlow is a voice-first, evidence-aware AI Business Companion built around a **Business Digital Twin** and a **What-if Simulation Engine**.
