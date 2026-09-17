@@ -784,3 +784,15 @@ Unauthorized users cannot access another user's business data.
 Allow a new entrepreneur to create their business conversationally.
 
 ## 11.1 Initial Questions
+
+Ask only what is necessary.
+
+Example:
+
+```text
+Business type?
+Business goal?
+Approximate monthly sales?
+Approximate monthly expenses?
+Available capital?
+```
