@@ -380,3 +380,16 @@ paisaflow/
 ├── README.md
 └── docker-compose.yml
 ```
+
+## 03.2 Git
+
+Create:
+
+```text
+main
+develop
+feature/*
+fix/*
+```
+
+## 03.3 Environment
