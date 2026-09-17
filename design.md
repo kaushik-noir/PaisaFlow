@@ -41,3 +41,10 @@ VOICE
 ---
 # 2. Design Principles
 ## 2.1 Voice First
+The microphone is the primary interaction.
+Primary CTA:
+> 🎙️ **BOLIYE**
+Typing is available as a fallback.
+---
+## 2.2 One Question at a Time
+Never begin with a long financial form.

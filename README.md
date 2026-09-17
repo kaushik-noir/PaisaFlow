@@ -52,3 +52,10 @@ PaisaFlow is a decision-support system, not a lender, accountant, legal authorit
 # 2. Product Vision & Positioning
 Vision: Make sophisticated business intelligence accessible through a simple conversation.
 Positioning: The pre-decision intelligence layer for small businesses: understand the business, test a decision, then act.
+Core promise: “Aapko business software samajhne ki zaroorat nahi. PaisaFlow aapke business ko samjhega.”
+Signature question: “Can I get this loan?” → “Can my business survive this loan?”
+7-word loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
+# 3. Problem Definition
+- Many small/rural entrepreneurs operate with informal records, limited financial literacy, fragmented information and limited access to understandable business analysis.
+ An entrepreneur may know that capital or expansion is needed but may not know how to estimate cash-flow impact, competition, inventory needs, repayment pressure or downside risk.
+  Traditional dashboards and financial applications assume typing ability and familiarity with business terminology.
