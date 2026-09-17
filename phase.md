@@ -132,3 +132,9 @@ Each phase contains:
 # PHASE 00 — PRODUCT & PROBLEM UNDERSTANDING
 
 ## Objective
+
+Make sure the entire team understands the problem before writing implementation code.
+
+## 00.1 Understand the User
+
+Define:
