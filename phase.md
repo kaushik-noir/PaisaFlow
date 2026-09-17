@@ -16,3 +16,4 @@ PaisaFlow must be developed in controlled phases.
 Each phase contains:
 
 - Objective
+- Why it exists
