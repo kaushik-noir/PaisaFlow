@@ -1176,3 +1176,36 @@ Every chart should answer a question.
 ```text
 Cash-flow next 7 days
 ```
+
+```text
+Loan repayment pressure
+```
+
+```text
+Sales trend
+```
+
+### Avoid
+
+- 15 KPI cards
+- Decorative charts
+- Unnecessary pie charts
+- Meaningless scores
+- Data without explanation
+
+---
+
+# 39. Business Health Visualization
+
+Use multiple dimensions rather than one opaque score.
+
+```text
+BUSINESS HEALTH
+
+Cash-flow       🟢
+Payments        🟡
+Inventory       🟢
+Market          🟢
+Debt            🟡
+Operations      🟢
+```
