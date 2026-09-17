@@ -1267,3 +1267,33 @@ Negative Values where invalid
 Results must be reproducible for identical inputs and assumptions.
 
 ---
+
+# 38. Architecture Rules
+
+The architecture should follow:
+
+```text
+USER
+ ↓
+PWA
+ ↓
+FASTAPI
+ ↓
+PAISAFLOW BRAIN
+ ↓
+BUSINESS ENGINES
+ ↓
+DIGITAL TWIN
+ ↓
+SIMULATION
+ ↓
+EVIDENCE
+ ↓
+EXPLANATION
+ ↓
+ACTION
+```
+
+Do not bypass the architecture by putting critical logic directly into the frontend or an uncontrolled LLM prompt.
+
+---
