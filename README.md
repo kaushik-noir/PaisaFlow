@@ -161,4 +161,9 @@ Inputs: Business state + proposed decision + assumptions.
 Base case: Current/expected assumptions.
 Downside cases: Sales reduction, cost increase, payment delay, seasonal decline and other configurable shocks.
 Growth case: Capacity/customer expansion under explicit assumptions.
+Outputs: Revenue, expenses, cash-flow, repayment burden, cash buffer and risk flags.
+Explainability: Show assumptions changed and their effect on outputs.
+Interactive UX: Sliders/toggles for sales, costs, loan amount or capacity where practical.
+Guardrail: Never convert scenario results into an unconditional guarantee or approval.
+
 
