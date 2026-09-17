@@ -1920,3 +1920,45 @@ UI Assets
 ```
 
 ## Queue
+
+Safe local events:
+
+```text
+Local Event
+ ↓
+Queue
+ ↓
+Network Available
+ ↓
+Validate
+ ↓
+Sync
+```
+
+## Rule
+
+Do not claim fully offline AI functionality unless actually implemented.
+
+### Definition of Done
+
+The application degrades gracefully when connectivity becomes weak.
+
+---
+
+# PHASE 37 — ANALYTICS & OBSERVABILITY
+
+## Objective
+
+Understand system health and product behavior.
+
+## Technical Metrics
+
+```text
+Requests
+Latency
+Errors
+Voice failures
+AI failures
+Simulation failures
+Database health
+```
