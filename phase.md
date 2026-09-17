@@ -581,3 +581,12 @@ PageContainer
 ## 06.3 Theme
 
 Implement:
+
+```text
+Colors
+Typography
+Spacing
+Responsive breakpoints
+```
+
+### Definition of Done
