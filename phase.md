@@ -209,3 +209,8 @@ What-If Simulation
 Sales -20%
 Costs +15%
 Payment Delay
+Seasonal Shock
+
+↓
+
+Risk + Evidence
