@@ -409,6 +409,7 @@ Expansion Scenario
 
 ---
 
+
 ## Rule 7.2
 
 Every result should show:
@@ -427,6 +428,20 @@ Risk
 Explanation
  ↓
 Actions
+```
+
+---
+
+## Rule 7.3
+
+Users should be able to compare scenarios.
+
+Example:
+
+```text
+₹7L Loan
+vs
+₹9L Loan
 ```
 
 ---
