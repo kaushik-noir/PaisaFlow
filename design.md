@@ -1538,3 +1538,15 @@ Build first:
  ↓
 11 Business Memory
 ```
+
+Then:
+
+```text
+Voice Khata
+Evidence Mode
+Alerts
+Communication Draft
+Hyper-Local Radar
+```
+
+---
