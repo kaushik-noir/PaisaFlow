@@ -30,3 +30,5 @@ Each phase contains:
 ### Golden development rule
 
 > **Do not move to the next major phase until the current phase passes its Definition of Done.**
+
+---
