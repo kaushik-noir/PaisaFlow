@@ -566,3 +566,11 @@ Create routes for:
  /memory
  /profile
 ```
+
+## 06.2 Layout
+
+Create:
+
+```text
+AppLayout
+TopBar
