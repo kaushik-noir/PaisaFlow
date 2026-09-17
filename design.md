@@ -97,3 +97,8 @@ Every major analysis should end with:
 Example:
 
 ```text
+1. 💰 Cash buffer improve karein
+2. 📞 Pending payments follow-up karein
+3. 🔮 Lower loan scenario compare karein
+```
+---
