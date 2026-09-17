@@ -120,3 +120,6 @@ FR-16: Update the Business Twin after approved changes and recorded outcomes.
 K1 — Business Digital Twin: Persistent, evolving business model connecting money, market, operations and risk.
 K2 — What-if Simulator: Scenario testing before a large financial or expansion commitment.
 K3 — Borrowability / Safe-Repayment View: Separates potential eligibility from the business's ability to sustain repayments under stated scenarios.
+K4 — Voice Khata: Conversational transaction entry such as “Ramesh ko ₹850 ka maal diya.”
+K5 — Evidence Mode: Shows what is known, estimated and assumed, with freshness/confidence where available.
+K6 — Business Experiment Mode: Encourages small real-world validation before large investment; results feed back into the Twin.
