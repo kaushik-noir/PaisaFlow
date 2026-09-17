@@ -1097,3 +1097,21 @@ ANSWER
 
 Repayment pressure downside
 scenario mein badh sakta hai.
+
+WHY
+
+Sales 20% lower hone par
+available cash reduce hota hai.
+
+ASSUMPTIONS
+
+Sales: ₹96,000
+Costs: ₹58,000
+
+ACTION
+
+Pehle ₹7L aur ₹9L scenario
+compare karein.
+```
+
+---
