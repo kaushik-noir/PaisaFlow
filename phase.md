@@ -162,3 +162,9 @@ Freeze the core definition:
 
 ```text
 TALK
+ ↓
+UNDERSTAND
+ ↓
+MODEL
+ ↓
+PREDICT
