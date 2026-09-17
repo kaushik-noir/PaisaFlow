@@ -896,3 +896,19 @@ Transaction type
 Business events can update the business state correctly.
 
 ---
+
+# PHASE 14 — VOICE INPUT/OUTPUT INFRASTRUCTURE
+
+## Objective
+
+Build reliable voice infrastructure.
+
+## Flow
+
+```text
+Microphone
+ ↓
+Audio Capture
+ ↓
+Speech-to-Text
+ ↓
