@@ -24,3 +24,5 @@ VOICE
   ↓
   BUSINESS DIGITAL TWIN
   ↓
+  ANALYSE
+  ↓
