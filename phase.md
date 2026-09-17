@@ -1795,3 +1795,23 @@ Secret exposure
 ```
 
 ### Definition of Done
+
+No known critical security issue remains in the demo environment.
+
+---
+
+# PHASE 34 — TESTING & AI EVALUATION
+
+## Objective
+
+Test the product as a complete system.
+
+## 34.1 Unit Tests
+
+```text
+Finance
+Simulation
+Risk
+Validation
+Memory
+```
