@@ -840,3 +840,13 @@ Financial summary
 ```
 
 ## Profile API
+
+```text
+GET /business
+POST /business
+PATCH /business
+```
+
+### Definition of Done
+
+Business profile can be created, viewed and corrected.
