@@ -152,4 +152,13 @@ OBSERVATION: Information collected through an observation/survey or business eve
 ESTIMATE: Calculated/inferred quantity based on explicit assumptions.
 AI INFERENCE: Generated interpretation/explanation that must not be presented as a verified fact.
 Confidence: Use confidence labels when estimation uncertainty is material.
+Freshness: Show date/time of important external or market evidence where available.
+No fabricated precision: Use ranges/uncertainty when local evidence is incomplete.
+Financial safety: Scenario outputs are estimates; they do not guarantee financing approval, profitability or future performance.
+
+# 13. What-if Simulation Engine
+Inputs: Business state + proposed decision + assumptions.
+Base case: Current/expected assumptions.
+Downside cases: Sales reduction, cost increase, payment delay, seasonal decline and other configurable shocks.
+Growth case: Capacity/customer expansion under explicit assumptions.
 
