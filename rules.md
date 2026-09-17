@@ -188,3 +188,12 @@ Avoid:
 - Excessive navigation
 
 ---
+# 4. Low-Literacy Rules
+
+PaisaFlow must be usable by people who may have limited digital or financial literacy.
+
+## Rule 4.1
+
+Every important text interaction should have a voice alternative.
+
+## Rule 4.2
