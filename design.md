@@ -1593,3 +1593,68 @@ MEMORY UPDATE
 The main screen shown to judges should communicate the entire product in seconds.
 
 ```text
+
+┌────────────────────────────────┐
+│ PaisaFlow                 🔔   │
+│                                │
+│ Namaste 👋                     │
+│ Aaj business mein kya karna hai?│
+│                                │
+│          ┌───────┐             │
+│          │  🎙️   │             │
+│          └───────┘             │
+│          BOLIYE                │
+│                                │
+│ 🎯 Aaj ke Top 3 Actions       │
+│                                │
+│ 💰 Cash       🏪 Market        │
+│ 📦 Stock      💳 Payments      │
+│                                │
+│ 🧬 Business Twin               │
+└────────────────────────────────┘
+```
+
+---
+
+# 53. Judge-Facing Visual Story
+
+The presentation UI should visually communicate:
+
+```text
+                PAISAFLOW
+                    │
+                    ▼
+              CONVERSATION
+                    │
+                    ▼
+              BUSINESS DATA
+                    │
+                    ▼
+            🧬 DIGITAL TWIN
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+       CURRENT              FUTURE
+        STATE              SCENARIOS
+          │                   │
+          └─────────┬─────────┘
+                    ▼
+              RISK + EVIDENCE
+                    │
+                    ▼
+              TOP 3 ACTIONS
+                    │
+                    ▼
+                 ACTION
+                    │
+                    ▼
+                LEARNING
+```
+
+This should be the central visual narrative of the SIH presentation and product demo.
+
+---
+
+# 54. Design Acceptance Criteria
+
+The design is successful if a new user can:
