@@ -703,3 +703,4 @@ Core loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LE
 ## 27. Reference and Design Basis
 
 - SIH problem: SIH26091 title and FinTech framing follow the problem statement supplied by the user.
+- Presentation style: the PaisaFlow deck follows the structure of the earlier RailCast SIH deck — numbered problem framing, proposed solution, innovation/uniqueness, technology, architecture, feasibility/viability and impact.
