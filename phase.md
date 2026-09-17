@@ -1975,3 +1975,112 @@ Action acceptance
 Correction rate
 Return usage
 ```
+
+Use privacy-preserving analytics.
+
+### Definition of Done
+
+Developers can identify major failures without inspecting production manually.
+
+---
+
+# PHASE 38 — DEPLOYMENT & INFRASTRUCTURE
+
+## Objective
+
+Deploy the complete application.
+
+## Architecture
+
+```text
+Internet
+ ↓
+HTTPS / CDN
+ ↓
+React PWA
+ ↓
+FastAPI
+ ↓
+Services
+ ↓
+PostgreSQL
+```
+
+## Environments
+
+```text
+Development
+Staging
+Production
+```
+
+## Secrets
+
+Use environment/configuration management.
+
+Never commit secrets.
+
+### Definition of Done
+
+The project is accessible through a stable deployment and can be redeployed using documented steps.
+
+---
+
+# PHASE 39 — DEMO ENVIRONMENT
+
+## Objective
+
+Create a deterministic SIH demonstration environment.
+
+## 39.1 Demo Business
+
+```text
+Business: Dairy
+Capital: ₹1,00,000
+Monthly Sales: ₹96,000
+Monthly Costs: ₹58,000
+Receivables: ₹18,500
+Goal: Expansion
+```
+
+## 39.2 Demo Scenario
+
+```text
+Loan: ₹9,00,000
+Sales Shock: -20%
+Cost Shock: +15%
+Payment Delay
+Seasonal Shock
+```
+
+## 39.3 Backup
+Sales Shock: -20%
+Cost Shock: +15%
+Payment Delay
+Seasonal Shock
+```
+
+## 39.3 Backup
+
+Screen recording
+Local fallback where possible
+```
+
+### Definition of Done
+
+The demo can be reset and reproduced reliably.
+
+---
+
+# PHASE 40 — SIH PRESENTATION INTEGRATION
+
+## Objective
+
+Make the product and presentation tell exactly the same story.
+
+## Presentation Narrative
+
+```text
+PROBLEM
+ ↓
+USER
