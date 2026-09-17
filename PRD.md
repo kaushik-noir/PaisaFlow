@@ -278,3 +278,13 @@ Ten features distinguish PaisaFlow; K1 to K5 are Must for the SIH demo, K6 to K1
 | K4 | Voice Khata | Conversational transaction entry: "Ramesh ko ₹850 ka maal diya" becomes a receivable with a date | Removes the data-entry barrier that kills every accounting app | Talk | Should |
 | K5 | Evidence Mode | Shows what is known, observed, estimated and assumed, with freshness and confidence | Makes the system trustworthy and auditable; guards against AI fabrication | Understand | Must |
 | K6 | Business Experiment Mode | Suggests a small real-world test (e.g. add 1 cow for a month) before the large investment; results feed the Twin | Reduces risk and produces real evidence | Act / Learn | Should |
+| K7 | Low-Literacy UX | Icons, voice, one-question screens, examples, "Samajh nahi aa raha" | Makes the product usable by the primary persona at all | Talk | Must |
+| K8 | Business Health Story | Explains the single biggest issue and why, instead of only a score | A score is not actionable; a story is | Explain | Must |
+| K9 | Proactive Alerts | Surfaces payment delays, cash pressure and inventory needs without a query | Moves the product from reactive to companion | Act | Must (basic) |
+| K10 | Family / Assisted Mode | Simple visual and audio summary for family; authorised facilitator access | Decisions in micro-businesses are family decisions | Act | Should |
+
+**Feature detail — K3 Borrowability view.** For a proposed loan the view shows three numbers side by side: the monthly repayment, the average monthly surplus in the base case, and the worst-month surplus across downside scenarios. If the worst-month surplus is below the repayment, the card turns red and names the month and the cause (for example, "December: milk yield down 30%, EMI ₹19,500 > surplus ₹12,000"). The card never says "approved" or "eligible".
+
+**Feature detail — K4 Voice Khata grammar.** The extractor must handle: gave goods on credit (`<name> ko ₹<amt> ka maal diya`), received payment (`<name> ne ₹<amt> diye`), bought stock (`₹<amt> ka <item> liya`), paid expense (`₹<amt> <expense> mein gaya`). Each becomes a typed transaction with counterparty, amount, direction, date and expected settlement date where applicable.
+
+## 10. Agent / Module Design
