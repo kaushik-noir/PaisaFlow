@@ -1176,3 +1176,11 @@ Every chart should answer a question.
 ```text
 Cash-flow next 7 days
 ```
+
+```text
+Loan repayment pressure
+```
+
+```text
+Sales trend
+```
