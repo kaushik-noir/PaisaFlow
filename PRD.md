@@ -418,3 +418,13 @@ The engine takes the Twin, a proposed decision and a set of explicit assumptions
 3. Growth scenarios add the expansion's own costs (feed, labour, maintenance) before adding its revenue, with a configurable ramp-up period.
 4. Every number is computed in Python with unit tests; the LLM never touches the arithmetic.
 5. Results are cached per (Twin version, decision, assumption set) so slider movements return instantly.
+
+**Worked example — dairy (illustrative demo values, all ESTIMATE)**
+
+| Item | Base | Sales −20% | Cost +15% | Winter month |
+| --- | --- | --- | --- | --- |
+| Monthly revenue (₹) | 78,000 | 62,400 | 78,000 | 55,000 |
+| Monthly costs (₹) | 46,000 | 46,000 | 52,900 | 46,000 |
+| Operating surplus (₹) | 32,000 | 16,400 | 25,100 | 9,000 |
+| EMI on ₹9 lakh, 11%, 5 yrs (₹) | 19,570 | 19,570 | 19,570 | 19,570 |
+| Surplus after EMI (₹) | 12,430 | −3,170 | 5,530 | −10,570 |
