@@ -26,3 +26,6 @@ PaisaFlow is a voice-first AI Business Companion that maintains a living Busines
 | Product type | Decision-support system (not a lender, accountant, legal authority or guarantee engine) |
 
 **At a glance**
+
+| Dimension | Summary |
+| --- | --- |
