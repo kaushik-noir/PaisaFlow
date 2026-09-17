@@ -314,3 +314,13 @@ Three-column information layout can be used for advanced views.
 Maximum 4–5 primary destinations.
 
 ```text
+
+┌─────────────────────────────┐
+│                             │
+│          CONTENT            │
+│                             │
+├─────────────────────────────┤
+│ 🏠       🎙️       📊      🧠 │
+│ Home     Talk    Business Memory
+└─────────────────────────────┘
+```
