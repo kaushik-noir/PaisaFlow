@@ -1048,3 +1048,13 @@ CTA:
 > 🎙️ **Boliye**
 
 ---
+
+# 34. Error States
+
+Never expose technical errors.
+
+### Avoid
+
+```text
+500 Internal Server Error
+```
