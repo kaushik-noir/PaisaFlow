@@ -248,3 +248,15 @@ Conversation
 Digital Twin
 Finance
 Simulation
+Memory
+Evidence
+Actions
+Alerts
+Communication
+```
+
+## 01.2 Non-Functional Requirements
+
+Define:
+
+```text
