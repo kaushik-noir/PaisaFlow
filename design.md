@@ -1170,3 +1170,9 @@ This allows the same product to support both low-literacy and financially sophis
 # 38. Dashboard Chart Rules
 
 Every chart should answer a question.
+
+### Good
+
+```text
+Cash-flow next 7 days
+```
