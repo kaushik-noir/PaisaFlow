@@ -58,3 +58,4 @@ Signature question: “Can I get this loan?” → “Can my business survive th
 # 3. Problem Definition
 - Many small/rural entrepreneurs operate with informal records, limited financial literacy, fragmented information and limited access to understandable business analysis.
  An entrepreneur may know that capital or expansion is needed but may not know how to estimate cash-flow impact, competition, inventory needs, repayment pressure or downside risk.
+  Traditional dashboards and financial applications assume typing ability and familiarity with business terminology.
