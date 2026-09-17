@@ -310,3 +310,21 @@ Freeze how all systems communicate.
 USER
  ↓
 REACT PWA
+ ↓
+FASTAPI
+ ↓
+PAISAFLOW BRAIN
+ ↓
+BUSINESS SERVICES
+ ↓
+DIGITAL TWIN
+ ↓
+DATABASE
+```
+
+## 02.2 AI Boundary
+
+```text
+LLM
+ ↓
+Structured Input
