@@ -318,3 +318,33 @@ flowchart TD
 | Evidence module | Every claim from other modules | Attach source type, timestamp, confidence and provenance; enforce labelling | Labelled claims (Fact / Observation / Estimate / AI inference) | Yes |
 
 **Routing rule.** The AI Brain produces a structured intent; if the intent needs a number, the Brain calls a deterministic module and passes the result to the Explanation layer. The Brain may not answer a numeric question from the language model directly.
+
+**Failure behaviour.** If a module cannot answer (missing data), it returns a *needs* list; the Brain converts the first item into the next single question to the user.
+
+## 11. Business Digital Twin — Data Model
+
+The Twin is nine linked entity groups; every value in it carries provenance, and the whole Twin is reproducible from the event log.
+
+| Group | Entities and key fields | Notes |
+| --- | --- | --- |
+| Identity | `business_id`, owner profile (name, phone, language), category (dairy, kirana, tailoring…), location (village/block/district, lat-long via PostGIS), `created_at` | Location drives the Market module; category drives default assumptions and seasonality templates |
+| Money | `cash_on_hand`, revenue streams (name, unit, quantity/period, price, seasonality profile), expenses (name, amount, frequency, fixed/variable), receivables (counterparty, amount, due date, status), payables, financing obligations (lender, principal, rate, EMI, tenure, next due) | All amounts in INR integers (paise avoided); periods normalised to monthly |
+| Market | Local signals (type, value, source, date), competitor observations (name/type, distance, date), pricing observations, demand assumptions (base, seasonal multipliers) | Never implies complete coverage; every signal has a freshness date |
+| Operations | Inventory items (name, unit, stock, reorder level, unit cost), stock movements, suppliers (name, terms, lead time), recurring operating events | Feeds cost projections and reorder alerts |
+| Customers | Only necessary records with consent: name/alias, contact (optional), outstanding, expected payment date, payment history summary | Minimal PII; used for receivable tracking and reminders |
+| Financing | Existing and proposed scenarios: amount, rate, tenure, moratorium, disbursement month, purpose, linked assumptions, repayment estimate | A proposed scenario never becomes "existing" without an approved outcome event |
+| Risk | Risk indicators (cash buffer months, repayment coverage ratio, concentration), stress results per scenario, uncertainty ranges, trigger conditions and thresholds | Computed, never user-entered |
+| Memory | Approved facts, corrections, decisions, actions taken, outcomes, each with `event_id`, type, timestamp, actor (owner/facilitator/system), approval status | Append-only event log; corrections supersede rather than overwrite |
+| Provenance | On every value: `source_type` (user / observation / estimate / model), reference (event id, document, dataset), timestamp, `classification`, `confidence` | Enforced by the Evidence module at write time |
+
+**Core entity relationships**
+
+```mermaid
+flowchart LR
+  BIZ[Business] --> EV[Event log]
+  EV --> TW[Twin snapshot]
+  TW --> MON[Money state]
+  TW --> MKT[Market state]
+  TW --> OPS[Operations state]
+  TW --> RSK[Risk state]
+  MON --> FIN[Financing scenarios]
