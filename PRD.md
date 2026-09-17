@@ -498,3 +498,13 @@ flowchart LR
 ```
 
 **Channels.** WhatsApp share-sheet, SMS and email drafts in MVP; native WhatsApp Business API integration is a later phase.
+
+**Outcome capture.** After an action is approved, the system asks at the next session whether it was completed and what happened ("Ramesh ne paisa diya?"). The answer becomes an outcome event.
+
+## 16. Data and Integration Strategy
+
+Phase 1 runs entirely on user-provided, seeded and permitted public data; external integrations arrive only when access, permission and interfaces exist.
+
+| Phase | Data sources | Integration | Status |
+| --- | --- | --- | --- |
+| Phase 1 (SIH) | User inputs, seeded demo dataset (dairy + 2 other categories), permitted public/official documents for scheme information | None required | MVP |
