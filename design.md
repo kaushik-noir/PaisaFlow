@@ -393,3 +393,25 @@ Avoid unnecessary animation.
 Future language expansion can include additional supported regional languages.
 
 ---
+
+# 11. Screen 03 — First-Time Onboarding
+
+Do not start with a registration-heavy form.
+
+```text
+┌──────────────────────────────┐
+│          👋 Namaste!         │
+│                              │
+│ Main aapke business ko       │
+│ samajhne mein help karunga.  │
+│                              │
+│           🎙️                 │
+│         BOLIYE               │
+│                              │
+│ "Aapka business kya hai?"    │
+│                              │
+│ [ Ya type karein ]           │
+└──────────────────────────────┘
+```
+
+---
