@@ -1095,3 +1095,22 @@ What can I do?
 ```
 
 ---
+
+# 30. Business Health Rules
+
+Do not reduce the entire business to one unexplained score.
+
+Instead show dimensions:
+
+```text
+Cash-flow
+Payments
+Inventory
+Market
+Debt
+Operations
+```
+
+Then identify the most relevant issue.
+
+---
