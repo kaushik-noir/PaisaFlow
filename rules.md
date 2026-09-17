@@ -309,3 +309,7 @@ Never invent:
 - External evidence
 
 ---
+
+## Rule 5.5 — No Fake Precision
+
+Avoid statements like:
