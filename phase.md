@@ -462,3 +462,7 @@ VoiceButton
 Modal
 ConfirmationDialog
 ```
+
+## 04.4 States
+
+Every component should define:
