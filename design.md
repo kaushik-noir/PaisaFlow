@@ -324,3 +324,15 @@ Maximum 4–5 primary destinations.
 │ Home     Talk    Business Memory
 └─────────────────────────────┘
 ```
+
+Recommended:
+
+1. Home
+2. Talk
+3. Business
+4. Insights
+5. Memory/Profile
+
+The **Talk** action should be visually dominant.
+
+---
