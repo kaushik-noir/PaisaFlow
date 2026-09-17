@@ -756,3 +756,16 @@ Recommended:
 ```text
 /api/v1/
 ```
+
+API responsibilities:
+
+- Validate requests
+- Authenticate users
+- Authorize access
+- Call services
+- Return structured responses
+- Handle errors consistently
+
+The frontend should not directly access protected databases.
+
+---
