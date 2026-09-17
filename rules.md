@@ -496,3 +496,9 @@ Twin Update
 ```
 
 ---
+
+## Rule 8.2 — Do Not Silently Change Important Facts
+
+Important facts should have provenance and, where appropriate, user confirmation.
+
+---
