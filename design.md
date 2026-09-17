@@ -1328,3 +1328,7 @@ Suggested endpoints:
 POST /api/v1/auth/...
 POST /api/v1/voice/transcribe
 POST /api/v1/conversation/message
+
+GET  /api/v1/business
+POST /api/v1/business
+PATCH /api/v1/business
