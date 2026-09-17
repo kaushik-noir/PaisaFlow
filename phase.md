@@ -455,3 +455,10 @@ MetricCard
 StatusCard
 ActionCard
 ScenarioCard
+EvidenceCard
+MemoryEvent
+AlertCard
+VoiceButton
+Modal
+ConfirmationDialog
+```
