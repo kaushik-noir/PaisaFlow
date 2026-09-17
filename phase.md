@@ -2132,3 +2132,23 @@ Presentation claims match the actual working system.
 Remove friction and make the experience feel finished.
 
 ## Check
+
+```text
+Typography
+Spacing
+Navigation
+Animations
+Voice states
+Loading
+Errors
+Empty states
+Accessibility
+Mobile layout
+```
+
+## Remove
+
+```text
+Unused buttons
+Dead screens
+Placeholder content
