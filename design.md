@@ -1266,3 +1266,24 @@ Tailwind CSS
   +
 PWA
 ```
+
+Suggested structure:
+
+```text
+frontend/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── hooks/
+│   ├── services/
+│   ├── stores/
+│   ├── types/
+│   ├── utils/
+│   └── assets/
+│
+├── public/
+└── package.json
+```
+
+---
