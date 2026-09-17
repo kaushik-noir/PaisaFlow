@@ -535,3 +535,11 @@ ASSUMPTION
 ```
 
 ---
+
+## Rule 9.1
+
+Memory should not be treated as an unlimited dump of conversation text.
+
+Store structured business events where possible.
+
+---
