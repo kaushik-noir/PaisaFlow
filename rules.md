@@ -18,3 +18,10 @@ PaisaFlow is a:
 > **Voice-first AI Business Companion for small and rural/semi-urban entrepreneurs.**
 
 It should help an entrepreneur:
+
+```text
+TALK
+ ↓
+UNDERSTAND
+ ↓
+MODEL
