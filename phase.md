@@ -651,3 +651,19 @@ All primary pages are navigable.
 Build FastAPI application infrastructure.
 
 ## 08.1 Structure
+
+```text
+backend/app/
+├── api/
+├── core/
+├── services/
+├── models/
+├── schemas/
+├── agents/
+├── business/
+├── finance/
+├── simulation/
+├── memory/
+├── evidence/
+└── main.py
+```
