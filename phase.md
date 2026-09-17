@@ -1203,3 +1203,22 @@ Memory
 ```
 
 ## Twin Update
+
+```text
+Event
+ ↓
+Validation
+ ↓
+State Calculation
+ ↓
+Twin Update
+ ↓
+Persist
+```
+
+## Twin Views
+
+```text
+Money
+Market
+Operations
