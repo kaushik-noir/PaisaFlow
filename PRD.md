@@ -298,3 +298,13 @@ flowchart TD
   B --> K[Market module]
   B --> O[Operations module]
   B --> R[Risk module]
+  M --> E[Evidence module]
+  K --> E
+  O --> E
+  R --> E
+  E --> C[Communication module<br/>drafts · summaries]
+  B <--> MM[Memory module]
+```
+
+| Module | Inputs | Responsibilities | Outputs | Deterministic? |
+| --- | --- | --- | --- | --- |
