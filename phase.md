@@ -769,3 +769,18 @@ Potential roles:
 Owner
 Assisted User
 Admin
+```
+
+### Definition of Done
+
+Unauthorized users cannot access another user's business data.
+
+---
+
+# PHASE 11 — BUSINESS ONBOARDING
+
+## Objective
+
+Allow a new entrepreneur to create their business conversationally.
+
+## 11.1 Initial Questions
