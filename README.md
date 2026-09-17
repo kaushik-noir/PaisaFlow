@@ -51,3 +51,4 @@ The central product innovation is the Business Digital Twin: a continuously upda
 PaisaFlow is a decision-support system, not a lender, accountant, legal authority or guarantee engine. Important outputs must be shown as calculations or scenario estimates with assumptions and evidence. The system must not present simulated results as guaranteed approval, profit or future performance.
 # 2. Product Vision & Positioning
 Vision: Make sophisticated business intelligence accessible through a simple conversation.
+Positioning: The pre-decision intelligence layer for small businesses: understand the business, test a decision, then act.
