@@ -1,4 +1,4 @@
-package com.paisaflow.app.data.mock
+
 
 import com.paisaflow.app.model.BrainUnderstanding
 import com.paisaflow.app.model.ClarificationOption
@@ -220,7 +220,8 @@ object DemoSimulation {
 }
 
 /** SAMPLE Action Layer content (RULES.md §44). Finance numbers come from DemoSimulation. */
-
+object DemoActions {
+    val data = com.paisaflow.app.model.ActionsData(
         pendingCount = 3,
         collection = com.paisaflow.app.model.CollectionAction(
             customer = "रमेश टी स्टॉल को तगादा",
