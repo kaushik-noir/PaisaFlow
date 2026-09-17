@@ -37,7 +37,10 @@ object ApiClient {
         .addInterceptor(HttpLoggingInterceptor().apply { level = HttpLoggingInterceptor.Level.BASIC })
         .build()
 
- 
+    val retrofit: Retrofit = Retrofit.Builder()
+        .baseUrl(BuildConfig.API_BASE_URL)
+        .client(http)
+        .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
         .build()
 
     val api: PaisaFlowApi = retrofit.create(PaisaFlowApi::class.java)
