@@ -1238,3 +1238,17 @@ Every important recommendation should answer:
 ### WHAT?
 
 > “Repayment pressure may increase.”
+
+### WHY?
+
+> “Sales decline reduces available cash.”
+
+### BASED ON?
+
+> “Your current business data + selected assumptions.”
+
+### WHAT NEXT?
+
+> “Compare a lower loan amount or improve the cash buffer.”
+
+---
