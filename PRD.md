@@ -459,3 +459,7 @@ The primary persona must be able to complete every core task without typing, wit
 | A-12 | Low-end device support | PWA tested on 2 GB RAM Android; no heavy client-side models |
 
 ## 15. Communication and Action System
+
+Analysis ends in at most three actions, every outgoing message is a draft until approved, and every completed action feeds an outcome back into the Twin.
+
+**Top 3 Actions — ranking model**
