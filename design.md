@@ -1130,3 +1130,39 @@ sahi?"
 
 [ Haan ] [ Badalna hai ]
 ```
+
+Then:
+
+```text
+"Monthly sales approx kitni hai?"
+```
+
+Then:
+
+```text
+"₹80,000.
+
+Monthly kharcha approx?"
+```
+
+---
+
+# 37. Advanced Mode
+
+Advanced information remains available but hidden behind:
+
+> **Details dekhein**
+
+dvanced users can access:
+
+- Financial calculations
+- Assumptions
+- Scenario variables
+- Evidence
+- Charts
+- Historical trends
+- Technical model information where appropriate
+
+This allows the same product to support both low-literacy and financially sophisticated users.
+
+---
