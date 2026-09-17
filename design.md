@@ -193,3 +193,11 @@ Use for:
 ```text
 #FFFFFF
 ```
+
+## Text
+
+```text
+Primary:   #1F2937
+Secondary: #64748B
+Muted:     #94A3B8
+```
