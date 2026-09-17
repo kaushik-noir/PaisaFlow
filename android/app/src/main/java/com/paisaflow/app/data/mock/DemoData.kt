@@ -21,7 +21,7 @@ object DemoData {
         onboardingTotal = 3,
         isSampleData = true,
         facts = listOf(
-            ExtractedFact("Business Type", , EvidenceLabel.FACT),
+            ExtractedFact("Business Type","डेयरी · Dairy", "Sheikhpura unit" , EvidenceLabel.FACT),
             ExtractedFact("Lakshya (Goal)", "विस्तार · Expand", "+6 Cows target", EvidenceLabel.FACT),
             ExtractedFact("Apna Paisa", "₹1,00,000", "Self-investment", EvidenceLabel.FACT, isHighlight = true),
             ExtractedFact("Sarkari/KCC Sahayata", "Loan Needed", "~₹2.5L to ₹3L", EvidenceLabel.ESTIMATE),
@@ -29,7 +29,7 @@ object DemoData {
         nextQuestion = ClarificationQuestion(
             step = 2,
             totalSteps = 3,
-            question = "Abhi aapke paas kitni gaay hain?",
+           
             translation = "(How many cows in your shed currently?)",
             unitLabel = "Cows",
             preselected = 4,
