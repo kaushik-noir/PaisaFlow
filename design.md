@@ -505,3 +505,29 @@ Aaj business mein kya karna hai?
 │                             │
 └─────────────────────────────┘
 ```
+
+### Business snapshot
+
+```text
+┌────────────┐ ┌────────────┐
+│ 💰 Cash    │ │ 📈 Sales   │
+│ ₹82,400    │ │ ₹96,000    │
+└────────────┘ └────────────┘
+
+┌────────────┐ ┌────────────┐
+│ 📦 Stock   │ │ 💳 Due     │
+│ Attention  │ │ ₹18,500    │
+└────────────┘ └────────────┘
+```
+
+### Top 3 Actions
+
+```text
+🎯 AAJ KE 3 KAAM
+
+1. 3 pending payments follow-up
+2. Feed stock review
+3. Expansion scenario check
+```
+
+---
