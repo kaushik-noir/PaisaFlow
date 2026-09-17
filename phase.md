@@ -1321,3 +1321,21 @@ PaisaFlow can explain the business's cash-flow situation in simple language.
 Model financing scenarios.
 
 ## Inputs
+
+```text
+Principal
+Interest Rate
+Tenure
+```
+
+## Outputs
+
+```text
+EMI
+Total Interest
+Total Repayment
+Repayment Schedule
+Cash-flow Impact
+```
+
+## Important
