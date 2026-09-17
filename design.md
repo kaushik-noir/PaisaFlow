@@ -1297,3 +1297,25 @@ FastAPI
 ```
 
 Suggested structure:
+
+```text
+backend/
+└── app/
+    ├── api/
+    ├── agents/
+    ├── business/
+    ├── digital_twin/
+    ├── finance/
+    ├── simulation/
+    ├── evidence/
+    ├── memory/
+    ├── market/
+    ├── risk/
+    ├── communication/
+    ├── models/
+    ├── schemas/
+    ├── services/
+    └── main.py
+```
+
+---
