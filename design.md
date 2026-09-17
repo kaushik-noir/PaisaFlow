@@ -891,3 +891,92 @@ Example:
 > “EMI ka matlab hai har mahine loan ke liye deni wali rakam.”
 
 ---
+
+# 29. Information Architecture
+
+```text
+PAISAFLOW
+│
+├── HOME
+│   ├── Voice CTA
+│   ├── Business Snapshot
+│   ├── Top 3 Actions
+│   └── Alerts
+│
+├── TALK
+│   ├── Voice
+│   ├── Text
+│   └── Photo
+│
+├── BUSINESS
+│   ├── Digital Twin
+│   ├── Money
+│   ├── Market
+│   ├── Operations
+│   ├── Customers
+│   └── Risk
+│
+├── SIMULATE
+│   ├── Loan
+│   ├── Expansion
+│   ├── Sales Shock
+│   ├── Cost Shock
+│   └── Seasonal Scenario
+│
+├── MEMORY
+│   ├── Timeline
+│   ├── Facts
+│   ├── Decisions
+│   └── Outcomes
+│
+└── PROFILE
+    ├── Business
+    ├── Language
+    ├── Notifications
+    ├── Privacy
+    └── Help
+```
+
+---
+
+# 30. Component Design System
+
+Create reusable components:
+
+```text
+Button
+VoiceButton
+Card
+MetricCard
+StatusCard
+ActionCard
+ScenarioCard
+EvidenceCard
+MemoryEvent
+AlertCard
+BottomNavigation
+TopBar
+Modal
+ConfirmationDialog
+LanguageSelector
+VoiceWaveform
+ProgressIndicator
+Slider
+Toggle
+EmptyState
+LoadingState
+ErrorState
+```
+
+---
+
+# 31. Voice Button Specification
+
+The microphone is a core brand element.
+
+### Idle
+
+```text
+     🎙️
+   BOLIYE
+```
