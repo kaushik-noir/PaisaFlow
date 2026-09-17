@@ -1341,3 +1341,25 @@ Prioritize:
 Voice interaction should provide clear processing feedback even when a response takes time.
 
 ---
+
+# 41. Scalability Rules
+
+Start simple.
+
+MVP:
+
+```text
+PWA
+ ↓
+FastAPI
+ ↓
+PostgreSQL
+ ↓
+AI + Business Engines
+```
+
+Scale only when necessary.
+
+Do not build a microservice architecture merely for presentation.
+
+---
