@@ -18,3 +18,5 @@ The target entrepreneur should not need to understand:
 PaisaFlow handles the complexity behind the scenes.
 ### Core experience
 ```text
+VOICE
+  ↓
