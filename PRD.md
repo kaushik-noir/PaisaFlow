@@ -463,3 +463,8 @@ The primary persona must be able to complete every core task without typing, wit
 Analysis ends in at most three actions, every outgoing message is a draft until approved, and every completed action feeds an outcome back into the Twin.
 
 **Top 3 Actions — ranking model**
+
+| Factor | Weight (default) | Source |
+| --- | --- | --- |
+| Urgency | 0.35 | Risk module thresholds and due dates |
+| Expected business value | 0.35 | Money module delta (surplus, buffer) |
