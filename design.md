@@ -39,3 +39,4 @@ VOICE
   MEMORY
 ```
 ---
+# 2. Design Principles
