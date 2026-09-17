@@ -228,3 +228,13 @@ flowchart TD
 **Reference technical stack**
 
 | Concern | Choice |
+| --- | --- |
+| Client | Progressive Web App (mobile-first), large-touch UI, Web Speech / cloud STT-TTS |
+| API | Python + FastAPI |
+| Persistence | PostgreSQL with PostGIS for location-aware market signals |
+| AI orchestration | LLM for intent extraction and explanation; deterministic Python for finance and simulation |
+| Deployment | Containerised backend; PWA served statically; environment-based secrets |
+
+## 8. Functional Requirements — MVP
+
+Sixteen functional requirements define the SIH MVP; each has a priority (Must / Should) and a testable acceptance criterion.
