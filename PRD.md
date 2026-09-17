@@ -257,3 +257,13 @@ Sixteen functional requirements define the SIH MVP; each has a priority (Must / 
 | FR-14 | Generate simple visual/text reports for sharing or printing | Should | A one-page family/facilitator report exports as image or PDF |
 | FR-15 | Allow users to correct captured information | Must | "Badalna hai" on any confirmed value creates a correction event; the Twin recomputes |
 | FR-16 | Update the Business Twin after approved changes and recorded outcomes | Must | Recording an outcome (e.g. "loan mil gaya", "6 gaay le li") changes the Twin and the next health report |
+
+**Voice-specific requirements**
+
+- FR-V1: Read back every captured monetary value and quantity before storing it.
+- FR-V2: Offer a text fallback when speech confidence is low or after two failed recognitions.
+- FR-V3: Speak important explanations aloud on request or by default in low-literacy mode.
+
+**Out of scope for MVP (explicit).** Banking integration, automated loan application, autonomous money movement, guaranteed credit scoring, full offline mode and nationwide market coverage.
+
+## 9. Killer Features
