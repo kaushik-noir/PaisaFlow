@@ -19,3 +19,4 @@ Each phase contains:
 - Why it exists
 - Sub-phases
 - Exact work
+- Inputs
