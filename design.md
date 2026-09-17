@@ -79,3 +79,5 @@ Instead of:
 
 > “Your DSCR is below the recommended threshold.”
 Say:
+
+> **“Loan ki monthly payment aapke current cash-flow par pressure daal sakti hai.”**
