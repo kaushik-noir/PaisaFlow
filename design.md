@@ -1130,3 +1130,19 @@ sahi?"
 
 [ Haan ] [ Badalna hai ]
 ```
+
+Then:
+
+```text
+"Monthly sales approx kitni hai?"
+```
+
+Then:
+
+```text
+"₹80,000.
+
+Monthly kharcha approx?"
+```
+
+---
