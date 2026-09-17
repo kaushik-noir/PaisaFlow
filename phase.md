@@ -2417,3 +2417,33 @@ If time becomes limited, prioritize:
 ```
 
 ---
+
+# MVP DEFINITION
+
+The MVP is complete when:
+
+```text
+A user can speak naturally
+        ↓
+PaisaFlow understands the request
+        ↓
+Creates/updates business information
+        ↓
+Maintains a Digital Twin
+        ↓
+Calculates financial state
+        ↓
+Runs a What-If scenario
+        ↓
+Stress-tests the scenario
+        ↓
+Shows assumptions/evidence
+        ↓
+Explains the result simply
+        ↓
+Provides Top 3 Actions
+        ↓
+Records the outcome in Memory
+```
+
+---
