@@ -1002,3 +1002,27 @@ Result ko simple bana raha hoon...
 ```
 
 ---
+
+# 26. Error Rules
+
+Never expose raw technical errors.
+
+### Wrong
+
+```text
+500 Internal Server Error
+```
+
+### Correct
+
+```text
+😕 Kuch problem aa gayi.
+
+Dobara try karein.
+
+[ Retry ]
+```
+
+Technical details should be available to developers through logs, not shown to ordinary users.
+
+---
