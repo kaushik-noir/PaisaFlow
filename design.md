@@ -155,3 +155,5 @@ Avoid making it look like:
 - A generic ChatGPT clone
 
 ---
+
+# 4. Color System
