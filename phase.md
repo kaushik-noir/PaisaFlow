@@ -22,3 +22,4 @@ Each phase contains:
 - Inputs
 - Outputs
 - Dependencies
+- Testing
