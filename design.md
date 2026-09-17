@@ -1668,3 +1668,15 @@ The design is successful if a new user can:
 - Identify the Top 3 Actions
 - Correct incorrect information
 - Return later and see remembered business events
+
+The UI must avoid:
+
+- Complex forms
+- Unexplained financial jargon
+- Information overload
+- Fake precision
+- Unsupported claims
+- Autonomous consequential actions
+- Unnecessary technical terminology
+
+---
