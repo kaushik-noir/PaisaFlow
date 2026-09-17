@@ -55,3 +55,5 @@ Positioning: The pre-decision intelligence layer for small businesses: understan
 Core promise: “Aapko business software samajhne ki zaroorat nahi. PaisaFlow aapke business ko samjhega.”
 Signature question: “Can I get this loan?” → “Can my business survive this loan?”
 7-word loop: TALK → UNDERSTAND → MODEL → PREDICT → SIMULATE → ACT → LEARN
+# 3. Problem Definition
+- Many small/rural entrepreneurs operate with informal records, limited financial literacy, fragmented information and limited access to understandable business analysis.
