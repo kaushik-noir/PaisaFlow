@@ -614,3 +614,40 @@ Test:
 360px
 390px
 430px
+768px
+1024px
+1280px+
+```
+
+## 07.3 Accessibility
+
+Implement:
+
+```text
+Keyboard navigation
+Focus states
+ARIA labels
+Touch targets
+Contrast
+Text alternatives
+```
+
+### Definition of Done
+
+PaisaFlow behaves like a mobile-first application on supported browsers.
+
+All primary pages are navigable.
+
+---
+
+# PHASE 07 — RESPONSIVE PWA FOUNDATION
+
+---
+
+# PHASE 08 — BACKEND FOUNDATION
+
+## Objective
+
+Build FastAPI application infrastructure.
+
+## 08.1 Structure

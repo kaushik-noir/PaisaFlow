@@ -1550,3 +1550,46 @@ Hyper-Local Radar
 ```
 
 ---
+
+# 51. SIH Demo UI Flow
+
+The complete demo should feel like one continuous story.
+
+```text
+LANDING
+   ↓
+NAMASTE
+   ↓
+VOICE
+   ↓
+"Mere paas ₹1 lakh hai..."
+   ↓
+CONFIRM
+   ↓
+BUSINESS DIGITAL TWIN
+   ↓
+"₹9 lakh loan?"
+   ↓
+WHAT-IF
+   ↓
+BASE
+SALES -20%
+COST +15%
+SEASONAL SHOCK
+   ↓
+   RISK + ASSUMPTIONS
+   ↓
+TOP 3 ACTIONS
+   ↓
+USER APPROVES
+   ↓
+MEMORY UPDATE
+```
+
+---
+
+# 52. Hero Screen
+
+The main screen shown to judges should communicate the entire product in seconds.
+
+```text
