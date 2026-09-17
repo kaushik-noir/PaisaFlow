@@ -746,3 +746,13 @@ Production secrets
 to Git.
 
 ---
+
+# 16. API Rules
+
+All APIs should use versioning.
+
+Recommended:
+
+```text
+/api/v1/
+```
