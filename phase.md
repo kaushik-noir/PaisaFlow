@@ -861,3 +861,26 @@ Business profile can be created, viewed and corrected.
 Convert business activity into structured data.
 
 ## 13.1 Transaction Types
+
+```text
+SALE
+PURCHASE
+PAYMENT_RECEIVED
+EXPENSE
+RECEIVABLE
+PAYABLE
+```
+
+## 13.2 Inventory Events
+
+```text
+STOCK_IN
+STOCK_OUT
+ADJUSTMENT
+```
+
+## 13.3 Event Validation
+
+Validate:
+
+```text
