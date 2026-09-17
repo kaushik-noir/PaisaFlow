@@ -1776,3 +1776,22 @@ Protect:
 ```text
 Business Data
 Financial Data
+Customer Data
+Voice Data
+Location Data
+```
+
+## Security Testing
+
+Test:
+
+```text
+Unauthorized access
+Invalid tokens
+ID manipulation
+Injection
+Rate limits
+Secret exposure
+```
+
+### Definition of Done
