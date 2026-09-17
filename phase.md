@@ -191,3 +191,11 @@ Rural / Semi-Urban Business Owner
 Low / Medium Digital Literacy
 ```
 nderstanding
+
+↓
+
+Digital Twin
+
+↓
+
+"Agar main ₹9 lakh ka loan loon?"
