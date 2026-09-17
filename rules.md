@@ -632,3 +632,19 @@ Supplier Message
 ```
 
 But:
+
+> **PaisaFlow should not automatically perform consequential external actions without user approval.**
+
+Required flow:
+
+```text
+DRAFT
+ ↓
+REVIEW
+ ↓
+APPROVE
+ ↓
+SEND / ACTION
+```
+
+---
