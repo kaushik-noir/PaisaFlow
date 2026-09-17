@@ -2,8 +2,7 @@ package com.paisaflow.app.data.mock
 
 import com.paisaflow.app.model.BrainUnderstanding
 import com.paisaflow.app.model.ClarificationOption
-import com.paisaflow.app.model.ClarificationQuestion
-import com.paisaflow.app.model.EvidenceLabel
+
 import com.paisaflow.app.model.ExtractedFact
 
 /**
