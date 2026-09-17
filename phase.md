@@ -328,3 +328,27 @@ DATABASE
 LLM
  ↓
 Structured Input
+ ↓
+Validation
+ ↓
+Deterministic Engine
+ ↓
+Validated Result
+ ↓
+LLM Explanation
+```
+
+## 02.3 Define Modules
+
+```text
+AI Brain
+Money
+Market
+Operations
+Risk
+Communication
+Memory
+Evidence
+Digital Twin
+Simulation
+```
