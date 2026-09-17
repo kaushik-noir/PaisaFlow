@@ -633,3 +633,8 @@ Testing concentrates on three failure classes: wrong numbers, unsafe outputs and
 | --- | --- | --- |
 | Unit | Financial formulas, scenario engine, state updates, validation | EMI at 11%/60 months; seasonal multiplier application; correction supersedes original |
 | Integration | Voice → intent → memory → twin → simulation → explanation | Dairy utterance produces four scenario cards with correct numbers |
+| Data | Schema constraints, timestamps, provenance, correction | Every stored value has provenance; event log ordering |
+| UX | Users unfamiliar with business software complete core flows with minimal assistance | 5 field testers, think-aloud, task completion time |
+| Adversarial | Missing data, contradictory inputs, unrealistic numbers, ambiguous voice, unsupported local claims | "₹1 lakh" then "₹10 lakh"; "1 crore litre milk"; competitor question with no local data |
+| Safety | No guarantees from estimates; no external sending without approval | Banned-phrase scan; attempted send without approval is rejected |
+| Demo | Full dairy scenario from first voice input to simulation, action and memory update | Scripted run with timing |
