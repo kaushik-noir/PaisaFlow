@@ -191,5 +191,14 @@ Official information: Use official documents or authorised data sources for sche
 Local data: Use observed/verified signals where available; never imply complete local coverage.
 Privacy: Collect only information required for the product and business model.
 Data quality: Maintain source, update date and coverage metadata where practical.
+# 17. Non-Functional Requirements
+Performance: Voice interactions should feel conversational; benchmark exact latency during implementation.
+Reliability: Core calculations must be deterministic and independently testable.
+Scalability: Backend should support multiple businesses and locations without coupling logic to UI.
+Security: Authenticated sessions, encrypted transport, least-privilege access and secure secret management.
+Auditability: Important inputs, scenario assumptions and user approvals should be traceable.
+Maintainability: Separate AI orchestration, business logic, simulation, evidence and persistence layers.
+Accessibility: Large controls, clear contrast, readable typography and voice interaction.
+Observability: Log operational errors/metrics while avoiding unnecessary sensitive-content logging.
 
 
