@@ -667,3 +667,5 @@ PaisaFlow does not compete on chat, RAG, EMI maths or translation; it competes o
 | Generic EMI calculator | Scenario simulation with survivability view |
 | Language translation alone | Low-literacy voice UX with conceptual translation |
 | Feature count | Closed-loop learning from real outcomes |
+
+**Moat.** Value compounds: each structured event and outcome makes the Twin more accurate and the recommendations more specific, while provenance makes every important claim defensible. Switching away means losing the business's own history.
