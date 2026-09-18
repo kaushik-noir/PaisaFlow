@@ -1,85 +1,10 @@
-# -----------------------------
-# Gradle
-# -----------------------------
-.gradle/
-build/
-**/build/
-
-# -----------------------------
-# Local configuration
-# -----------------------------
-local.properties
-
-# Environment / secret files
-.env
-.env.*
-*.jks
-*.keystore
-
-# -----------------------------
-# Android Studio / IntelliJ
-# -----------------------------
-.idea/
 *.iml
-*.ipr
-*.iws
-
-# -----------------------------
-# Android build/generated files
-# -----------------------------
-captures/
-.externalNativeBuild/
-.cxx/
-
-# APK / App Bundle
-*.apk
-*.aab
-*.ap_
-
-# -----------------------------
-# Kotlin / Java
-# -----------------------------
-*.class
-
-# -----------------------------
-# Native build files
-# -----------------------------
-.externalNativeBuild/
-.cxx/
-
-# -----------------------------
-# Operating system files
-# -----------------------------
+.gradle/
+/local.properties
+/.idea/
 .DS_Store
-Thumbs.db
-
-# -----------------------------
-# Logs / temporary files
-# -----------------------------
-*.log
-*.tmp
-*.swp
-*~
-
-# -----------------------------
-# Signing / credentials
-# -----------------------------
-*.jks
-*.keystore
-keystore.properties
-
-# -----------------------------
-# Firebase / private config
-# Uncomment if you do NOT want these tracked
-# -----------------------------
-# google-services.json
-
-# -----------------------------
-# Misc
-# -----------------------------
-.idea/caches/
-.idea/libraries/
-.idea/modules.xml
-.idea/workspace.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
