@@ -1114,3 +1114,485 @@ Operations
 Then identify the most relevant issue.
 
 ---
+
+# 31. Hyper-Local Feature Rules
+
+Local intelligence must be evidence-based.
+
+Use:
+
+```text
+Location
++
+Verified Data
++
+Timestamp
++
+Relevant Business Context
+```
+
+Do not manufacture:
+
+- Competitor counts
+- Demand levels
+- Prices
+- Local trends
+- Customer behavior
+
+---
+
+# 32. Data Freshness Rules
+
+Every time-sensitive dataset should have a freshness indicator.
+
+Example:
+
+```text
+Source: Example Source
+Updated: 17 Sep 2026
+```
+
+If freshness is unknown, say so.
+
+---
+
+# 33. Logging Rules
+
+Logs should help developers debug the system without leaking private information.
+
+Never log unnecessarily:
+
+- Passwords
+- API keys
+- Authentication tokens
+- Sensitive financial details
+- Private customer information
+
+Use correlation/request IDs.
+
+---
+
+# 34. Git Rules
+
+Recommended branch model:
+
+```text
+main
+develop
+feature/*
+fix/*
+```
+
+Commit messages should describe the change.
+
+Examples:
+
+```text
+feat: add loan simulation engine
+feat: add voice onboarding
+fix: validate EMI inputs
+docs: update architecture
+```
+
+---
+
+# 35. Code Quality Rules
+
+Prefer:
+
+- Small functions
+- Clear names
+- Typed schemas
+- Reusable services
+- Explicit validation
+- Tests for business logic
+- Documentation for complex modules
+
+Avoid:
+
+- Giant files
+- Duplicate logic
+- Hardcoded secrets
+- Magic numbers
+- Hidden financial formulas
+- Business logic inside UI components
+
+---
+
+# 36. Testing Rules
+
+Every critical financial calculation must have automated tests.
+
+Test:
+
+```text
+EMI
+Cash-flow
+Revenue
+Expenses
+Loan schedule
+Scenario calculations
+Risk rules
+Input validation
+```
+
+AI testing should include:
+
+```text
+Hindi
+Hinglish
+English
+Ambiguous statements
+Missing information
+Incorrect numbers
+Hallucination attempts
+```
+
+---
+
+# 37. Simulation Testing Rules
+
+Each scenario must be tested for:
+
+```text
+Normal Input
+Boundary Input
+Zero Values
+Large Values
+Missing Values
+Invalid Values
+Negative Values where invalid
+```
+
+Results must be reproducible for identical inputs and assumptions.
+
+---
+
+# 38. Architecture Rules
+
+The architecture should follow:
+
+```text
+USER
+ ↓
+PWA
+ ↓
+FASTAPI
+ ↓
+PAISAFLOW BRAIN
+ ↓
+BUSINESS ENGINES
+ ↓
+DIGITAL TWIN
+ ↓
+SIMULATION
+ ↓
+EVIDENCE
+ ↓
+EXPLANATION
+ ↓
+ACTION
+```
+
+Do not bypass the architecture by putting critical logic directly into the frontend or an uncontrolled LLM prompt.
+
+---
+
+# 39. AI Guardrail Architecture Rule
+
+Mandatory:
+
+```text
+User
+ ↓
+LLM / Intent
+ ↓
+Structured Inputs
+ ↓
+Validation
+ ↓
+Deterministic Finance Engine
+ ↓
+Simulation Engine
+ ↓
+Validated Results
+ ↓
+LLM Explanation
+ ↓
+User
+```
+
+This rule is especially important for financial scenarios.
+
+---
+
+# 40. Performance Rules
+
+Prioritize:
+
+- Fast initial load
+- Lightweight mobile UI
+- Lazy loading
+- API timeouts
+- Caching where appropriate
+- Efficient database queries
+- Background processing for long tasks
+
+Voice interaction should provide clear processing feedback even when a response takes time.
+
+---
+
+# 41. Scalability Rules
+
+Start simple.
+
+MVP:
+
+```text
+PWA
+ ↓
+FastAPI
+ ↓
+PostgreSQL
+ ↓
+AI + Business Engines
+```
+
+Scale only when necessary.
+
+Do not build a microservice architecture merely for presentation.
+
+---
+
+# 42. SIH MVP Rules
+
+The MVP must prioritize the strongest story.
+
+### Must demonstrate
+
+```text
+Voice Input
+ ↓
+Business Understanding
+ ↓
+Digital Twin
+ ↓
+What-If Simulation
+ ↓
+Stress Testing
+ ↓
+Evidence + Assumptions
+ ↓
+Simple Explanation
+ ↓
+Top 3 Actions
+ ↓
+Memory Update
+```
+
+---
+
+# 43. SIH Demo Rules
+
+The demo should tell one continuous story.
+
+Example:
+
+```text
+"Mere paas ₹1 lakh hai,
+dairy expand karna hai."
+
+        ↓
+
+PaisaFlow understands
+
+        ↓
+
+Business Digital Twin
+
+        ↓
+
+"Agar main ₹9 lakh loan loon?"
+
+        ↓
+
+Scenario Simulator
+
+        ↓
+
+Base
+Sales -20%
+Costs +15%
+Seasonal Shock
+
+        ↓
+
+Risk + Evidence
+
+        ↓
+
+Top 3 Actions
+
+        ↓
+
+Memory Update
+```
+
+Do not spend the demo on low-value features.
+
+---
+
+# 44. Demo Data Rules
+
+Demo data may be fictional, but it must be clearly treated as sample/demo data.
+
+Example:
+
+```text
+Business: Dairy
+Capital: ₹1,00,000
+Monthly Sales: ₹96,000
+Monthly Costs: ₹58,000
+Receivables: ₹18,500
+Loan Scenario: ₹9,00,000
+```
+
+Do not present fictional numbers as real-world statistics.
+
+---
+
+# 45. Documentation Rules
+
+The project should maintain:
+
+```text
+README.md
+PRD.md
+DESIGN.md
+ARCHITECTURE.md
+RULES.md
+```
+
+These documents should remain aligned.
+
+When architecture changes:
+
+```text
+ARCHITECTURE.md
++
+README.md
+```
+
+should be reviewed.
+
+When UX changes:
+
+```text
+DESIGN.md
++
+PRD.md
+```
+
+should be reviewed.
+
+---
+
+# 46. Change Management Rule
+
+Before introducing a major feature ask:
+
+```text
+Does it solve the target user's problem?
+Does it simplify the experience?
+Does it improve the Digital Twin?
+Does it improve decision support?
+Does it have reliable evidence?
+Can it be demonstrated clearly?
+```
+
+Do not add features merely because they look impressive.
+
+---
+
+# 47. "Do Not Build" Rules
+
+Do not build:
+
+- A complicated accounting ERP
+- A generic chatbot with no business memory
+- A fake AI financial advisor
+- A dashboard full of meaningless metrics
+- A system that fabricates local market data
+- An autonomous financial decision maker
+- An automatic messaging system without approval
+- A feature that cannot be explained to the target user
+
+---
+
+# 48. Product Differentiation Rule
+
+The strongest differentiator is not:
+
+> “We use AI.”
+
+The system should demonstrate:
+
+> **A living Business Digital Twin + What-If Simulation + Evidence + Action + Memory**
+
+The product should feel like it understands the business over time.
+
+---
+
+# 49. Core Product Loop Rule
+
+Every major feature should strengthen:
+
+```text
+TALK
+ ↓
+UNDERSTAND
+ ↓
+MODEL
+ ↓
+PREDICT
+ ↓
+SIMULATE
+ ↓
+EXPLAIN
+ ↓
+ACT
+ ↓
+LEARN
+```
+
+If a feature does not support this loop, it should be questioned before inclusion.
+
+---
+
+# 50. Final Master Rule
+
+PaisaFlow should always satisfy:
+
+```text
+SIMPLE FOR USER
+        +
+RIGOROUS INSIDE
+        +
+EVIDENCE-BASED
+        +
+USER CONTROLLED
+        +
+MEMORY-AWARE
+        +
+SCENARIO-DRIVEN
+```
+
+The final experience should feel like:
+
+> **“Maine bas apni problem batai — PaisaFlow ne mere business ko samjha, future ke options dikhaye, simple language mein samjhaya aur bataya ki ab kya karna hai.”**
+
+# PAISAFLOW
+
+## **Simple outside. Sophisticated inside.**
+
+## **Your business. Understood.**

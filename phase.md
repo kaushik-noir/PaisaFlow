@@ -2071,3 +2071,530 @@ Local fallback where possible
 The demo can be reset and reproduced reliably.
 
 ---
+
+# PHASE 40 — SIH PRESENTATION INTEGRATION
+
+## Objective
+
+Make the product and presentation tell exactly the same story.
+
+## Presentation Narrative
+
+```text
+PROBLEM
+ ↓
+USER
+ ↓
+VOICE
+ ↓
+UNDERSTAND
+ ↓
+DIGITAL TWIN
+ ↓
+WHAT-IF
+ ↓
+RISK
+ ↓
+EVIDENCE
+ ↓
+ACTION
+ ↓
+MEMORY
+```
+
+## Screenshots
+
+Capture:
+
+```text
+Hero UI
+Voice Interaction
+Digital Twin
+Simulator
+Scenario Results
+Evidence
+Top 3 Actions
+Memory
+```
+
+Do not introduce features in the presentation that are not demonstrated or implemented.
+
+### Definition of Done
+
+Presentation claims match the actual working system.
+
+---
+
+# PHASE 41 — FINAL UX POLISH
+
+## Objective
+
+Remove friction and make the experience feel finished.
+
+## Check
+
+```text
+Typography
+Spacing
+Navigation
+Animations
+Voice states
+Loading
+Errors
+Empty states
+Accessibility
+Mobile layout
+```
+
+## Remove
+
+```text
+Unused buttons
+Dead screens
+Placeholder content
+Debug text
+Broken links
+Inconsistent terminology
+```
+
+### Definition of Done
+
+The product looks and behaves like one coherent application.
+
+---
+
+# PHASE 42 — FINAL TESTING
+
+## Objective
+
+Perform the final full-system verification.
+
+## Test Matrix
+
+```text
+New User
+Returning User
+Hindi
+Hinglish
+English
+Slow Network
+API Failure
+Voice Failure
+Invalid Data
+Correction
+Simulation
+Action Approval
+Memory Update
+```
+
+## Critical Test
+
+Run the complete hero scenario at least multiple times from a clean state.
+
+### Definition of Done
+
+The team knows exactly what works, what does not, and what the demo fallback is for every critical dependency.
+
+---
+
+# PHASE 43 — SIH DEMO REHEARSAL
+
+## Objective
+
+Practice the exact presentation.
+
+## Rehearsal Flow
+
+```text
+OPEN
+ ↓
+INTRO
+ ↓
+VOICE
+ ↓
+BUSINESS
+ ↓
+TWIN
+ ↓
+₹9L SCENARIO
+ ↓
+STRESS TEST
+ ↓
+EVIDENCE
+ ↓
+TOP 3 ACTIONS
+ ↓
+MEMORY
+ ↓
+CLOSE
+```
+
+## Team Roles
+
+Define:
+
+```text
+Presenter
+Technical Operator
+Backup Operator
+Q&A Owner
+```
+
+## Rehearse Failure
+
+Prepare answers for:
+
+```text
+What if internet fails?
+What if voice fails?
+What if AI gives an unexpected response?
+What if simulation fails?
+```
+
+### Definition of Done
+
+The team can complete the demo without improvising core technical steps.
+
+---
+
+# PHASE 44 — PRODUCTION READINESS
+
+## Objective
+
+Prepare the architecture for continued development after SIH.
+
+## Review
+
+```text
+Code Quality
+Security
+Database
+API Contracts
+AI Evaluation
+Monitoring
+Documentation
+Deployment
+Backup
+```
+
+## Future Expansion
+
+Potential next-stage capabilities:
+
+```text
+Native Mobile App
+More Regional Languages
+Advanced Forecasting
+Real Integrations
+Accounting Integrations
+Banking Integrations
+Advanced Market Intelligence
+Partner APIs
+```
+
+These should be added without breaking the core architecture.
+
+---
+
+# DEVELOPMENT ORDER BY TEAM
+
+## Frontend
+
+Work primarily across:
+
+```text
+04
+05
+06
+07
+11
+12
+20
+24
+27
+29
+30
+31
+39
+41
+```
+
+## Backend
+
+```text
+03
+08
+09
+10
+12
+13
+15
+18
+19
+20
+21
+22
+23
+24
+25
+27
+29
+30
+31
+32
+33
+35
+37
+38
+```
+
+## AI / ML
+
+```text
+14
+15
+16
+17
+18
+26
+27
+28
+```
+
+## QA / Security
+
+```text
+33
+34
+35
+36
+37
+42
+```
+
+---
+
+# CRITICAL PATH
+
+If time becomes limited, prioritize:
+
+```text
+03 Foundation
+ ↓
+06 Frontend
+ ↓
+08 Backend
+ ↓
+09 Database
+ ↓
+11 Onboarding
+ ↓
+14 Voice
+ ↓
+15 Conversation
+ ↓
+16 AI Brain
+ ↓
+19 Memory
+ ↓
+20 Digital Twin
+ ↓
+21 Finance
+ ↓
+24 Simulation
+ ↓
+27 Evidence
+ ↓
+29 Actions
+ ↓
+32 Integration
+ ↓
+34 Testing
+ ↓
+39 Demo
+ ↓
+43 Rehearsal
+```
+
+---
+
+# MVP DEFINITION
+
+The MVP is complete when:
+
+```text
+A user can speak naturally
+        ↓
+PaisaFlow understands the request
+        ↓
+Creates/updates business information
+        ↓
+Maintains a Digital Twin
+        ↓
+Calculates financial state
+        ↓
+Runs a What-If scenario
+        ↓
+Stress-tests the scenario
+        ↓
+Shows assumptions/evidence
+        ↓
+Explains the result simply
+        ↓
+Provides Top 3 Actions
+        ↓
+Records the outcome in Memory
+```
+
+---
+
+# PHASE STATUS TEMPLATE
+
+Use this for every phase:
+
+```text
+PHASE:
+NAME:
+
+OBJECTIVE:
+[ ]
+
+SUB-PHASES:
+[ ]
+
+IMPLEMENTATION:
+[ ]
+
+FILES CREATED:
+[ ]
+
+API CHANGES:
+[ ]
+
+DATABASE CHANGES:
+[ ]
+
+TESTS:
+[ ]
+
+DEMO VERIFIED:
+[ ]
+
+KNOWN ISSUES:
+[ ]
+
+DOCUMENTATION UPDATED:
+[ ]
+
+DEFINITION OF DONE:
+[ ]
+
+STATUS:
+NOT STARTED / IN PROGRESS / BLOCKED / COMPLETE
+```
+
+---
+
+# FINAL ARCHITECTURAL JOURNEY
+
+```text
+                         PAISAFLOW
+                             │
+                             ▼
+                    🎙️ TALK TO US
+                             │
+                             ▼
+                    🧠 UNDERSTAND
+                             │
+                             ▼
+                     BUSINESS DATA
+                             │
+                             ▼
+                       🧬 TWIN
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+           MONEY          MARKET           OPS
+              │              │              │
+              └──────────────┼──────────────┘
+                             ▼
+                         RISK
+                             │
+                             ▼
+                      🔮 SIMULATE
+                             │
+                             ▼
+                    🔎 EVIDENCE
+                             │
+                             ▼
+                   💬 EXPLAIN SIMPLY
+                             │
+                             ▼
+                     🎯 TOP 3 ACTIONS
+                             │
+                             ▼
+                       👤 APPROVE
+                             │
+                             ▼
+                         ACTION
+                             │
+                             ▼
+                      🧠 REMEMBER
+                             │
+                             ▼
+                    🧬 TWIN EVOLVES
+```
+
+---
+
+# FINAL RULE
+
+PaisaFlow should not be developed as:
+
+```text
+"Build some AI features."
+```
+
+It should be developed as:
+
+```text
+BUILD FOUNDATION
+      ↓
+BUILD EXPERIENCE
+      ↓
+BUILD DATA
+      ↓
+BUILD VOICE
+      ↓
+BUILD INTELLIGENCE
+      ↓
+BUILD DIGITAL TWIN
+      ↓
+BUILD FINANCIAL ENGINES
+      ↓
+BUILD SIMULATION
+      ↓
+BUILD TRUST
+      ↓
+BUILD ACTION
+      ↓
+BUILD MEMORY
+      ↓
+INTEGRATE
+      ↓
+TEST
+      ↓
+DEPLOY
+      ↓
+DEMO
+```
+
+The ultimate goal is:
+
+> **“Maine bas apni problem batai — PaisaFlow ne mere business ko samjha, future ke options dikhaye, simple language mein samjhaya aur bataya ki ab kya karna hai.”**
+
+# PAISAFLOW
+
+## **Simple outside. Sophisticated inside.**
+
+## **Your business. Understood.**
